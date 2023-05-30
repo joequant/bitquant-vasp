@@ -10,3 +10,7 @@ Risk assessment
 
 * keep software updated
 * Use CERT process and responsible disclosure
+
+
+* See list of audit logs in SFC standards
+* See list of mandatory regulatory notifications
