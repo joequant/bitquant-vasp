@@ -1,5 +1,5 @@
 Documents to be generated
 
-Operations manual
-Evaluation checklist
+* Operations manual
+* Evaluation checklist
 
