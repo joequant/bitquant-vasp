@@ -1,12 +1,37 @@
 \chapter{Operations}
 
 \section{Deposit process}
+The deposit process consists of the user sending tokens into the
+deposit wallet, and then the system moving tokens from the deposit
+wallet into the accumulator wallet.  The trading system will generate
+the keys of the deposit wallets, and these keys are stored encrypted
+in the database.
+
+The private keys of the accumultator wallet are available only with
+the a senior manager, and should not be stored on the trading
+platform.  Copies of the private keys of the accumulator should be
+stored split in two and stored in the archvial location.
+
 \section{Withdrawal process}
+
+The withdrawal process consists of several steps.
+\begin{itemize}
+  \item Funds are moved from the cold wallets to the hot wallets and
+    made available for withdrawal.  Typically this transfer should be
+    made once per day and should consist of 120 percent of the average
+    expected delay withdrawal volume.
+  \item Withdrawals are approved by a staff member
+  \item Withdrawals are then queued by the hot wallet and approve by a manager
+\end{itemize}
 
 \section{Asset Custody}
 \subsection{Monitoring}
 
-\section{KYC}
-\subsection{Account acceptance}
-\subsection{Suspicous activity procedure}
+The following daily reports should be compiled and made available to
+the customer advocate.
+
+
+\section{Account acceptance}
+\subsection{KYC}
+\section{Suspicous activity procedure}
 \section{Market surveillance}
