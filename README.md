@@ -1,5 +1,8 @@
 These are regulatory filings and regulations concerning Bitquant VASP.
 
+== Check out my wiki ==
+https://github.com/joequant/bitquant-vasp/wiki
+
 == Links ==
 * http://sfc.hk/ - SFC Hong Kong
 * https://wings.sfc.hk/ - SFC filing HK
