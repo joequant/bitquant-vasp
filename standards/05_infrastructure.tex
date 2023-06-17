@@ -1,0 +1,91 @@
+\chapter{Infrastructure}
+
+\section{Physical infrastructure}
+
+
+
+\subsection{Cash management (bankless)}
+
+* All corporate cash must be physically segregated from none personal
+cash
+
+* All movement of corporate funds into an out of physical cash must be
+recorded
+
+* Physical cash is used only for corporate operations.  Twofish will
+not handle physical cash for clients.
+
+* The location of all cash must be physically inventoried
+
+\subsection{Petty cash}
+* The company may hold up to HKD 20k in non-secure facilities and in
+form of petty cash.
+
+\subsection{Segreated cash}
+* Amounts up to HKD 200k may be held in a safe in a non-secure
+location.  
+
+\subsection{Physically secure facility}
+* Amounts over HKD 200K must be held in a physically separate secure
+location.
+
+\subsection{Cash management}
+* The company should hold two weeks operational reserve in the form of
+paper fiat.
+
+* The company should hold the remaining in the form of two
+
+* The company should at all times have at least two contacts that can
+convert paper cash to and from virtual assets
+
+\section{Cybersecurity}
+
+\subsection{Location of servers}
+The location of the servers will be reported to the 
+
+\subsection{Administrative access}
+Administrative access is allowed only for devops work.  No trading is
+allowed outside of the standard trading interfaces.
+
+\begin{itemize}
+\item The location of the exchange server is hidden behind a load
+  balancer or cloud server.  The IP address of to allow access is not
+  publically available
+\item Direct root access to the server is not allowed, and shell access to
+  the exchange server is only through passwordless tokens
+\item (TODO) There should be a two step login process by which the
+  user logs in first to a proxy server, and then from the proxy server
+  undertakes a second login to the exchange server
+\end{itemize}
+
+\section{Software deployment process}
+\subsection{Open Source only software}
+
+The firm has a policy of only running open source software.  All
+software which is run on productions backend services is publically
+available via the github repository for the company.
+
+\subsection{Logs}
+The technology department should maintain a log of incidents and
+events.  
+
+\subsection{New version deployment}
+New versions of the software should be deployed on the test servers
+and then tested for a period of approximately one week.
+
+\subsection{Vendor patches}
+The servers are operating under Linux Ubuntu.  Vendor upgrades should
+be made as soon as possible but in no event more than one week after
+the vendor upgrade is released.
+
+\subsection{Server reboot}
+The server should be reboot from a cold start at least once a week.
+
+\subsection{Security issues}
+The firm will work closely with vendors to identify and close security
+issues.  Security related bugs will be addressed through standard
+``responsible'' disclosure mechanism.
+
+\subsection{Backups}
+
+
