@@ -70,9 +70,22 @@ The technology department should maintain a log of incidents and
 events.  
 
 \subsection{New version deployment}
-New versions of the software should be deployed on the test servers
-and then tested for a period of approximately one week.
-
+The process for deploying a new version of OpenCEX:
+\begin{itemize}
+  \item New code deployments should generally be done on the weekend
+  \item Deployments must be signed off by the chief technology officer
+    or his delegate
+  \item The deployment officer will examine the source code and verify
+    that it is the correct version
+  \item Code is downloaded from OpenCEX main site and merged with
+    local changes on github
+  \item Code is deployed on test server and run for two to three days.
+  \item Before there is a server upgrade the directory containing the
+    server engine will be backed up
+  \item When there are no anomalies the code will upgraded on the
+    production server
+\end{itemize}
+    
 \subsection{Vendor patches}
 The servers are operating under Linux Ubuntu.  Vendor upgrades should
 be made as soon as possible but in no event more than one week after
