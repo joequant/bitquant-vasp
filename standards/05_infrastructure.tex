@@ -38,6 +38,7 @@ convert paper cash to and from virtual assets
 
 \section{Cybersecurity}
 
+
 \subsection{Backups of data}
 Paper copies of OpenCEX basic data should be    
 
@@ -46,19 +47,29 @@ The location of the servers will be inventory and reported to the SFC.
 
 \subsection{No trading will be done through technical access}
 
-
+\subsection{Policies}
+\begin{itemize}
+  \item The location of the exchange server is hidden behind a load
+  balancer or cloud server.  The IP address of to allow access is not
+  publically available
+  \item All servers are behind a firewall that blocks all ports other
+    than 22, 80, and 443
+  \item Direct root access to the exchange server is not allowed, and
+    shell access to the exchange server is only through passwordless
+    tokens
+  \item Access through the cloud server console is to used only in
+    cases where there is no other means of connecting to the server
+  \item fail2ban will be run to lock out excessive logins 
+\end{itemize}
 \subsection{Administrative access}
 Administrative access is allowed only for devops work.  No trading is
 allowed outside of the standard trading interfaces.
 
 \begin{itemize}
-\item The location of the exchange server is hidden behind a load
-  balancer or cloud server.  The IP address of to allow access is not
-  publically available
-\item Direct root access to the server is not allowed, and shell access to
-  the exchange server is only through passwordless tokens
 \item Direct access to administrative accounts is not allowed.  All
-  access is to user accounts with the user taking admin privileges later
+  access is to user accounts with the user taking admin privileges
+  later
+\item Nothing runs on the exchange servers other than the exchange engine
 \item (TODO) There should be a two step login process by which the
   user logs in first to a proxy server, and then from the proxy server
   undertakes a second login to the exchange server
@@ -73,7 +84,7 @@ available via the github repository for the company.
 
 \subsection{Logs}
 The technology department should maintain a log of incidents and
-events.  
+events.
 
 \subsection{New version deployment}
 The production server will only use known tagged versions of OpenCEX.
@@ -89,7 +100,7 @@ The process for deploying a new version of OpenCEX:
     local changes on github
   \item Code is deployed on test server and run for two to three days.
   \item Before there is a server upgrade the directory containing the
-    server engine will be backed up
+    server database will be backed up
   \item When there are no anomalies the code will upgraded on the
     production server
 \end{itemize}
