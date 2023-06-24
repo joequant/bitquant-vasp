@@ -1,0 +1,24 @@
+Exchange Wallet Security Best Practice - Bitfinex
+1.	Multisig Cold Wallets
+2.	A maximum of 0.5% of assets on hot wallets
+3.	Withdrawal authentication/validation
+4.	Trade only Exchange API Keys
+5.	Monitoring & Audit
+https://blog.bitfinex.com/tutorial/notice-regarding-bitfinex-security-practices/
+
+Secure Exchange – Antier Consultancy
+1.	Hybrid of Cold & Hot Wallets
+a.	KU-Coin: split asset accounts – Trading[no - withdrawals] vs Main[allows withdrawals]
+2.	2FA
+3.	IP Tethering
+4.	Alerts
+5.	Blocking Account transactions when account details changed/updated.
+6.	Anti-fraud Unit – Detection and Prevention
+7.	Insurance – Outsourced or Inhouse
+8.	Security Audit; System Audit, Organizational Control Audit
+https://www.antiersolutions.com/8-ways-to-secure-your-cryptocurrency-exchange/
+
+Interdax Approach
+1.	3-of-5 Multisig
+2.	Master key Ceremony
+3.	
