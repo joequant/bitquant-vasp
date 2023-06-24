@@ -19,5 +19,38 @@ co-investigators will be responsible for the operations of the
 exchange, while there will be a separate line of control which will
 maintain financial and regulatory oversight.
 
+\begin{figure}
+\begin{tikzpicture}[node distance=2cm, box/.style={draw, align=center, minimum width=3cm}]
+    % Define nodes
+    \node [box] (share) {Shareholders};
+    \node [box, anchor=base, below of=share] (directors) {Directors};
+
+
+    \node [box, right of=directors, node distance=7cm] (erb)
+          {\shortstack{External\\Review\\Board}};
+    \node [box, above=0pt of erb](erbc){Chairman};
+    \node [box, below left = 0.5cm of erb] (tsc) {\shortstack{Technical\\Advisory\\ Committee}};
+    \node [box, anchor=base, below = 3cm of erb.center] (asc) {\shortstack{External\\Auditors}};
+    \node [box, below right = 0.5cm of erb] (tic) {\shortstack{Token\\Advisory\\Committee}};
+    \node [box, below= 3cm of directors.center] (pi) {\shortstack{Principal\\Investigator}};
+    \node [box, below of=pi] (coi) {Co-Investigators};
+    \node [box, below of=coi] (staff) {Staff};
+    \node [box, right = 2cm of erb] (cug)
+          {\shortstack{Client\\User\\Group}};
+    \node [box, above=0pt of cug](erbc){Chairman};
+    % Draw arrows
+    \draw [->] (share) -- (directors);
+    \draw [->] (directors) -- (pi);
+    \draw [->] (pi) -- (coi);
+    \draw [->] (coi) -- (staff);
+    \draw [->] (erb) -- (asc);
+    \draw [->] (erb) -- (tsc);
+    \draw [->] (erb) -- (tic);
+    \draw [dotted, ->] (cug) -- (erb) node[midway, above] {liasion};
+    \draw [dotted, ->] (directors) -- (erb) node[midway, above] {appoints};
+    \draw [dotted, ->] (asc.west) -- (pi.east) node[midway, above] {oversight};
+\end{tikzpicture}
+\caption{Twofish Enterprises Organizational Structure}
+\end{figure}
 
 
