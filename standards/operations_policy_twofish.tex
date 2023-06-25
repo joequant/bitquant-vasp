@@ -1,9 +1,18 @@
 \documentclass[]{report}
 \usepackage{tikz}
+\usepackage[edges]{forest}
 \usetikzlibrary{arrows,positioning}
 % Title Page
+\def\firmfullname{Twofish Enterprises (Asia) Limited}
+\def\firmshortname{Twofish}
+\def\firmtag{twofish}
+
+%\def\firmfullname{Example Vasp Company Limited}
+%\def\firmshortname{Example}
+%\def\firmtag{example}
+
 \title{VASP Policy Manual}
-\author{Twofish Enterprises (Asia) Limited}
+\author{\firmfullname}
 \usepackage{fullpage}
 \renewcommand{\baselinestretch}{2}
 
@@ -11,9 +20,9 @@
 \maketitle
 \tableofcontents
 \include{00_introduction}
-\include{01_mission_objectives}
+\include{01_mission_objectives_\firmtag}
 \include{02_governance}
-\include{02a_governance_specific}
+\include{02a_governance_\firmtag}
 \include{03_risk_management}
 \include{04_operations}
 \include{05_infrastructure}
