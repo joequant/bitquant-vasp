@@ -1,0 +1,34 @@
+\documentclass[]{report}
+\usepackage{tikz}
+\usepackage[edges]{forest}
+\usetikzlibrary{arrows,positioning}
+% Title Page
+%\def\firmfullname{Twofish Enterprises (Asia) Limited}
+%\def\firmshortname{Twofish}
+%\def\firmtag{twofish}
+
+\def\firmfullname{Example Vasp Company Limited}
+\def\firmshortname{Example}
+\def\firmtag{example}
+
+\title{VASP Policy Manual}
+\author{\firmfullname}
+\usepackage{fullpage}
+\renewcommand{\baselinestretch}{2}
+
+\begin{document}
+\maketitle
+\tableofcontents
+\include{00_introduction}
+\include{01_mission_objectives_\firmtag}
+\include{02_governance}
+\include{02a_governance_\firmtag}
+\include{03_risk_management}
+\include{04_operations}
+\include{05_infrastructure}
+\include{06_development}
+\appendix
+\include{0a_data_inventory}
+\include{0b_vendor_list}
+\end{document}
+
