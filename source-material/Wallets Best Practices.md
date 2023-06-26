@@ -21,7 +21,8 @@ https://www.antiersolutions.com/8-ways-to-secure-your-cryptocurrency-exchange/
 Interdax Approach
 1.	3-of-5 Multisig
 2.	Master key Ceremony
-3.	
+3.	Shielded Multi-sig [Appears similar to MPC]
+https://medium.com/interdax/cryptocurrency-exchange-security-how-interdax-protects-customer-funds-8ef8e8f3eb8a
 
 Binance Approach
 a) Platform
