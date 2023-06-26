@@ -23,6 +23,20 @@ Interdax Approach
 2.	Master key Ceremony
 3.	
 
+Binance Approach
+a) Platform
+1. Offline cold storage
+2. Real Time Monitoring - 24 to 48hr suspensions
+3. Wallet & Personnel infrastructe security measures
+-- Multi-sig
+-- TSS
+4. Data Encryption both in Storage and on Transit
+b) User
+5. Safe Sign in
+6. Access Control
+7. Security Notifications
+https://www.binance.com/en/event/user_protection#
+
 New Approaches:
 MPC-CMP (Multi Party Computation)
 - https://github.com/taurusgroup/multi-party-sig
