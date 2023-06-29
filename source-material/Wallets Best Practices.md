@@ -159,3 +159,6 @@ https://github.com/rdragos/awesome-mpc
 
 Unbound Blockchain/Crypto MPC
 https://github.com/unboundsecurity/blockchain-crypto-mpc
+
+What is universal composability guaranteeing, specifically? Where does it apply, and where does it not?
+https://crypto.stackexchange.com/questions/85739/what-is-universal-composability-guaranteeing-specifically-where-does-it-apply
