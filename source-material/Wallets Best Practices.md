@@ -1,4 +1,4 @@
-Exchange Wallet Security Best Practice - Bitfinex
+## Exchange Wallet Security Best Practice - Bitfinex
 1.	Multisig Cold Wallets
 2.	A maximum of 0.5% of assets on hot wallets
 3.	Withdrawal authentication/validation
@@ -6,7 +6,7 @@ Exchange Wallet Security Best Practice - Bitfinex
 5.	Monitoring & Audit
 https://blog.bitfinex.com/tutorial/notice-regarding-bitfinex-security-practices/
 
-Secure Exchange – Antier Consultancy
+## Secure Exchange – Antier Consultancy
 1.	Hybrid of Cold & Hot Wallets
 a.	KU-Coin: split asset accounts – Trading[no - withdrawals] vs Main[allows withdrawals]
 2.	2FA
@@ -18,13 +18,13 @@ a.	KU-Coin: split asset accounts – Trading[no - withdrawals] vs Main[allows wi
 8.	Security Audit; System Audit, Organizational Control Audit
 https://www.antiersolutions.com/8-ways-to-secure-your-cryptocurrency-exchange/
 
-Interdax Approach
+## Interdax Approach
 1.	3-of-5 Multisig
 2.	Master key Ceremony
 3.	Shielded Multi-sig [Appears similar to MPC]
 https://medium.com/interdax/cryptocurrency-exchange-security-how-interdax-protects-customer-funds-8ef8e8f3eb8a
 
-Binance Approach
+## Binance Approach
 a) Platform
 1. Offline cold storage
 2. Real Time Monitoring - 24 to 48hr suspensions
@@ -38,8 +38,8 @@ b) User
 7. Security Notifications
 https://www.binance.com/en/event/user_protection#
 
-New Approaches:
-MPC-CMP (Multi Party Computation)
+# New Approaches:
+## MPC-CMP (Multi Party Computation)
 - https://github.com/taurusgroup/multi-party-sig
 - https://www.fireblocks.com/what-is-mpc/
 - https://www.fireblocks.com/blog/7-reasons-why-mpc-is-the-next-generation-of-private-key-security/
@@ -52,11 +52,11 @@ MPC-CMP (Multi Party Computation)
 - Offchain Accountability & Auditability
 
 
-Attack Vectors:
+# Attack Vectors:
 - deposit address spoofing
 - credential theft
 
-Issues:
+# Issues/Bottlenecks:
 - [Cold]Speed of Transactions
 - [Hot] Copy - Paste Errors
 - [Hot] Fluid Whitelists
@@ -67,7 +67,7 @@ Issues:
 - [MSig] Physical Attack threat
 
 
-Gnosis Safe:
+## Gnosis Safe:
 https://docs.safe.global/learn/things-you-can-do-with-safe
 - Multisig
 - Spending Policies
@@ -80,9 +80,6 @@ https://docs.safe.global/learn/things-you-can-do-with-safe
 - Fraud Monitoring/KYT
 - Automation
 - Post-quantum signature schemes
-
-Interesting Short Reads:
-Differential Privacy: https://www.johndcook.com/blog/differential-privacy/
 
 
 Cryptocurrency Exchange Compliance: How to follow FATF regulations
@@ -130,5 +127,16 @@ API Keys
 - Phishing
 -- Market manipulation
 -- Unauthorized withdrawals
+
+# Interesting Short Reads:
+Differential Privacy
+https://www.johndcook.com/blog/differential-privacy/
+
 Chip level hardware isolation
 https://blog.chainalysis.com/reports/cryptocurrency-exchange-compliance-a-guide-to-security-and-compliance-for-crypto-businesses/
+
+Cryptocurrency Cybersecurity
+https://terranovasecurity.com/guide-to-cyber-security-in-cryptocurrency/
+
+Deep dive into Post Quantum Encryption
+https://blog.cloudflare.com/post-quantum-signatures/
