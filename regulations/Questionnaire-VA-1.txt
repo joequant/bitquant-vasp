@@ -1,0 +1,1302 @@
+   [Questionnaire%20VA-1_htm_fbd1e6cd61f5dd26.png]
+
+   Questionnaire VA-1 - Questionnaire for VA Trading Platform Operator
+
+   Specified by the SFC pursuant to the Securities and Futures Ordinance
+   (“SFO”) (Cap 571) and the Anti-Money Laundering and Counter-Terrorist
+   Financing Ordinance (“AMLO”) (Cap 615)
+
+   Explanatory Note:
+
+     * If any of the policies, procedures, systems or controls described
+       in your answers to the questions below have not been implemented,
+       please specify the envisaged timeframe for the implementation of
+       these policies, procedures, systems and controls.
+     * Unless otherwise defined, terms used in this questionnaire shall
+       have the same meaning as those defined in the Guidelines for
+       Virtual Asset Trading Platform Operators (“VATP Guidelines”).
+     * You may provide a copy of the relevant policy, procedures and flow
+       chart to facilitate our understanding of the matter as you deem
+       appropriate.
+     * If further space is required, please attach a separate document
+       under “Additional Document” in your application, and
+       cross-reference all answers to the relevant question.
+
+   I. Overview of Business Operations
+
+    1. Please advise if you have engaged in proprietary trading, and if
+       any of your group company or affiliates have invested in virtual
+       assets or have proprietary position in virtual assets? If so,
+       please advise on the purpose(s) of your proprietary position.
+
+        
+
+    2. Please provide a detailed organization chart categorized by each
+       business function.
+
+        
+
+    3. Please specify the functions (if any) that are delegated to another
+       entity (including your group company or affiliate) and will not be
+       performed or carried out by you. For each of these functions,
+       please advise whether it is performed or carried out by your group
+       entities, outsourced to external third parties, or you rely on any
+       experts or consultants. Please also advise whether it is a one-off
+       arrangement or an appointment on a recurring basis, whether or not
+       there will be a service agreement, and what due diligence will be
+       or has been performed to ascertain the experience, qualification
+       etc. of the external third parties, experts or consultants to
+       ensure appropriateness.
+
+        
+
+    4. Please describe your policies on reporting incidents to the SFC,
+       including (a) any non-compliance with your licensing conditions or
+       any applicable law, regulations, codes, guidelines, circulars or
+       FAQs, etc.; (b) any unusual or suspicious activities on your
+       platform; (c) any material failures or interruptions of your
+       trading, accounting, clearing and settlement systems; and (d) any
+       material issues as identified by experts or consultants.
+
+        
+
+    5. When there is recommendation or solicitation, how would the
+       platform operator:
+
+    a. ensure the suitability of the recommendation or solicitation for
+       the client is reasonable in all the circumstances having regard to
+       information about the client of which you are or should be aware
+       through the exercise of due diligence (see paragraph 9.20 of the
+       VATP Guidelines);
+
+        
+
+    b. ensure that a transaction in a complex product is suitable for the
+       client in all the circumstances (see paragraph 9.22 of the VATP
+       Guidelines);
+
+        
+
+    c. determine whether a virtual asset may be treated as non-complex or
+       complex product (see Notes 1 and 2 of paragraph 9.22 of the VATP
+       Guidelines).
+
+        
+
+   II. Financial Soundness
+
+   Please complete this section with reference to the requirements of the
+   Securities and Futures (Financial Resources) Rules (“FRR”) and/or the
+   VATP Guidelines. Please consult your auditor where necessary in
+   relation to accounting and FRR treatments of virtual assets.
+
+    6. Please advise whether you could fully comply with the minimum
+       liquid capital requirement under the FRR and the liquid asset
+       requirement under paragraph 6.1 of the VATP Guidelines.
+
+        
+
+    7. Please identify all the major items on your balance sheet. Please
+       also describe the treatment of each item under the FRR and/or the
+       VATP Guidelines and quote the relevant sections of the FRR and/or
+       the VATP Guidelines (where applicable).
+
+        
+
+    8. Please describe your auditors’ capability in acting as auditors of
+       a virtual asset trading platform operator and its associated
+       entity, including their experience and track record in auditing
+       virtual asset related business.
+
+        
+
+    9. How will your profit and loss likely be impacted by the proposed
+       modifications of your business activities, operations, systems and
+       controls (in HK$’000) upon licensed?
+
+    a. As a one-off
+
+     * Consultancy fee on system development/enhancement/review
+     * Legal and other professional fees
+     * Staff costs (for redundancy/severance pay)
+     * Others (please specify the nature of major items)
+
+    b. On an ongoing basis
+
+     * Your monthly trading volume
+     * Your monthly fee income
+     * Your other monthly income
+     * Your monthly operating expenses
+
+        
+
+   10. Please provide the following information or estimation:
+
+   (HK$’000)
+   Shareholders’ funds as of the latest month end
+        
+   Shareholders’ funds upon deducting the one-off expenses to be incurred
+   (see para. 9(a))
+        
+   Projected total income generated from fees and charges covering,
+   trading, admission, custodial and any other fees and charges for the
+   first 12 months after being licensed
+        
+   Projected total operating expenses for the first 12 months after being
+   licensed
+        
+   Amount of capital to be injected in the next 12 months
+        
+
+   11. Where applicable, please
+
+    a. state the names and amounts of virtual assets recognised in your
+       financial statement or management accounts as of the latest
+       month-end;
+
+        
+
+    b. specify their classification, i.e. as cash and cash equivalents,
+       financial assets (other than cash and cash equivalents), intangible
+       assets, inventories, or other (please specify); and
+
+        
+
+    c. advise the accounting policy of the virtual assets held for your
+       own account.
+
+   (Please choose all applicable options.)
+
+   [ ] Virtual assets are measured at fair value through profit or loss.
+
+   [ ] Virtual assets are measured at fair value through other
+   comprehensive income.
+
+   [ ] Virtual assets are measured at cost.
+
+   [ ] Others, please specify.      
+
+   12. Please advise the accounting policy on virtual assets held on
+       behalf of your clients.
+
+   (Please choose all applicable options.)
+
+   [ ] Recognised as assets in your financial statement and measured at
+   fair value. Equivalent amounts (including subsequent change in fair
+   value of the virtual assets) are recognised as liabilities to reflect
+   the obligations to return the virtual assets to the clients.
+
+   [ ] Recognised as assets in your financial statement and measured at
+   cost on the date of purchase or market price on the date of deposit.
+   Equivalent amounts are recognised as liabilities to reflect the
+   obligations to return the virtual assets to the clients. However, no
+   subsequent fair value adjustment will be made on both the assets and
+   the liabilities.
+
+   [ ] Not recognised as assets in your financial statement and no
+   liability is recognised in the financial statement regarding the
+   obligations to return the virtual assets to the clients.
+
+   [ ] Others, please specify.      
+
+   III. Virtual Assets Admitted For Trading
+
+   13.
+
+    a. For virtual assets to be admitted for trading on your platform,
+       please describe the admission rules and criteria and the admission
+       process. In particular, do you have a committee responsible for
+       establishing, implementing and enforcing these rules, criteria and
+       process? Please advise the composition and terms of reference of
+       this committee.
+
+        
+
+    b. Please describe your processes in conducting due diligence on
+       virtual assets to be admitted to your platform for trading and
+       whether you would take into account all the factors under paragraph
+       7.6 of the VATP Guidelines.
+
+        
+
+    c. Please describe your procedures to ensure that the virtual asset is
+       a highly-liquid eligible large-cap virtual asset, i.e., the
+       specific virtual asset should have been included in at least two
+       acceptable indices issued by a minimum of two different index
+       providers, before admitting the virtual asset for retail clients to
+       trade (see paragraph 7.8 of VATP Guidelines).
+
+        
+
+    d. Do you have policies for suspending and withdrawing a virtual asset
+       from trading on your platform? Please describe your processes for
+       the ongoing monitoring of the virtual assets admitted for trading
+       in ensuring compliance with the admission rules and criteria and
+       your policies and process for suspending and withdrawing a virtual
+       asset from trading on your platform.
+
+        
+
+    e. In situations when there is adverse information or anomaly incident
+       on a virtual asset traded on the platform, what procedures will be
+       performed and how will you handle the virtual asset and your
+       clients concerned.
+
+        
+
+   14. Please advise us if all virtual assets currently traded on your
+       platform conform with the admission rules and criteria referred to
+       in para. 13(a). If not, please advise the steps taken or to be
+       taken to withdraw the virtual asset concerned (where applicable).
+
+        
+
+   15. Are you compensated for listing virtual assets, and do you receive
+       an amount of virtual assets in exchange for listing them? Are you
+       also compensated on an on-going basis for the listings? If so, how
+       do you ensure transparency to the market, and how do you prevent
+       trading activities which would be disadvantageous for your clients
+       or market, for example, controls to prevent or manage conflicts of
+       interest and front running?
+
+        
+
+   16. Please describe your policies and procedures in dealing with newly
+       created digital assets arising from, among other things, hard fork
+       or airdrop.
+
+        
+
+   IV. Dealing with Clients
+
+   Know Your Client
+
+   17. Please describe the processes you use to assess whether a client is
+       a Professional Investor as defined in section 1 of Part 1 of
+       Schedule 1 to the Securities and Futures Ordinance (“SFO”).
+
+        
+
+   18. Please describe your procedures (including the information to be
+       collected from your clients and the factors that you will take into
+       consideration) for assessing whether:
+
+    a. a client has sufficient knowledge or understanding in virtual
+       assets (including knowledge of relevant risks associated with
+       virtual assets) (see paragraph 9.4 of the VATP Guidelines);
+
+        
+
+    b. the trading of virtual assets matches the investment objective,
+       financial situation and risk profile/appetite of the client; and
+
+        
+
+    c. the firm is acting in the best interests of the client when
+       providing services to a client without knowledge of virtual assets.
+
+        
+
+   If a client is assessed to have no or insufficient knowledge or
+   understanding in virtual assets, please describe the steps you would
+   take. For example, whether you would deny the client’s account opening
+   application, restrict the client from conducting trading activities or
+   provide training to the client concerned.
+
+        
+
+   19. Please explain your processes (including information to be
+       collected from a client and factors that you will take into
+       consideration) for assessing whether a client has financial net
+       worth to bear the loss of investment.
+
+        
+
+   20. Please describe your know-your-client (KYC) and client (local or
+       overseas) onboarding policies and procedures including the systems
+       or technologies used, risk profiling methodology, the information
+       and documents that you will obtain from your clients. Please also
+       advise your IP monitoring procedures.
+
+        
+
+   21. Please state your control measures to verify a client’s identity
+       during the account opening process.
+
+        
+
+   22. Please advise whether you have any plan or proposal to include any
+       virtual asset for trading by retail clients. If so, how would you:
+
+    a. assess a client’s risk tolerance level and risk profile,
+       accordingly determine the client’s risk profile and assess whether
+       it is suitable for the client to participate in the trading of
+       virtual assets (see paragraph 9.6 of VATP Guidelines);
+
+        
+
+    b. set a limit for each client to ensure that the client’s exposure to
+       virtual assets is reasonable, as determined by the platform
+       operator, with reference to the client’s financial situation
+       (including the client’s net worth) and personal circumstances (see
+       paragraph 9.7 of VATP Guidelines);
+
+        
+
+   23. Please state your control measures to ascertain the identity,
+       address and contact details of persons ultimately responsible for
+       originating the instructions in relation to transactions conducted
+       for an account and the beneficial owner(s)) of the account during
+       the account opening process.
+
+        
+
+   24. If any system or technologies (for example, facial recognition,
+       checking of security features on ID documents) have been applied as
+       part of the control procedures in paras. 19, 20 and 21, please
+       describe the testing or evaluation procedures taken to assess the
+       appropriateness and effectiveness of system/technologies and
+       explain how you can comply with the SFC requirements as clarified
+       by related FAQs issued to date.
+
+        
+
+   25. Please describe the additional measures you take to mitigate the
+       impersonation risks associated with client onboarding via
+       non-face-to-face channel. In addition, please describe the measures
+       you take to deal with a prospective client who provides incomplete
+       or suspicious identification information.
+
+        
+
+   26. Please describe the control measures you have implemented to ensure
+       any amendment of client particulars is duly authorized, properly
+       supported by supporting documentation and correctly entered into
+       the client master database.
+
+        
+
+   27. Please explain your policies and procedures for ensuring compliance
+       with the Anti-Money Laundering and Counter-Terrorist Financing
+       Ordinance (Cap. 615), its subsidiary legislation and relevant
+       guidelines. Please also describe the procedures, frequency and
+       timing of your screening of prospective clients and any beneficial
+       owners (where applicable) to identify individuals linked to money
+       laundering and terrorist financing (“ML/TF”) and possible
+       designated parties under the United Nations (Anti-Terrorism
+       Measures) Ordinance (Cap. 575) and to evaluate the ML/TF risks
+       posed by a particular client or business relationship.
+
+        
+
+   Account Opening Documents
+
+   28. Please provide a copy of your proforma client agreement or terms of
+       reference, together with all accounting opening documentation and
+       risk disclosure statements.
+
+        
+
+   Information for Clients
+
+   29. Please provide a copy of the information provided on your website
+       (including but not limited to your insurance policy and business
+       resumption plan), differentiating between what can be accessed
+       publicly or only by your clients. Alternatively, please provide us
+       with a demo account which shows what your onboarded clients will
+       see on your website.
+
+        
+
+   30.
+
+    a. What level of detail does your functional documentation provide to
+       clients, including fee structure, market model, order types? Please
+       provide a copy of the said document.
+
+        
+
+    b. Do you specify in your technical specification documents to clients
+       all messages, requests, responses, error codes and status updates?
+       Are examples provided? Please provide a copy of the said document.
+
+        
+
+    c. Do you provide a simulation environment, on the same code base as
+       the production environment, with sufficient simulated order
+       activity so as to enable clients to conduct testing of
+       applications?
+
+        
+
+    d. Please advise the number and location of staff responsible for
+       providing functional and technical support and whether such support
+       is available 24/7?
+
+        
+
+   31. How do you communicate with your clients in case of emergencies and
+       disruptions to the system, such as triggered circuit breakers,
+       trading suspension/downtime, trading resumption and other
+       incidents?
+
+        
+
+   32. Please advise the type of product information about the virtual
+       assets that is available on your platform or provided to your
+       clients. Please refer to paragraphs 9.27 and 9.28 of the VATP
+       Guidelines.
+
+        
+
+   33. Please provide a copy of the terms and conditions or other
+       disclosures to your clients on the dealing and handling of newly
+       created digital assets arising from, among other things, hard fork
+       or airdrop.
+
+        
+
+   34. Please advise whether statements of account are provided to
+       clients. If yes, please specify the valuation policy of the assets
+       held on behalf of clients and advise whether such policy has been
+       disclosed to clients. In particular, please specify the valuation
+       policy for less liquid virtual assets, including hard forks and
+       virtual assets which are suspended from trading, where applicable.
+
+        
+
+   V. Trading and Settlement
+
+   35. How can investors access your trading platform -
+
+    a. Does your firm allow clients to connect to your trading platform
+       via other third party’s order management systems using Application
+       Program Interface (API), Internet browsers, or both?
+
+        
+
+    b. Can overseas investors access your trading platform? Please
+       elaborate if there are any eligibility criteria for accessing your
+       platform.
+
+        
+
+   36. How do you authenticate the identities of users accessing your
+       trading platform (for example, one time password) and ensure only
+       genuine clients instead of other unauthorized persons could access
+       your trading platform?
+
+        
+
+    a. Please explain how you prevent the theft of log-in credentials by
+       external parties as well as internal employees.
+
+        
+
+    b. Clients’ trading accounts –
+
+     * Please specify your account management policies, including the
+       different account types, account levels and any account limits.
+
+        
+
+     * Please describe your protection arrangements for clients’ trading
+       accounts (these may include tools like 2-factor authentication,
+       prompt/immediate notification of orders and transactions,
+       monitoring and surveillance mechanisms, data encryption, password
+       policies, session timeout controls, etc.)
+
+        
+
+   37. Please describe briefly your trading system/platform, in
+       particular:
+
+    a. Please explain your order book arrangements. Would trading be
+       conducted through periodic auctions, continuous trading, request
+       for quotes, or some/all of the above? Please explain how orders
+       interact under the arrangements and provide a schematic for
+       demonstration. If applicable, please also explain the arrangements
+       for off-platform trading and order routing to other trading
+       platforms.
+
+        
+
+    b. What kind of quotes are made available for trading on your
+       platform? Would they be virtual asset to virtual asset quotes,
+       virtual asset to non-virtual asset quotes, or both?
+
+        
+
+    c. What order types do you offer? For example:
+
+     * If stop orders are supported, what is the order priority of the
+       stop order getting into the order book?
+
+        
+
+     * If you support iceberg orders, what is the order priority of the
+       hidden orders getting into the order book?
+
+        
+
+   Please specify the order priority of all other order types you offer.
+
+        
+
+   Please describe the trading order mechanism in your trading platform.
+   If it is a price/time priority algorithm, how do you ensure price/time
+   priority?
+
+        
+
+    d. If market-making/liquidity provision is provided in the process,
+       please provide details of the market makers/liquidity providers and
+       their background and experience, the due diligence you conducted on
+       these market makers/liquidity providers, as well as a copy of the
+       market-making/liquidity provision terms and conditions if any.
+
+        
+
+    e. Please advise whether you would access the order books of other
+       trading platforms when determining the price of the virtual assets
+       traded on your platform. Please also advise whether any orders will
+       be routed to other trading platforms for execution.
+
+        
+
+    f. Please describe what and how data on prices (ask/bid) and executed
+       trades on your platform are disseminated to the investors and
+       maintained as audit trail.
+
+        
+
+   38. Please describe your order recording and handling arrangement and
+       policies, including order instructions through telephone (if
+       applicable).
+
+        
+
+   39. Please describe your off-platform trading arrangements, if any.
+
+    a. Please provide explanations of the operational procedures for
+       off-platform trading arrangements.
+    b. If market-making/liquidity provision is provided in the process,
+       please provide details of the market makers/liquidity providers and
+       their background and experience, the due diligence you conducted on
+       these market makers/liquidity providers, as well as a copy of the
+       market-making/liquidity provision terms and conditions if any.
+
+        
+
+   40. Please describe the trade confirmation and post-trade settlement
+       process for on and off-platform trading respectively, including the
+       transfer of virtual assets and money, if applicable, and provide a
+       schematic of the process.
+
+        
+
+   Conflicts of Interest
+
+   41. Please advise whether you or any of your affiliates:
+
+     * will invest in virtual assets and take proprietary trading
+       positions;
+
+        
+
+     * will be a counterparty to the trades executed on your platform;
+
+        
+
+     * will conduct any back-to-back trades (whether on- or off- the
+       platform) for your clients and impose a mark-up or spread on the
+       trades; and
+
+        
+
+     * will engage in any market making trading of the virtual assets on
+       your trading platform.
+
+        
+
+   42. How can you prevent or manage any perceived, potential or actual
+       conflicts of interest in the following or any other situations
+       (where they apply to you):
+
+     * where your staff trades in virtual assets. Please also provide your
+       staff dealing policy (if any); and
+
+        
+
+     * where you or any of your affiliates receive any monetary or
+       non-monetary benefits from the product issuers (whether directly or
+       indirectly) for allowing a virtual asset to be traded on your
+       platform.
+
+        
+
+   Please indicate in your response which of the above situations (and any
+   other potential situations involving conflicts of interest) may apply
+   to you and explain your policies and procedures in preventing or
+   managing conflicts of interest in each situation including but not
+   limited to ensuring client order priority.
+
+        
+
+   Monitoring/Surveillance
+
+   43. What are your procedures for transaction monitoring to identify
+       suspicious money laundering/ terrorist financing transactions?
+
+        
+
+   44. Please also advise the name of the consultant providing the
+       surveillance system to facilitate you in performing such monitoring
+       (if any).
+
+        
+
+   45. Please explain your transaction monitoring procedures in relation
+       to client deposit and withdrawal of fiat and virtual assets.
+
+        
+
+   46. Please specify all the red-flag indicators which you use for
+       identifying potentially suspicious money laundering/terrorist
+       financing transactions in the following higher risk situations, and
+       describe the corresponding follow-up actions:
+
+   Higher risk situation
+         i. Red-flag indicators
+
+        ii. Follow-up actions
+
+   [ ] Client, or the client’s beneficial owner, being a politically
+   exposed person or the business relationship assessed is of high risk
+        
+        
+   [ ] Use of proxies, any unverifiable or high risk geographical
+   location, disposable email address or mobile number, or use of a
+   constantly changing device to conduct transactions by the client
+        
+        
+   [ ] Client transactions involving tainted wallet addresses such as
+   “darknet” marketplace transactions or tumblers
+        
+        
+   [ ] Client transactions involving virtual assets with a higher risk or
+   greater anonymity (for example, virtual assets which mask users’
+   identities or transaction details)
+        
+        
+   [ ] Client transactions that are complex, unusually large in amount or
+   of unusual pattern, or have no apparent economic or lawful purpose
+        
+        
+   [ ] Others, please specify
+        
+        
+
+   47. Please describe any arrangement for client account monitoring, such
+       as for low balances and high transaction volumes and any actions to
+       be taken to stop client’s activities.
+
+        
+
+   48. Please describe your measures (if any) to monitor abnormal and
+       risky conditions such as large price discrepancies and
+       volatilities. Are there volatility control mechanisms put in place
+       for the trading of virtual assets on your platform? If yes, please
+       describe.
+
+        
+
+   49. Please describe how you conduct surveillance of trading activities
+       on your platform and how you set perimeters for identifying market
+       manipulative or abusive trading activities (including arrangements
+       whereby market surveillance is conducted through a professional
+       third party); and how you deal with market manipulative or abusive
+       trading activities discovered in the process (please elaborate on
+       the procedures involved).
+
+        
+
+   VI. Risk Management
+
+   50. Please describe the risks associated with your business activities
+       and the risk management measures you are using to manage and
+       mitigate these risks. In particular, please specify the measures
+       implemented to manage counterparty and market risks, including your
+       processes in determining and monitoring the position limits (per
+       virtual asset) and trading limits (aggregate amount per client for
+       all virtual assets) assigned to each client and any other related
+       risk management measures.
+
+        
+
+   VII. Cybersecurity Risk Management Procedures and Business Contingency
+   Plan
+
+   51. Please describe the roles, responsibilities and relevant
+       qualifications of key personnel who are responsible for
+       cybersecurity management, provide an organization chart showing the
+       reporting lines and explain the cybersecurity risk management
+       framework and governance structure.
+
+        
+
+   52. Have you encountered any cybersecurity incident in the past? Please
+       describe the arrangements for cybersecurity incident response and
+       reporting, including the manner in which a suspected or actual
+       cybersecurity incident should be escalated and reported.
+
+        
+
+   53. Please provide detailed information about your mechanisms and tools
+       for detecting and preventing potential cyber-attacks, which may
+       include Intrusion Prevention System (IPS) and Intrusion Detection
+       System (IDS), and any tests conducted against these systems.
+
+        
+
+   54. What kind of key storage medium do you use? If Hardware Security
+       Module (“HSM”) is in use, what rating does the HSM achieve (for
+       example, FIPS 140-2 level 3)?
+
+        
+
+   55. Please provide detailed information about your application testing
+       for the purpose of detecting application level vulnerabilities.
+
+        
+
+   56. Please provide detailed information about your anti-Distributed
+       Denial of Service (“DDoS”) mechanisms.
+
+        
+
+   57. Please describe the established procedures for regular internal
+       review and rehearsal of your security and technology related
+       arrangements, having regard to the continuing developments in
+       technology.
+
+        
+
+   58. Please provide information about regular independent assessments of
+       the adequacy of IT systems and cybersecurity resilience and the
+       latest assessment, where applicable.
+
+        
+
+   59. Has your firm encountered any cyber-attack leading to interruption
+       of services, leakage of information or loss of assets? If yes,
+       please briefly describe the incident(s) and the rectification steps
+       taken.
+
+        
+
+   60. Please describe your network infrastructure, including proper
+       network segmentation, protection for critical systems and client
+       data against cyber-attacks.
+
+        
+
+   61. Please describe your application protection arrangements and how
+       you ensure the correctness of your application logic in handling
+       transactions as well as handling of various exceptions for your
+       platform.
+
+        
+
+   62. Please describe your patch management process and explain how it
+       can address potential vulnerabilities.
+
+        
+
+   63. Please describe your end-point protection arrangements, including
+       the anti-virus and anti-malware solutions adopted and the update
+       policy.
+
+        
+
+   64. Please describe your user access management and identity
+       verification procedures and provide a copy of the procedures, if
+       any. Please also elaborate on how separation of roles and principle
+       of least privilege are being enforced.
+
+        
+
+   65.
+
+    a. Do you have standard operating procedures (“SOP”) for performing
+       system upgrades and maintenance in writing?
+
+        
+
+    b. Do the SOP contain the method(s) of communication, how pending
+       orders still in the orderbook are dealt with, and how long orders
+       can be entered/amended/cancelled after a system downtime, and
+       before continuous trading resumes?
+
+        
+
+    c. Do the SOP cover the process applicable for unexpected and
+       unplanned system failures which may affect an orderly market?
+
+        
+
+    d. How do you provide the SOP to your clients
+
+        
+
+   66. If your planned outages for performing updates and testing on your
+       systems may affect your clients, how many days of advance notice
+       would clients be given?
+
+        
+
+   67. In the event of unexpected system failures such as connectivity
+       issues, system outage or trading suspension, how and how soon would
+       you notify your clients of the incident, the expected duration and
+       how pending orders, deposits and withdrawals on the platform would
+       be handled as per the SOP?
+
+        
+
+   68. Please describe your system, data backup and data protection
+       arrangements, including how records, transaction information,
+       supporting documentation, etc. are backed up, how the backups are
+       protected and the recovery plan.
+
+        
+
+   69. Please describe the arrangements for system upgrade and maintenance
+       and how to mitigate the risk of disruption due to downtime
+       resulting from a major system change.
+
+        
+
+   70. Please describe your business continuity management and contingency
+       planning arrangements and provide the information on the
+       contingency drill conducted, if any.
+
+        
+
+   71. Please describe your physical security arrangements to protect
+       critical system components (for example, system servers and network
+       devices) in a secure environment and to prevent unauthorised
+       physical access to the facilities hosting the trading system as
+       well as the critical system components.
+
+        
+
+   72. If your infrastructure security management is outsourced (or partly
+       outsourced) to any third party service providers, please describe
+       how you can ensure the operations outsourced remain subject to
+       adequate security controls and supervision, and that
+       confidentiality and integrity of data and information will not be
+       compromised. Please also provide information about the third party
+       service providers (including the entities, their background and
+       experience, etc.) if any, and a copy of the service agreements if
+       any.
+
+        
+
+   VIII. Handling of Client Assets
+
+   Client Deposits and Withdrawals
+
+   73. Please provide details on the fiat currency fund deposit and
+       withdrawal processes (fiat currency or otherwise), and if
+       applicable, the relevant bank arrangements.
+
+        
+
+   74. Please specify the permissible deposit and withdrawal channels
+       (e.g., bank account, digital currency ATM kiosks, credit cards) and
+       describe the anti-money laundering/counter-financing of terrorism
+       controls in place.
+
+        
+
+   75. Do you accept third party fund deposit or withdrawal?
+
+        
+
+   76. Please provide details on wallet whitelisting, the handling of
+       virtual asset deposits and withdrawals processes, including whether
+       address generation, 4-eye principle, email confirmation and any
+       other safeguards measures adopted.
+
+        
+
+   77. How can you ensure that digital wallets belong to a client when the
+       client deposits or withdraws virtual assets to or from the digital
+       wallets?
+
+        
+
+   78. Please provide details of the circumstances under which you would
+       suspend virtual asset deposit and withdrawals, how this would be
+       communicated to your clients and the SFC, and the
+       conditions/circumstances under which such deposits and withdrawals
+       would be resumed.
+
+        
+   79. Please advise whether there is deposit/ withdrawal limits and how
+       such limits are set.
+
+        
+
+   Custody of Client Assets
+
+   80. Please provide the following information in respect of your wallet
+       addresses relating to the conduct of Relevant Activities^1:
+
+   (a) Full wallet address(es) which is(are) active:      
+
+   (b) Full wallet address(es) which is(are) dormant:      
+
+   (c) Full wallet address(es) which has(have) been frozen by a competent
+   authority:      
+
+   In relation to the wallet address(es) above, please also provide the
+   name(s) of its associated blockchain protocol and specify whether the
+   wallet address(es) is or was designated for holding client virtual
+   assets or assets belonging to the Platform Operator.
+
+        
+
+   81. Please provide the following information in respect of the wallet
+       addresses of your Associated Entity relating to the conduct of
+       Relevant Activities:
+
+   (a) Full wallet address(es) which is(are) active:      
+
+   (b) Full wallet address(es) which is(are) dormant:      
+
+   (c) Full wallet address(es) which has(have) been frozen by a competent
+   authority:      
+
+   In relation to the wallet address(es) above, please also provide the
+   name(s) of its associated blockchain protocol and specify whether the
+   wallet address(es) is or was designated for holding client virtual
+   assets or assets belonging to the Platform Operator.
+
+        
+
+   82. Please describe your wallet structure and infrastructure. In
+       particular:
+
+   (a) nature of each wallet (online or offline; client or house);
+
+   (b) how the seeds and private keys are generated;
+
+   (c) where the private keys are kept (e.g. Hardware Security Module
+   (HSM) with appropriate certification);
+
+   (d) whether the seeds and private keys are generated with applicable
+   international security standards and industry best practices so as to
+   ensure the seeds or private keys are generated in a non-deterministic
+   manner which ensures randomness;
+
+   (e) wallet operation for deposit and withdrawal of virtual assets in
+   order to ensure not more than 2% of clients’ virtual asset in hot
+   wallet;
+
+   (e) backup arrangement;
+
+   (f) services / system / technology providers (if any); and
+
+   (g) due diligence work that you have conducted on the providers.
+
+        
+
+   83. Please advise who is responsible for the design and operation of
+       your custody function and his/her credential. Please also advise
+       and the number of staff involved in the custody function and their
+       respective role and duties.
+
+        
+
+   84. What background screening do you conduct for personnel which are
+       granted access to client assets? Please provide a list of such
+       personnel.
+
+        
+
+   85. Please describe how you prevent unauthorised employees from gaining
+       access to the private keys of client wallets.
+
+        
+
+   86. Do you have systems and properly documented processes to restrict
+       access to keys, seeds and information relating to virtual assets?
+       Please provide details.
+
+        
+
+   87. What is your process of transferring virtual assets from a client
+       wallet at your platform to your house wallet?
+
+        
+
+   88. What is your process of transferring virtual assets from hot to
+       cold storage and vice versa?
+
+        
+
+   89. Please advise whether you have set limits on the percentage of
+       clients’ virtual assets held or to be held in cold and hot wallets
+       respectively. If yes, please specify the limits and describe the
+       monitoring measures implemented to ensure that these limits are
+       being adhered to.
+
+        
+
+   90. What are the processes and systems to safeguard the virtual assets
+       held in hot wallet? Please provide details on multi signature
+       wallets, seed and key generation, how entropy is generated and how
+       many individuals are involved, where the hot wallet environment is
+       hosted, any access control against unauthorised employees, and
+       procedures for administrative access.
+
+        
+
+   91. Please provide details of specific testing around hot wallet
+       security and withdrawals.
+
+        
+
+   92. In respect of your cold storage, please provide details on hardware
+       choice, redundancy, access restrictions and security. Please also
+       describe the storage management and transfer policy, and provide a
+       copy of the policy, if any.
+
+        
+
+   93. What is your communication policy in case you detect fraudulent
+       activities affecting the virtual assets in your storage?
+
+        
+
+   94. What systems do you use to detect fraudulent client transaction
+       requests?
+
+        
+
+   95. Are there any segregation arrangements for clients’ virtual assets?
+       If yes, please describe the arrangements.
+
+        
+
+   96. Are there any segregation arrangements for client money (in fiat
+       currency)? If yes, please describe the arrangements and provide
+       details of the banks with which these accounts are held.
+
+        
+
+   97. Please advise whether a client’s virtual assets will be segregated
+       from the assets of other clients of your trading platform.
+
+        
+
+   98. Where the client is a fund manager, please advise whether the
+       accounts will be opened or registered in the name of the fund
+       manager or in the names of the respective funds managed by the fund
+       manager.
+
+        
+
+   IX. Insurance
+
+   99. Please provide the following information in relation to your
+       planned insurance coverage over the assets held on behalf of the
+       clients respectively.
+
+   (a) Insurance coverage for theft/ misappropriation/ loss of assets held
+   on behalf of clients and provide a copy of the policy where available.
+
+   Name of insurance provider
+   Details of insurance coverage
+   Amount of insurance limit
+   (per account or type of virtual asset)
+   Amount of excess/ deductible not covered (per claim), if any
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+
+   Please also indicate if you plan to compensate for any loss of client
+   assets using your firm’s own assets.
+
+        
+
+   (b) cybersecurity insurance coverage to address the losses arising from
+   cybersecurity incidents
+
+Name of insurance provider
+                          Details of insurance coverage
+                                                       Amount of insurance limit
+     
+                               
+                                                            
+     
+                               
+                                                            
+     
+                               
+                                                            
+
+   (c) insurance coverage to cover key man risk
+
+Name of insurance provider
+                          Details of insurance coverage
+                                                       Amount of insurance limit
+     
+                               
+                                                            
+     
+                               
+                                                            
+     
+                               
+                                                            
+
+   (d) funds (held in the form of a demand deposit or time deposit which
+   will mature in 6 months or less) or virtual assets set aside on trust
+   and designated as compensation arrangement, if applicable (see
+   paragraph 10.22(b) of the VATP Guidelines)
+
+   HK$
+   Funds of the Platform Operator
+        
+   Funds of any corporation within the same group of companies as the
+   Platform Operator
+        
+
+   (e) bank guarantee provided by an authorized financial institution, if
+   applicable (see paragraph 10.22(c) of the VATP Guidelines)
+
+   X. Record Keeping
+
+   100. Please describe your record-keeping policy, including the location
+       where you keep your records, the record retention period and the
+       measures implemented to ensure the integrity, security,
+       availability, reliability and completeness of records required to
+       be kept under Part XIV of the VATP Guidelines and the records
+       obtained from the customer due diligence and ongoing monitoring
+       process.
+
+        
+
+   101. Please advise whether you use external electronic data storage. If
+       so, please provide details and arrange to submit the required
+       documents set out in our FAQs on the use of external electronic
+       data storage.
+
+        
+
+   XI. List of Information
+
+   102. Please provide a copy of your policy and procedure for the
+       following areas:
+
+    Know-your-client, client due diligence and client on-boarding
+
+    Anti-money laundering / counter-financing of terrorism
+
+    Cyber security and information security
+
+    Market surveillance
+
+    Trading rules and operations
+
+    Risk management
+
+    Virtual asset admission/listing rules
+
+    Custody of client assets, wallet structure, management and operations
+
+    Transaction monitoring
+
+    Business contingency/ disaster recovery
+
+    Record retention
+
+    Staff dealing
+
+        
+
+        Questionnaire VA-1 - Virtual Asset Trading Platform Operator
+
+                                 Declaration
+
+   We:
+
+     * Declare that all the information provided in this questionnaire and
+       any associated documentation is complete, true and correct.
+
+     * Understand that providing false or misleading information in, or in
+       support of this questionnaire could be an offence under section 383
+       and/or 384 of the SFO, section 53ZTO and/or 53ZTP and/or 53ZTQ of
+       the AMLO.
+
+     * Understand that the Securities and Futures Commission may take
+       criminal and/or disciplinary action against a person who has made a
+       false or misleading representation in, or in support of, this
+       questionnaire.
+
+     * Understand that if any information contained in this questionnaire,
+       or any associated documentation changes prior to the Securities and
+       Futures Commission making a decision in respect of any related
+       application, we should notify the Securities and Futures Commission
+       in writing immediately of the changes.
+
+     * Understand that the Securities and Futures Commission may make such
+       enquiries and seek such further information as it thinks
+       appropriate.
+
+   (To be signed by two directors* or persons authorised by the board of
+   directors of the corporation.)
+
+   For and on behalf of:
+
+                                                              
+
+                        Name of corporation
+
+                                         
+
+                                         
+
+        Name of director/person authorised by the board of directors
+
+                                  Signature
+
+                                    Date
+
+                                         
+
+                                         
+
+        Name of director/person authorised by the board of directors
+
+                                  Signature
+
+                                    Date
+
+   * Can be signed by one director if the corporation has only one
+   director.
+
+   1 The term “Relevant Activities” is as defined in the VATP Guidelines
+
+   Questionnaire VA-1 – Jun 2023 1
