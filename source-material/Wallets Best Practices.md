@@ -140,3 +140,22 @@ https://terranovasecurity.com/guide-to-cyber-security-in-cryptocurrency/
 
 Deep dive into Post Quantum Encryption
 https://blog.cloudflare.com/post-quantum-signatures/
+
+Secure Multi-Party Computing 
+https://medium.com/coinmonks/secure-multi-party-computing-smpc-collaboration-without-sharing-f92b4a6e3ceb
+https://miro.medium.com/v2/resize:fit:720/format:webp/1*Ss6b9o0crRNu-mUcY2-66A.png
+
+UC Non-Interactive, Proactive, Threshold ECDSA
+https://eprint.iacr.org/2020/492.pdf
+
+Accessible and Scalable Secure Multi-Party Computation
+https://multiparty.org
+
+tss-rsa-cpp << Practical Threshold Signatures
+https://github.com/Safeheron/tss-rsa-cpp
+
+MPC Resources
+https://github.com/rdragos/awesome-mpc
+
+Unbound Blockchain/Crypto MPC
+https://github.com/unboundsecurity/blockchain-crypto-mpc
