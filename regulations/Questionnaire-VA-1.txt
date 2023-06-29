@@ -29,12 +29,23 @@
        assets or have proprietary position in virtual assets? If so,
        please advise on the purpose(s) of your proprietary position.
 
-        
+        "Yes, as an investment and means of payment."
 
     2. Please provide a detailed organization chart categorized by each
        business function.
-
-        
+       
+    ```mermaid
+        graph TD
+            CEO[CEO] --> CTO(Chief Technology Officer)
+            CEO[CEO] --> CCO(Chief Compliance Officer)
+            CEO[CEO] --> CFO(Chief Finance Officer)
+            CEO[CEO] --> COO(Chief Operations Officer)
+            CEO[CEO] --> CMO(Chief Marketing Officer)
+            CTO(Chief Technology Officer) --> HOE(Head of Engineering)
+            CCO(Chief Compliance Officer) --> GHC(General Head Counsel)
+            CMO[Chief Marketing Officer] --> HOB(Head of Brand)
+            CMO[Chief Marketing Officer] --> HOC(Head of Marketing)
+    ```
 
     3. Please specify the functions (if any) that are delegated to another
        entity (including your group company or affiliate) and will not be
