@@ -62,8 +62,10 @@ https://www.binance.com/en/event/user_protection#
 - [MSig] Physical Attack threat
 - [All] HSM/TPM's, are they really Secure? (Side-Channel Attack )
 - [All] Fee Management
-- [All] Complexity Reduction
+- [All] UTXO Management
+- [All] Complexity Reduction "Complexity is the enemy of Security"
 - [All] Optimal Trust Distribution
+- [All] Wallet/Address Indexing - Scalable Complex Querries
 
 ## Gnosis Safe:
 https://docs.safe.global/learn/things-you-can-do-with-safe
