@@ -51,11 +51,6 @@ https://www.binance.com/en/event/user_protection#
 - Cheaper transaction fees than P2SH Multi-Sig / Eth Multi-sig
 - Offchain Accountability & Auditability
 
-
-# Attack Vectors:
-- deposit address spoofing
-- credential theft
-
 # Issues/Bottlenecks:
 - [Cold]Speed of Transactions
 - [Hot] Copy - Paste Errors
@@ -65,7 +60,10 @@ https://www.binance.com/en/event/user_protection#
 - [All] Single point of compromise
 - [All] Multi-sig Implementation vulnerabilities
 - [MSig] Physical Attack threat
-
+- [All] HSM/TPM's, are they really Secure? (Side-Channel Attack )
+- [All] Fee Management
+- [All] Complexity Reduction
+- [All] Optimal Trust Distribution
 
 ## Gnosis Safe:
 https://docs.safe.global/learn/things-you-can-do-with-safe
@@ -82,7 +80,7 @@ https://docs.safe.global/learn/things-you-can-do-with-safe
 - Post-quantum signature schemes
 
 
-Cryptocurrency Exchange Compliance: How to follow FATF regulations
+# Cryptocurrency Exchange Compliance: How to follow FATF regulations
 - KYC [Volume Dependent Tiers]
     - Email
     - Government ID
@@ -91,12 +89,12 @@ Cryptocurrency Exchange Compliance: How to follow FATF regulations
     - Phone
     - Physical Address
     - Proof of Address
-    Sanction Screening
-Paxful:
-    - 0 - 1,500: Email + Phone
-    - 1,500 - 10,000: Photo ID
-    - 10,000 - 50,000: Physical Address Verification
-    - > 50,000: Enhanced Due diligence
+    - Sanction Screening
+    Example: Paxful:-
+        - 0 - 1,500: Email + Phone
+        - 1,500 - 10,000: Photo ID
+        - 10,000 - 50,000: Physical Address Verification
+        - > 50,000: Enhanced Due diligence
 
 - KYT
     - Monitor Sources
@@ -109,24 +107,33 @@ Paxful:
 - AML
     -  File Suspicious Activity Reports [SAR's]
 
-**Main Attack Vectors:**
-Private Keys
-- Malware
-- Theft of HSM
-- Internal theft
+# Attack Vectors:
+- deposit address spoofing
+- credential theft
+- Private Keys
+    - Malware
+    - Theft of HSM
+    - Internal theft
+    - Non-hardened Public Key -> Private Key derivation
+    https://medium.com/@blainemalone01/hd-wallets-why-hardened-derivation-matters-89efcdc71671
 
-Deposit Addresses
-- Browser Hijack
-- Clipboard hijack
-- MITM
-- spoof via Exchange hack
-- Wallet Interface/driver/computer hijack
+- Deposit Addresses
+    - Browser Hijack
+    - Clipboard hijack
+    - MITM
+    - spoof via Exchange hack
+    - Wallet Interface/driver/computer hijack
 
-API Keys
-- Key logging
-- Phishing
--- Market manipulation
--- Unauthorized withdrawals
+- API Keys
+    - Key logging
+    - Phishing
+    -- Market manipulation
+    -- Unauthorized withdrawals
+
+- Fake HW Wallets
+    https://www.bleepingcomputer.com/news/cryptocurrency/criminals-are-mailing-altered-ledger-devices-to-steal-cryptocurrency/
+
+
 
 # Interesting Short Reads:
 Differential Privacy
@@ -157,8 +164,16 @@ https://github.com/Safeheron/tss-rsa-cpp
 MPC Resources
 https://github.com/rdragos/awesome-mpc
 
+TSS Resources
+https://github.com/ZenGo-X/awesome-tss
+
 Unbound Blockchain/Crypto MPC
 https://github.com/unboundsecurity/blockchain-crypto-mpc
 
 What is universal composability guaranteeing, specifically? Where does it apply, and where does it not?
 https://crypto.stackexchange.com/questions/85739/what-is-universal-composability-guaranteeing-specifically-where-does-it-apply
+
+
+# Interesting Video's
+- Building an Enterprise Grade Bitcoin Wallet | Jameson Lopp
+    https://www.youtube.com/watch?v=FZlL_Mr5yMM
