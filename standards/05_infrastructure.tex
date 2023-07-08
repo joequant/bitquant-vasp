@@ -2,6 +2,7 @@
 
 \section{Physical infrastructure}
 
+\ifthenelse{\boolean{bankless}}{
 \subsection{Cash management (bankless)}
 
 * All corporate cash must be physically segregated from none personal
@@ -35,9 +36,9 @@ paper fiat.
 
 * The company should at all times have at least two contacts that can
 convert paper cash to and from virtual assets
+}{}
 
 \section{Cybersecurity}
-
 
 \subsection{Backups of data}
 Paper copies of OpenCEX basic data should be    

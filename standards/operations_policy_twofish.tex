@@ -2,6 +2,9 @@
 \usepackage{tikz}
 \usepackage[edges]{forest}
 \usetikzlibrary{arrows,positioning}
+\usepackage{ifthen}
+\newboolean{bankless}
+
 \include{tocenv}
 % Title Page
 \def\firmfullname{Twofish Enterprises (Asia) Limited}
@@ -13,6 +16,7 @@
 %\def\firmtag{example}
 
 \title{VASP Policy Manual}
+\setboolean{bankless}{true}
 \author{\firmfullname}
 \usepackage{fullpage}
 \renewcommand{\baselinestretch}{2}

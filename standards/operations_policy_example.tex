@@ -2,6 +2,9 @@
 \usepackage{tikz}
 \usepackage[edges]{forest}
 \usetikzlibrary{arrows,positioning}
+\usepackage{ifthen}
+\newboolean{bankless}
+
 \include{tocenv}
 % Title Page
 %\def\firmfullname{Twofish Enterprises (Asia) Limited}
@@ -18,6 +21,7 @@
 \renewcommand{\baselinestretch}{2}
 
 \begin{document}
+\setboolean{bankless}{false}
 \maketitle
 \tableofcontents
 \include{00_introduction}
