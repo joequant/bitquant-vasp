@@ -1,4 +1,4 @@
-Wallet Security Strategy
+Wallet Security
 Hot
 - Multi-Sig
 Cold
@@ -6,12 +6,17 @@ Cold
 - HSM
 - Distributed PK
 
-API Protection Strategy
+API Protection
+- Protect Cloud based Assets
 
-Deposit Protection Strategy
+Deposit Protection
 
-Backup Security Strategy
+Backup Security
 
-KYC Strategy
+KYC
 
-KYT Strategy
+KYT
+
+Account Security
+- Protect identities
+- Strengthen Multi Factor Authentication

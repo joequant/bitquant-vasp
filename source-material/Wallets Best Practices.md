@@ -66,6 +66,9 @@ https://www.binance.com/en/event/user_protection#
 - [All] Complexity Reduction "Complexity is the enemy of Security"
 - [All] Optimal Trust Distribution
 - [All] Wallet/Address Indexing - Scalable Complex Querries
+- [Cold] Reverse Engineered Secure Enclaves/Trusted Execution Environments
+- [All] Theft of signing devices
+- [All] Theft and Destruction of Devices & Backups
 
 ## Gnosis Safe:
 https://docs.safe.global/learn/things-you-can-do-with-safe
@@ -128,7 +131,7 @@ https://docs.safe.global/learn/things-you-can-do-with-safe
 
 - API Keys
     - Key logging
-    - Phishing
+    - Phishing/Vishing
     -- Market manipulation
     -- Unauthorized withdrawals
 
@@ -174,6 +177,9 @@ https://github.com/unboundsecurity/blockchain-crypto-mpc
 
 What is universal composability guaranteeing, specifically? Where does it apply, and where does it not?
 https://crypto.stackexchange.com/questions/85739/what-is-universal-composability-guaranteeing-specifically-where-does-it-apply
+
+Turn Every Smartphone into a Bitcoin Hardware Wallet Using Secure Enclaves
+https://xiaohuiliu.medium.com/turn-every-smartphone-into-a-bitcoin-hardware-wallet-using-secure-enclaves-2037d7ccbf5d
 
 
 # Interesting Video's
