@@ -92,6 +92,13 @@ groups which could provide the necessary training.
 \crossref{VA-1: Question 19}
 \status{Fully implemented}
 
+The clients on our exchange are focused on sophisicated clients who
+are either financial intermediaries or technology sophisicated
+developers who are actively in the cryptocurrency business.  We will
+not accept accounts from persons that we do not believe to be
+sophisticated investors or who we believe to lack necessary financial
+resources.
+
 
 \subsection{KYC}
 
@@ -148,7 +155,63 @@ The withdrawal process consists of several steps.
   \item Withdrawals are then queued by the hot wallet and approve by a manager
 \end{itemize}
 
+\section{Monitoring/Surveillance}
+\crossref{VA-1: Questions 43, 44}
+\status{To be implemented upon funding}
+
+Our money laundering / anti-terrorist financing transactions
+procedures are integrated into our anti-fraud transaction procedure,
+and focuses on monitoring withdrawals to insure that withdrawals are
+not being used for illicit purposes.  All withdrawals are manually
+vetting for anti-fraud measures, and we will develop code that will
+flag suspicious transactions as our integrated anti-fraud measures.
+
+\crossref{VA-1: Question 45}
+
+
+
+
+\section{Software infrastructure}
+Our software infrastructure uses OpenCEX.
+
+\subsection{Login and authentication}
+\crossref{VA-1: Questions 36, 36b}
+\status{Mandatory two factor authentication not implemented}
+
+We authenticate the identities of the users using two factor
+authentication or SMS verfication.
+
+Our staff does not have access to password information, and password
+information uses standard hashing protocols to insure that a leak in
+the database is resistent to direct attack.  The use of two factor
+authentication or SMS verification insures that a password leak does
+not allow an attack to gain immediate access to an account.
+
+Also withdrawals require e-mail/SMS verification and must be vetted by
+internal staff.
+
+\subsection{Order books arrangement}
+\crossref{VA-1: Question 37}
+\status{Fully implemented}
+
+
+\subsubsection{No off-platform trading arrangements}
+\crossref{VA-1: Question 39 a,b}
+The 
+
 \section{Trading rules}
+
+\subsection{Conflict of interests}
+\crossref{VA-1: Question 41}
+The firm itself will not invest in virtual assets or take proprietary
+trading positions, will not be a counterparty to the trades, will not
+conduct back-to-back traders and will not exchange in market making
+trading of virtual assets.
+
+The firm will allow staff and other associated market makers to
+perform these activities, but these activities will be performed using
+the personal capital of these entities and under the same terms as
+other traders.
 
 \subsection{No proprietary trading}
 \crossref{VA-1: Question 1}
@@ -328,6 +391,8 @@ Staff should receive the following documents on onboarding:
 \end{itemize}
 
 \subsection{Staff trading}
+\crossref{VA-2: Question 42}
+\status{Fully implemented}
 
 We encourage staff to trade on our systems in the belief that having
 our staff use our one products and services will improve them.
@@ -351,6 +416,7 @@ maintain protection with the wider financial community
     ``clawback'' in case the firm folds
 \end{itemize}
 
+TODO: NEED TO THINK ABOUT QUESTION 42
 
 \subsection{Staff side businesses}
 We encourage staff to have side businesses and other crypto related
