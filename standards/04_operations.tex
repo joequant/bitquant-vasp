@@ -99,8 +99,97 @@ not accept accounts from persons that we do not believe to be
 sophisticated investors or who we believe to lack necessary financial
 resources.
 
+\subsection{Client onboarding}
+\crossref{VA-1: Question 20}
+\status{Implementation in progress}
 
-\subsection{KYC}
+We are using the identity provider subsum to identify the identity of
+the client.  For Hong Kong retail clients and financial
+intermediaries, we will require that the client come to our office for
+a face to face meeting, and we will check the licensing status of the
+financial intermediary.
+
+\subsection{Client identity}
+\crossref{VA-1: Question 21}
+We will ask the client to provide standard identity and KYC documents
+and then use a third party identity service (Subsum) to verify the
+validity of these documents.  In situations where we are dealing with
+a financial intermediary, we will require that a representative of the
+financial intermediary located in Hong Kong physically meet with us in
+our office, and we will verify the licensing status of the financial
+intermediary with the licensing authority.
+
+\subsection{Retail clients risk tolerance}
+\crossref{VA-1: Question 22a, 22b}
+\status{Questionaire to be developed}
+
+For Hong Kong retail clients, we will ask that retail investor fill
+out a questionaire and understand the risks and losses that are
+possible with virtual assets.  In developing this questionaire we will
+work with industry groups in Hong Kong to develop a standardized
+questionaire.
+
+As part of our onboarding process, we will ask that all clients reveal
+the name of a client reference for whom we can share client and
+trading information with.  We expect that in most cases, the client
+reference will be a close relative, and in cases where we believe that
+the client is undergoing excessive losses we will contact the client
+reference.
+
+Generally speaking we will not set risk limits for retail clients.  In
+situations where we do not feel that the retail client has sufficient
+knowledge to under take the risks of virtual assets, we will not open
+an account.  As part of our AML/KYC/Anti-Fraud measures, we will
+monitor client accounts for trading losses, and if we find a client
+with unusually large losses, we will investigate to seek appropriate
+measures.
+
+\subsection{Client identity address and contact details}
+\crossref{VA-1: Question 23}
+\status{Questionaire to be developed. Scheduled to be developed before
+December 2023}
+During our client onboarding process, we will ask the client for the
+expected volume and type of trades and whether the client is a
+financial intermediary.  In cases where the client is expected to have
+a large volume of trades or a financial intermediary, we will arrange
+for a face to face or video conference call.  We will ask that the
+financial intermediary to the call from their office and ask for the
+intermediary to video the location of their office.  We will also make
+on-site visits to the client office.
+
+\subsection{Use of system and technologies testing}
+\crossref{VA-1: Question 24}
+We have not yet conducted testing of facial recognition and checking
+of security features, but we intend to do spot checking of these
+features before becoming fully licensed.
+
+\subsection{Non-face to face channel}
+\crossref{VA-1: Question 25}
+For non face-to-face channel we intend to make heavy use of video and
+face to face meetings in order to verify the identity of the
+prospective client.  In particular, with accounts for financial
+intermediaries we will require a face to face meeting in the office of
+the intermediary.
+
+\subsection{Client master database entry}
+\crossref{VA-1: Question 26}
+We intend to keep client particulars offline with paper documents
+stored in our main office.  Client particulars will not be kept online
+and will not be available to trading and operations staff.
+
+\subsection{Client review}
+\crossref{VA-1: Question 27}
+Each client will undergo a quarterly review in which we will examine
+their trading record and identify whether or not their trading is
+consistent with their stated activities.  We will also review each
+client if unusual trading and withdrawal patterns are noted.
+
+\subsection{Account opening documents}
+\crossref{VA-1: Question 28}
+We have not completed draft of our account opening documentation, and
+we expect to have those documents completed end of Q3 2023.
+
+\section{Account policies}
 
 \subsection{Financial intermediaries}
 We consider licensed financial intermediaries including money services
@@ -154,6 +243,54 @@ The withdrawal process consists of several steps.
   \item Withdrawals are approved by a staff member
   \item Withdrawals are then queued by the hot wallet and approve by a manager
 \end{itemize}
+
+\subsection{Third party fund deposits and withdrawals}
+\crossref{VA-1: Question 75}
+\status{Fully implemented}
+We do not allow for third party withdrawals or third party fiat
+deposits unless the account holder is a licensed finance intermediary.
+We will to the best of our ability monitor deposit patterns to insure
+that the deposits patterns of virtual assets are consistent with the
+information provided by the client.
+
+\subsection{Digital wallets ownership of client}
+\crossref{VA-1: Question 77}
+\status{Fully implemented}
+We believe that it is technologically impossible to insure ownership
+of wallets, and the most that can be done is to use our anti-fraud /
+CFT measures to insure that the use of the system is consistent with
+the KYC information provided by the client.
+
+\subsection{Suspension of deposits and withdrawals}
+\crossref{VA-1: Question 78}
+\status{Fully implemented}
+We note that there is no technological process by which we can suspend
+deposits to our wallets.  The most that can be done is to not to
+credit deposits to client accounts and to not make virtual assets
+available for trading.
+
+We will suspend withdrawals and stop crediting a user account under
+the following situations:
+\begin{itemize}
+\item If we believe that the system as a whole has been compromised
+\item If we believe that a user account is being used for purposes
+  inconsistent with the documentation provided by the client
+\item If we believe that the account is being used for money
+  laundering or fraudulent activities
+\item If we have received binding legal instructions (i.e. a court order)
+\end{itemize}
+
+In cases where there is a general outage, the users will be informed
+through our telegram site and the SFC will be informed through
+standard escalation channels.
+
+In cases, where there is a specific outage, we will handle those
+situations on a case by case basis.
+
+\subsection{Deposit and withdrawal limits}
+\crossref{VA-1: Question 79}
+\status{Fully implemented}
+Deposit and withdrawal limit are set by the chief operations officer.
 
 \section{Monitoring/Surveillance}
 \crossref{VA-1: Questions 43, 44}
@@ -242,7 +379,7 @@ underlying activity is lawful under the laws of the HKSAR and
 consistent with the national interests of the People's Republic of
 China, we will encourage these activities.
 
-\section{Software infrastructure}
+\section{Trading and settlment}
 Our software infrastructure uses OpenCEX.
 
 \subsection{Login and authentication}
@@ -266,14 +403,31 @@ internal staff.
 \status{Fully implemented}
 
 
+
+\subsection{Trade confirmation and post-trade settlement}
+\crossref{VA-1: Question 40}
+\status{Fully implemented}
+
+Trade confirmations will be performed by sending e-mail to the account
+holder.  Trades will settle immediately and there are will be no
+process necessary for post-trade settlement.
+
 \subsubsection{No off-platform trading arrangements}
 \crossref{VA-1: Question 39 a,b}
-The 
+\status{Fully implemented}
+The exchange will not conduct trading off platform.  All trades for
+the exchange will be entered into our platform system.
+
+\subsubsection{No telephone instructions}
+\crossref{VA-1: Question 38}
+\status{Fully implemented}
+The exchange will not conduct or accept instructions via telephone.
 
 \section{Trading rules}
 
 \subsection{Conflict of interests}
 \crossref{VA-1: Question 41}
+\status{Fully implemented}
 The firm itself will not invest in virtual assets or take proprietary
 trading positions, will not be a counterparty to the trades, will not
 conduct back-to-back traders and will not exchange in market making
