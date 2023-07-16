@@ -220,6 +220,12 @@ financial system and will cause leverage
 Persons who are not financial intermediaries are not permitted to
 trade on the exchange on behalf of third parties.
 
+\subsection{Fund manager accounts}
+\crossref{VA1: Question 98}
+Where a client is a fund manager may be either opened in the name of
+the fund manager or in the name of the funds, as determined by the
+fund manager,
+
 \section{Deposit process}
 The deposit process consists of the user sending tokens into the
 deposit wallet, and then the system moving tokens from the deposit
@@ -552,6 +558,12 @@ be traded on a different market, we do not
 
 \section{Client greivance process}
 
+\section{Client fund segreation}
+\crossref{VA-1: Question 95}
+\status{Fully implemented}
+All client funds will be segregated into separate wallets which are to
+be owned by the associated entity.
+
 \section{Wallet management}
 All wallets should be inventoried and each wallet should be desginated
 as a business wallet, a client funds wallet.
@@ -559,6 +571,13 @@ as a business wallet, a client funds wallet.
 All business wallets and client funds wallets should be held on
 separate devices.  All devices with client wallets should contain only
 corporate information.
+
+\subsubsection{Client internal segregation}
+\crossref{VA-1: Question 97}
+\status{Fully implemented}
+Generally speaking, client virtual assets will be pooled with other
+assets.  Clients will have invididual ``hot wallets'' for deposit, but
+the contents of those wallets will be swept into cold storage.
 
 \subsection{Business operations wallet}
 
@@ -588,7 +607,13 @@ must be records in the ledger.
 The company will maintain an inventory of all locations which firm
 cash is being kept and will insure that adequate security standards.
 See physical infrastructure.
-}{}
+}{
+\section{Fiat management}
+\crossref{VA-1: Question 96}
+\status{Scheduled by end of 2023}
+It is our intention that client assets be held in a separate bank
+account which is legally owned by the associated entity.
+}
 
 \section{Staff policies}
 
