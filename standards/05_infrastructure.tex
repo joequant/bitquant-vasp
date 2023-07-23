@@ -40,14 +40,147 @@ convert paper cash to and from virtual assets
 }{}
 
 \section{Cybersecurity}
+\subsection{Outsourcing}
+\crossref{VA-1: Question 72}
+We do not outsource any infrastructure security management.
 
-\subsection{Backups of data}
-Paper copies of OpenCEX basic data should be    
+\subsection{Network infrastructure}
+\crossref{VA-1: Question 60}
+\status{To be implemented immediately}
+Our OpenCEX application systems are currently operating behind a load balancer
+which hides the location of the server from the internet.  We are in
+the process of upgrading and harding the load balancer into a OpenVPN
+firewall which will only allow shell access to the server through a
+virtual intranet.
 
-\subsection{Location of servers}
-The location of the servers will be inventory and reported to the SFC.
+All of our systems are themselves set up as docker services which can
+be run independently.
 
-\subsection{No trading will be done through technical access}
+\subsection{User access and identity management}
+\crossref{VA-1: Question 64}
+\status{Fully implemented}
+
+There are three sets of user access management and identity
+verification procedures.
+\begin{itemize}
+\item Staff access to the trading system
+\item Staff access to business records
+\item Administrative access to the trading system
+\end{itemize}
+
+Staff access to the trading system is performed by staff accounts
+combine with a user token and 2fA which allows access to the admin
+facilities through the firewall.  All staff access requires 2fA using
+Google authenticator although the account themselves are set up
+internally.
+
+Staff access to business accounts is done through accounts using
+Google shared accounts and Oauth.
+
+Technical access to the trading system is allowed only to members of
+the technology staff and not to members of either the operations or
+custody staff.  Access is available through shell ssh access using
+tokens.  There are several levels of authentication:
+
+\begin{itemize}
+\item Technical stuff must connect and authenticate with the OpenVPN
+firewall using a user token which is controlled by and can be revoked
+by the company
+\item The firewall will then require a second level of authentication to
+the application server
+\item To perform any adminstrative function the user must then switch
+  to the application server user (which is not superuser)
+\end{itemize}
+
+
+\subsection{Application logic}
+\crossref{VA-1: Question 61}
+\status{To be implemented immediately}
+Our OpenCEX application server contains a system of regression tests for the
+public API.  We will work with the software developers to go through
+the public API and improve test coverage to insure that the systems
+have full test coverage.
+
+\subsection{Patch management process}
+\crossref{VA-1: Question 62}
+\status{Fully implemented}
+
+Our application server is based on OpenCEX which publishes their
+source code on github and we have maintainance policy that insures
+that our systems are no more than one week behind the source code
+published on github.
+
+Our servers run Ubuntu Linux and are patched to include the latest
+security releases.
+
+\subsection{Anti-virus anti-malware systems}
+\crossref{VA-1: Question 63}
+
+We using Ubuntu linux on our backend systems, and our business
+operations are based on systems such as Google drive.  We also
+encourage our employees to use more secure operating systems such as
+Linux or MacOS.
+
+Because our systems are web based, there is no mechanism by which a
+virus can 
+
+\subsection{Intrusion detection/protection system}
+\crossref{VA-1: Question 53}
+\status{To be implemented upon funding}
+%%TODO: Need to upgrade our system
+
+Our systems use open source software to prevent and detect intrusion.
+We will place our systems behind an OpenVPN firewall so that the
+trading systems are not connected directly to the internet and will
+not be directly accessible through the internet.  We will place open
+source intrusion detection software such as snort on both the firewall
+and the internal servers.
+
+\subsection{Key storage mechanisms}
+\crossref{VA-1: Question 54}
+\status{Implementation complete by August}
+Upon receipt of funding, we will upgrade our cold wallets to use
+FIPS-140-2 level 3 certified hardware wallets and require
+multi-signature.
+
+
+\subsection{Application testing}
+\crossref{VA-1: Question 55}
+\status{Upon receipt of funding}
+We are using open source software OpenCEX and before the software is
+placed into operations we will run the application regression tests
+which will insure that there are no system leaks in the system.  We
+are working with the vendor to insure complete regression test
+coverage.
+
+In addition we are in the process of maintaining the services of
+``white hat hackers'' in order to perform penetration testing.
+
+\subsection{DDOS}
+\crossref{VA-1: Question 56}
+\status{Critical: To be implemented immediately}
+We intend to prevent DDOS attacks by placing our systems behind
+Cloudflare.
+
+\subsection{Regular drills}
+\crossref{VA-1: Question 57}
+\status{To be implemented upon licensing}
+We will conduct a drill for security related incidents at least quarterly.
+
+
+\subsection{Regular independent assessments}
+\crossref{VA-1: Question 58}
+\status{To be implemented upon licensing}
+We are currently talking with cybersecurity experts and will have at
+least biannual assessments of our systems.
+
+
+\subsection{Physical security}
+\crossref{VA-1: Question 71}
+\status{Implemented immediately}
+Our trading system uses DigitalOcean as a cloud provider and the
+provider is responsible for physical security.
+
 
 \subsection{Policies}
 \begin{itemize}
@@ -63,6 +196,7 @@ The location of the servers will be inventory and reported to the SFC.
     cases where there is no other means of connecting to the server
   \item fail2ban will be run to lock out excessive logins 
 \end{itemize}
+
 \subsection{Administrative access}
 Administrative access is allowed only for devops work.  No trading is
 allowed outside of the standard trading interfaces.
@@ -89,6 +223,7 @@ The technology department should maintain a log of incidents and
 events.
 
 \subsection{New version deployment}
+\crossref{VA-1: Question 65a}
 The production server will only use known tagged versions of OpenCEX.
 
 The process for deploying a new version of OpenCEX:
@@ -106,7 +241,32 @@ The process for deploying a new version of OpenCEX:
   \item When there are no anomalies the code will upgraded on the
     production server
 \end{itemize}
-    
+
+\subsection{Major system changes}
+\crossref{VA-1: Question 69}
+
+Our OpenCEX system is based on Django python and we will perform test
+upgrades on our test system before pushing any major changes into
+production.
+
+\subsection{Scheduled outages}
+\crossref{VA-1: Question 66a}
+\status{Fully implemented}
+We will have scheduled an outage once every day for thirty minutes
+between midnight and 00:30 Hong Kong time.  We also schedule a weekly
+upgrade on Sundays between midnight and 2:00 HK time.  Orders before
+the outage will be preserved, and orders will be available immediately
+upon system reload.
+
+We will make the schedule known months ahead of time.
+
+\subsection{Unscheduled outages}
+\crossref{VA-1: Question 66c, 67}
+In case of an unscheduled outage we will assess the likely duration of
+such an outage and communicate this information immediately through
+our user telegram channel.
+
+
 \subsection{Vendor patches}
 The servers are operating under Linux Ubuntu.  Vendor upgrades should
 be made as soon as possible but in no event more than one week after
@@ -121,5 +281,12 @@ issues.  Security related bugs will be addressed through standard
 ``responsible'' disclosure mechanism.
 
 \subsection{Backups}
+\crossref{VA-1: Question 68}
+\status{Fully implemented}
+We perform nightly backups of our trading system and business
+records.  Our trading system are set up as virtual machines and we can
+restore the backup on any virtual system.
+
+
 
 
