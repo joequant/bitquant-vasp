@@ -10,7 +10,7 @@
 
 \begin{document}
 \maketitle
-\section{Methodology}
+\section{Terms of Reference}
 
 This report is the External Assessor Report for \firmfullname.  It was
 generated with the following methodology.
@@ -46,6 +46,117 @@ the firm, the SFC will issue an approval in principle.  At which time,
 the firm will execute the action items in the Phase 1 report and a
 team of external assessors will evaluate the completion of the
 objectives for the Phase 2 report.
+
+\section{Governance and controls}
+\subsection{Self-assessment}
+We believe that our governance and controls are insufficient
+to receive a VASP license from the SFC.  All of our operations are
+currently handled by one person and this is clearly insufficient to
+run a properly regulated exchange.  However, one reason that we are
+going through the licensing process is to demonstrate to ourselves and
+the world that one person with a vision can operate an thrive in Hong
+Kong, and we are hopeful that our interactions with the Securities
+Futures Commission in Hong Kong will be positive and will demonstrate
+the pro-innovation and pro-business attitude of the Hong Kong
+government.
+
+We are conducting our activities as publicly as possible to show the
+world that Hong Kong is ready for business and that a startup exchange
+can work with the regulators to create win-win situations.
+
+We are anxious to submit the VASP licensing application as quickly as
+possible as we have investors that will provide the required capital
+necessary for us to create a properly regulated exchange once our
+exchange has submitted a license.  We believe that the key to proper
+governance is to have the right people and the right structure, and we
+have outlined our proposed governance structure in Chapter 2 of our
+operations manual.
+
+In particular, we are planning to insure the proper running of our
+exchange by separating out the day to day running of our exchange into
+operations, technology, and custody as well as to having a separation
+of rules between operations and compliance.  We believe that this
+structure will provide us with the firm foundations to perform
+regulated functions while providing security and reliability to the
+Hong Kong investing public.
+
+We would like the external assessor on governance and compliance to
+review the sections of our operations manual on our governance and
+compliance sections as well as our proposed budget and we look forward
+to constructive criticisms and insights from the assessors.
+
+\subsection{External assessor comments}
+
+\section{Technology infrastructure}
+
+\section{Self assessment}
+
+Our exchange is novel in that it builds on publically available open
+source software.  Our exchange is based on the open source software
+system OpenCEX created by Polygant a Dubai based company.  In addition
+we are currently in discussions with local Hong Kong firms to provide
+upgrades to OpenCEX to make it compliant with SFC requirements.
+However, we do not intended to have a software-as-a-service model and
+intend that all operations will be run in-house.
+
+We are particularly impressed by the wallet management model that is
+used by OpenCEX.  Most systems divide the wallet management into hot
+wallets and cold wallets, whereas the wallet management model which we
+have described in the software infrastructure section of our
+operations manual.
+
+Although OpenCEX provides an excellent open source foundation for
+further growth.  We have identified the following action items which
+we believe will be necessary for our exchange to meet the requirements
+of the Securities Futures Commission.
+
+\subsection{Immediate action items}
+
+\begin{itemize}
+\item Migration of cold wallets to hardware wallets with multisignature
+
+\item Upgrade of network infrastructure - place servers behind a cloudflare and
+openvpn firewall.  Install snort
+
+\item Set up user login monitoring
+
+\item Set up user telegram group
+\end{itemize}
+
+We a second set of action items which we will undertake upon receipt
+of funding
+
+\begin{itemize}
+
+\item Staff separation of roles - OpenCEX has the ability to limit
+  staff access to certain areas as part of its administrative system.
+  However we will need to develop the specific staff roles and the
+  permissions necessary.
+
+\item Test coverage - Need to run test coverage checks and insure
+  completeness of regression tests.
+
+\end{itemize}
+
+There are a third set of items which will we will need to perform
+before we begin our EAR2 report.
+
+\begin{itemize}
+\item Need to perform penetration testing
+\end{itemize}
+
+There are functions which we will need to implement within the
+OpenCEX platform
+\begin{itemize}
+\item Fiat systems
+\item P2P internal payments
+\end{itemize}
+
+
+\begin{itemize}
+\item cyberspace technology review
+\item continuity of operations review
+\end{itemize}
 
 \section{Assessors}
 \include{capacity/assessor1}
