@@ -635,6 +635,37 @@ All business wallets and client funds wallets should be held on
 separate devices.  All devices with client wallets should contain only
 corporate information.
 
+\begin{figure}
+\begin{adjustbox}{center}
+\begin{tikzpicture}[node distance=1.5cm, every node/.style={draw, minimum width=1.5cm, minimum height=1cm}]
+
+% Blocks
+\node (externaldeposit) {\shortstack{External\\wallet}};
+\node[right=2cm of externaldeposit] (block1) {\shortstack{Client\\Deposit\\Wallet}};
+\node[right=3cm of block1] (block2) {\shortstack{Accumulator\\Wallet}};
+\node[below right=1cm and 3cm of block2] (block3) {\shortstack{Internal\\vault\\wallets}};
+\node[below=3cm of block1] (block4) {\shortstack{Keeper\\wallet}};
+\node[below=3cm of externaldeposit] (block5) {\shortstack{External\\withdrawal\\wallet}};
+
+% Arrows
+\draw[->] (externaldeposit) -- (block1);
+\draw[->] (block1) -- node[midway, above, draw=none] {\shortstack{Automatic\\sweep}} (block2);
+\draw[->] (block2) -- (block3);
+\draw[->] (block3) -- node[midway, above, draw=none] {\shortstack{Manual\\transfer\\by\\custody}} (block4);
+\draw[->] (block4) -- node[midway, above, draw=none] {\shortstack{Subject\\to\\operations\\approval}} (block5);
+
+% Dotted box
+\node[draw, dotted, fit=(externaldeposit)(block5), inner sep=0.5cm, label=above:{User wallets}] {};
+\node[draw, dotted, fit=(block1)(block4), inner sep=0.5cm, label=above:{\shortstack{Hot wallets\\in trading system}}] {};
+\node[draw, dotted, fit=(block2)(block3), inner sep=0.5cm, label=above:{\shortstack{Cold hardware\\wallets\\held by custody}}] {};
+\
+
+
+\end{tikzpicture}
+\end{adjustbox}
+\caption{Wallet structure}
+\end{figure}
+
 \subsection{Hot cold wallet management}
 \crossref{VA-1: Question 89}
 All client assets are moved to cold wallets as quickly as possible,
