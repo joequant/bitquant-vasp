@@ -183,6 +183,7 @@ software device in the form of a mobile device.  This mobile device is
 the property of the company and should not contain any
 
 \section{Deposit process}
+\crossref{VA-1: Question 76}
 The deposit process consists of the user sending tokens into the
 deposit wallet, and then the system moving tokens from the deposit
 wallet into the accumulator wallet.  The trading system will generate
@@ -190,7 +191,7 @@ the keys of the deposit wallets, and these keys are stored encrypted
 in the database.
 
 \section{Withdrawal process}
-
+\crossref{VA-1: Question 76}
 The withdrawal process consists of several steps.
 \begin{itemize}
   \item Funds are moved from the cold wallets to the hot wallets and
@@ -247,7 +248,9 @@ situations on a case by case basis.
 \subsection{Deposit and withdrawal limits}
 \crossref{VA-1: Question 79}
 \status{Fully implemented}
-Deposit and withdrawal limit are set by the chief operations officer.
+Deposit and withdrawal limit are set by the chief operations officer,
+and are set based on the ability of the company to handle a given
+amount of deposits and withdrawals.
 
 \section{Know your clients (KYC)}
 \crossref{Appendix F1: Part D}
@@ -859,9 +862,27 @@ The company will maintain an inventory of all locations which firm
 cash is being kept and will insure that adequate security standards.
 See physical infrastructure.
 }{
+  \section{Fiat deposit and withdrawal}
+  \crossref{VA-1: Question 73}
+Our trading platform does not handle fiat/virtual asset trades, so a
+fiat deposit will be made through an OTC transaction by which a client
+deposits or withdrawals fiat currency to the firm at which point the
+firm will perform an OTC transaction sell or purchase virtual assets
+with the client and then deliver the assets onto the exchange
+platform.
+
+\section{Deposit and withdrawal channels}
+  \crossref{VA-1: Question 74}
+We will accept bank transfers to our bank account or paper cash
+deposits made directly to our place of business.  Any deposits and
+withdrawals will be converted immediately to virtual assets for
+trading on the exchange.
+
+We will perform the standard AML/KYC checks on all deposits, including
+but not limited to ID verification.
+ 
 \section{Fiat management}
 \crossref{VA-1: Question 96}
-\status{Scheduled by end of 2023}
 It is our intention that client assets be held in a separate bank
 account which is legally owned by the associated entity.
 }
