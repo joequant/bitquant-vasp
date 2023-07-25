@@ -1,8 +1,17 @@
 \documentclass[]{report}
+\usepackage{hyperref}
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    filecolor=magenta,      
+    urlcolor=cyan,
+    pdftitle={Overleaf Example},
+    pdfpagemode=FullScreen,
+    }
 
-\def\firmfullname{Twofish Enterprises (Asia) Limited}
-\def\firmshortname{Twofish}
-\def\firmtag{twofish}
+\def\firmfullname{Example Exchange Limited}
+\def\firmshortname{Example}
+\def\firmtag{example}
 
 \title{Phase 1 External Assessor Report}
 \author{\firmfullname\\Copyright 2023 - Licensed under Creative
@@ -12,12 +21,40 @@
 \maketitle
 \section{Terms of Reference}
 
-This report is the External Assessor Report for \firmfullname.  It was
-generated with the following methodology.
+This report is the External Assessor Report for \firmfullname.  
+
+It was generated with the following methodology with the documents
+referenced available on github see \href{https://github.com/joequant/bitquant\-vasp}{href1}
+
+The key documents from the Securities Futures Commission which define
+the parameters of the Phase 1 assessment are:
+
+\begin{itemize}
+  \item Appendix F of the SFC Public Consultation request issued
+    2023 February 20 see
+    \href{https://github.com/joequant/bitquant-vasp/blob/main/regulations/sfc\-consultation\-20230220.pdf}{href2}
+  \item Questionaire VA-1 of the SFC Licensing Application see
+    \href{https://github.com/joequant/bitquant-vasp/blob/main/regulations/Questionnaire\-VA\-1.txt}{href3}
+\end{itemize}
 
 The first step was for the firm to create a operations and technical
 manual indicating the intended operations of the firm once the firm
 moves to a fully licensed framework.
+
+The chapter headings of the policy and operations manual are set up to
+correspond to the subject headings of Appendix F.
+
+\begin{itemize}
+\item Part A - Governance and staffing - Governance
+\item Part B - Token admission - Development
+\item Part C - Custody of virtual assets - Operations
+\item Part D - Know your clients - Operations
+\item Part E - Anti-money laundering and counter-financing of
+  terrorism (AML/CFT) - Operations
+\item Part F - Market surveillance - Operations
+\item Part G - Risk management - Risk management
+\item Part H - Cybersecurity - Infrastructure
+\end{itemize}
 
 The second step was for the firm to conduct an internal
 self-assessment which consisted of a gap analysis indicating gaps
@@ -47,8 +84,11 @@ the firm will execute the action items in the Phase 1 report and a
 team of external assessors will evaluate the completion of the
 objectives for the Phase 2 report.
 
-\section{Governance and controls}
+\section{Governance and staffing / Token admission - Parts A-B}
 \subsection{Self-assessment}
+This self assessment covers the areas of governance and staffing and
+token admission (Parts A and B)
+
 We believe that our governance and controls are insufficient
 to receive a VASP license from the SFC.  All of our operations are
 currently handled by one person and this is clearly insufficient to
@@ -87,9 +127,12 @@ to constructive criticisms and insights from the assessors.
 
 \subsection{External assessor comments}
 
-\section{Technology infrastructure}
+\section{Operations, Risk management, and Infrastructure Part C-H}
 
 \section{Self assessment}
+
+This self assessment covers the areas of custody of virtual assets,
+KYC, AML/CFT, market surveillance, risk management, and cybersecurity.
 
 Our exchange is novel in that it builds on publically available open
 source software.  Our exchange is based on the open source software
