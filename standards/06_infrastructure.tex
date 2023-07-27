@@ -47,13 +47,11 @@ We do not outsource any infrastructure security management.
 \subsection{Network infrastructure}
 \crossref{VA-1: Question 60}
 \status{To be implemented immediately}
-Our OpenCEX application systems are currently operating behind a load balancer
+Our OpenCEX application systems are currently operating behind a load balancer,
 which hides the location of the server from the internet.  We are in
-the process of upgrading and harding the load balancer into a OpenVPN
-firewall which will only allow shell access to the server through a
-virtual intranet.
+the process of upgrading and hardening the load balancer into an OpenVPN firewall, which will only allow shell access to the server through a virtual intranet.
 
-All of our systems are themselves set up as docker services which can
+All of our systems are themselves set up as docker services, which can
 be run independently.
 
 \subsection{User access and identity management}
@@ -69,26 +67,26 @@ verification procedures.
 \end{itemize}
 
 Staff access to the trading system is performed by staff accounts
-combine with a user token and 2fA which allows access to the admin
+combined with a user token and 2fA, which allows access to the admin
 facilities through the firewall.  All staff access requires 2fA using
-Google authenticator although the account themselves are set up
+Google authenticator, although the account themselves are set up
 internally.
 
 Staff access to business accounts is done through accounts using
-Google shared accounts and Oauth.
+Google shared accounts and OAuth.
 
 Technical access to the trading system is allowed only to members of
-the technology staff and not to members of either the operations or
+the technology staff, and not to members of either the operations or
 custody staff.  Access is available through shell ssh access using
 tokens.  There are several levels of authentication:
 
 \begin{itemize}
 \item Technical stuff must connect and authenticate with the OpenVPN
 firewall using a user token which is controlled by and can be revoked
-by the company
+by the company.
 \item The firewall will then require a second level of authentication to
-the application server
-\item To perform any adminstrative function the user must then switch
+the application server.
+\item To perform any administrative function, the user must then switch
   to the application server user (which is not superuser)
 \end{itemize}
 
@@ -98,30 +96,30 @@ the application server
 \status{To be implemented immediately}
 Our OpenCEX application server contains a system of regression tests for the
 public API.  We will work with the software developers to go through
-the public API and improve test coverage to insure that the systems
+the public API and improve test coverage to ensure that the systems
 have full test coverage.
 
 \subsection{Patch management process}
 \crossref{VA-1: Question 62}
 \status{Fully implemented}
 
-Our application server is based on OpenCEX which publishes their
-source code on github and we have maintainance policy that insures
+Our application server is based on OpenCEX which publishes its
+source code on GitHub, and we have a maintenance policy that insures
 that our systems are no more than one week behind the source code
-published on github.
+published on GitHub.
 
 Our servers run Ubuntu Linux and are patched to include the latest
 security releases.
 
-\subsection{Anti-virus anti-malware systems}
+\subsection{Antivirus anti-malware systems}
 \crossref{VA-1: Question 63}
 
-We using Ubuntu linux on our backend systems, and our business
-operations are based on systems such as Google drive.  We also
-encourage our employees to use more secure operating systems such as
-Linux or MacOS.
+We are using Ubuntu Linux on our backend systems, and our business
+operations are based on systems such as Google Drive.  We also
+encourage our employees to use more secure operating systems, such as
+Linux or macOS.
 
-Because our systems are web based, there is no mechanism by which a
+Because our systems are web-based, there is no mechanism by which a
 virus can 
 
 \subsection{Intrusion detection/protection system}
@@ -129,7 +127,7 @@ virus can
 \status{To be implemented upon funding}
 %%TODO: Need to upgrade our system
 
-Our systems use open source software to prevent and detect intrusion.
+Our systems use open-source software to prevent and detect intrusion.
 We will place our systems behind an OpenVPN firewall so that the
 trading systems are not connected directly to the internet and will
 not be directly accessible through the internet.  We will place open
@@ -147,19 +145,19 @@ multi-signature.
 \subsection{Application testing}
 \crossref{VA-1: Question 55}
 \status{Upon receipt of funding}
-We are using open source software OpenCEX and before the software is
+We are using the open-source software OpenCEX and before the software is
 placed into operations we will run the application regression tests
-which will insure that there are no system leaks in the system.  We
+which will ensure that there are no system leaks in the system.  We
 are working with the vendor to insure complete regression test
 coverage.
 
-In addition we are in the process of maintaining the services of
-``white hat hackers'' in order to perform penetration testing.
+In addition, we are in the process of maintaining the services of
+``white-hat hackers'' to perform penetration testing.
 
 \subsection{DDOS}
 \crossref{VA-1: Question 56}
 \status{Critical: To be implemented immediately}
-We intend to prevent DDOS attacks by placing our systems behind
+We intend to prevent DDoS attacks by placing our systems behind
 Cloudflare.
 
 \subsection{Regular drills}
@@ -171,7 +169,7 @@ We will conduct a drill for security related incidents at least quarterly.
 \subsection{Regular independent assessments}
 \crossref{VA-1: Question 58}
 \status{To be implemented upon licensing}
-We are currently talking with cybersecurity experts and will have at
+We are currently speaking with cybersecurity experts and will have at
 least biannual assessments of our systems.
 
 
@@ -186,27 +184,27 @@ provider is responsible for physical security.
 \begin{itemize}
   \item The location of the exchange server is hidden behind a load
   balancer or cloud server.  The IP address of to allow access is not
-  publically available
+  publicly available.
   \item All servers are behind a firewall that blocks all ports other
     than 22, 80, and 443
   \item Direct root access to the exchange server is not allowed, and
     shell access to the exchange server is only through passwordless
     tokens
-  \item Access through the cloud server console is to used only in
+  \item Access through the cloud server console is used only in
     cases where there is no other means of connecting to the server
   \item fail2ban will be run to lock out excessive logins 
 \end{itemize}
 
 \subsection{Administrative access}
-Administrative access is allowed only for devops work.  No trading is
-allowed outside of the standard trading interfaces.
+Administrative access is allowed only for DevOps work.  No trading is
+allowed outside the standard trading interfaces.
 
 \begin{itemize}
 \item Direct access to administrative accounts is not allowed.  All
-  access is to user accounts with the user taking admin privileges
-  later
-\item Nothing runs on the exchange servers other than the exchange engine
-\item (TODO) There should be a two step login process by which the
+  access is to user accounts, with the user taking admin privileges
+  later.
+\item Nothing runs on the exchange servers apart from the exchange engine
+\item (TODO) There should be a two-step login process by which the
   user logs in first to a proxy server, and then from the proxy server
   undertakes a second login to the exchange server
 \end{itemize}
@@ -214,9 +212,9 @@ allowed outside of the standard trading interfaces.
 \section{Software deployment process}
 \subsection{Open Source only software}
 
-The firm has a policy of only running open source software.  All
-software which is run on productions backend services is publically
-available via the github repository for the company.
+The firm has a policy of only running open-source software.  All
+software which is run on production's backend services is publicly
+available via the GitHub repository for the company.
 
 \subsection{Logs}
 The technology department should maintain a log of incidents and
@@ -228,24 +226,24 @@ The production server will only use known tagged versions of OpenCEX.
 
 The process for deploying a new version of OpenCEX:
 \begin{itemize}
-  \item New code deployments should generally be done on the weekend
+  \item New code deployments should generally be done on the weekend.
   \item Deployments must be signed off by the chief technology officer
     or his delegate
   \item The deployment officer will examine the source code and verify
-    that it is the correct version
+    that it is the correct version.
   \item Code is downloaded from OpenCEX main site and merged with
-    local changes on github
-  \item Code is deployed on test server and run for two to three days.
-  \item Before there is a server upgrade the directory containing the
-    server database will be backed up
-  \item When there are no anomalies the code will upgraded on the
+    local changes on GitHub.
+  \item Code is deployed on test server and runs for two to three days.
+  \item Before there is a server upgrade, the directory containing the
+    server database will be backed up.
+  \item When there are no anomalies, the code will upgrade on the
     production server
 \end{itemize}
 
 \subsection{Major system changes}
 \crossref{VA-1: Question 69}
 
-Our OpenCEX system is based on Django python and we will perform test
+Our OpenCEX system is based on Django python, and we will perform test
 upgrades on our test system before pushing any major changes into
 production.
 
@@ -262,18 +260,18 @@ We will make the schedule known months ahead of time.
 
 \subsection{Unscheduled outages}
 \crossref{VA-1: Question 66c, 67}
-In case of an unscheduled outage we will assess the likely duration of
+In the case of an unscheduled outage, we will assess the likely duration of
 such an outage and communicate this information immediately through
 our user telegram channel.
 
 
 \subsection{Vendor patches}
 The servers are operating under Linux Ubuntu.  Vendor upgrades should
-be made as soon as possible but in no event more than one week after
+be made as soon as possible, but in no event more than one week after
 the vendor upgrade is released.
 
 \subsection{Server reboot}
-The server should be reboot from a cold start at least once a week.
+The server should be rebooted from a cold start at least once a week.
 
 \subsection{Security issues}
 The firm will work closely with vendors to identify and close security
@@ -284,7 +282,7 @@ issues.  Security related bugs will be addressed through standard
 \crossref{VA-1: Question 68}
 \status{Fully implemented}
 We perform nightly backups of our trading system and business
-records.  Our trading system are set up as virtual machines and we can
+records.  Our trading systems are set up as virtual machines, and we can
 restore the backup on any virtual system.
 
 
