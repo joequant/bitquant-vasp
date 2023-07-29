@@ -9,7 +9,8 @@ based on Python and Django.
 \crossref{Questionaire: VA-2: Section 1 Attachment business profile}
 Our exchange will conduct electronic trading services according to the
 following diagram
-
+\begin{figure}
+  \begin{adjustbox}{center}
 \begin{tikzpicture}
   % Left boxes
   \node[draw, rectangle] (topLeft) at (0,0) {Traders};
@@ -17,15 +18,18 @@ following diagram
        {\shortstack{External\\arbitrage trader\\(human or Hummingbot)}};
 
   % Right boxes
-  \node[draw, rectangle,  right=2cm of topLeft] (topRight) {Our
-    exchange\\trading engine};
-  \node[draw, rectangle, below=2 cm of topRight] (bottomRight) {\shortstack{Other centralized and\\decentralized exchanges}};
+  \node[draw, rectangle,  right=3cm of topLeft] (topRight) {\shortstack{Our
+    exchange\\trading engine}};
+  \node[draw, rectangle, below=2cm of topRight] (bottomRight) {\shortstack{Other centralized and\\decentralized exchanges}};
 
   % Arrows
   \draw[->] (topLeft) -- (topRight);
   \draw[->] (bottomLeft) -- (topRight);
   \draw[->] (bottomLeft) -- (bottomRight);
 \end{tikzpicture}
+\end{adjustbox}
+\caption{Schematic of electronic trading system.}
+\end{figure}
 
 The exchange itself will not forward or route orders from the trading
 engine, but will rely on external market makers or bots controlled by
