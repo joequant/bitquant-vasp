@@ -175,18 +175,44 @@ Generally speaking, client virtual assets will be pooled with other
 assets.  Clients will have individual ``hot wallets'' for deposit, but
 the contents of those wallets will be swept into cold storage.
 
-\subsection{Cold wallet standards}
+\subsection{Custody wallet standards}
 \crossref{Appendix F1(ii)-(iii)}
+\periodic{Semiannually - Custody - Test hardware wallet backups}
 
-Cold wallets are to be held to the following standards
+All custody wallets are to be cold wallets which will be shared and
+will require at least two signatures from hardware devices.
+
+There will be three backup signature devices.  One stored in the law
+office, one stored in the accounting office, and one stored in a
+safety deposit box in a bank.  All backup signature devices will be
+physically present in Hong Kong and will be subject to legal process
+by regulators and the Hong Kong authorities.  Backup signature devices
+are to be tested semiannually, but are not to be otherwise used except
+in cases of emergency.  The three backup signature devices should be
+from different hardware vendors.
+
+Each custody signature device will be used only for custody purposes.
+The head of the departments will be issued their own signature
+devices.  Any signature devices that are to be shared between staff
+may be used only on the premises of the main offices and are under no
+circumstances allowed the leave the main office.
+
+Signature devices are not to be used for any purposes other than to
+sign custody wallets.  The custody department may divide custody funds
+into a set of wallets to ensure that no one wallet contains all of the
+funds and to ensure that access to the custody wallets are divided
+between the custody staff.
 
 \begin{itemize}
-  \item All cold storage wallets will be accessed via hardware storage
+  \item Custody wallets are never to be put online and are never to be
+    accessed through any means other than hardware devices
+  \item All custody wallets will be accessed via hardware storage
     modules which have been certified at a security rating of
-    FIPS-140 Level III
+    FIPS-140 Level III.  The custody signature devices should be
+    accessed through several different vendors.
  \item The keys and wallet addresses are to be generated directly from
    the hardware storage module.
- \item A signature for cold storage will require physical possession
+ \item A signature for custody will require physical possession
    of the hardware device
  \item The hardware devices are to be kept in the main location of the
    firm and all actions involving cold storage will take place within
@@ -196,12 +222,11 @@ Cold wallets are to be held to the following standards
  \item Each hardware device used in business operations will be
    password protected by a password known only to the user of that
    device.
- \item There will be two sets of backup devices of each wallet, which
-   are to be held in physically separate locations in Hong Kong.
-   They will be held in the firm's legal counsel and the accounting
-   firm used by auditing.  The wallets will be tested once every six months to ensure that the backups devices are functioning.
- \item Testing of wallets will be done on the premises of the legal and accounting firms, in which an authorized senior member of the firm will authorize a nominal quantity of coins to be moved
 \end{itemize}
+
+Before any custody wallet is used, it is to be tested by pushing a
+small amount of coins through the wallet to ensure that they coins can
+only be released with the signature device.
 
 \subsection{Auditing of wallet contents}
 \crossref{Appendix F1: Part C (vi)}
@@ -213,11 +238,13 @@ unaccounted for.
 We will develop software that will provide instantaneous alerts and
 warnings for unauthorized and unexplained transactions.  
 
-\subsection{Business operations wallet}
+\subsection{Business operations wallets}
 
-* A wallet for business operations can contain up to 250k HKD using a
-software device in the form of a mobile device.  This mobile device is
-the property of the company and should not contain any
+Wallets which are used for business operations are to be kept
+completely separate from those which are used by custody.  The amounts
+and access to business operation wallets is to be decided by the
+managing director.  The signature devices used for business operation
+wallets are to be separate from those used by the custody function.
 
 \subsection{Deposit process}
 \crossref{VA-1: Question 76}
