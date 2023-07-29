@@ -1,9 +1,9 @@
 \chapter{Infrastructure}
 
-
+\ifthenelse{\boolean{bankless}}{
 \section{Physical infrastructure}
 
-\ifthenelse{\boolean{bankless}}{
+
 \subsection{Cash management (bankless)}
 
 * All corporate cash must be physically segregated from none personal
@@ -38,6 +38,10 @@ paper fiat.
 * The company should at all times have at least two contacts that can
 convert paper cash to and from virtual assets
 }{}
+
+\section{Software infrastructure}
+The software infrastructure consists of the open source trading system
+OpenCEX authored by Polygant.
 
 \section{Cybersecurity}
 \subsection{Outsourcing}

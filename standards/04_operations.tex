@@ -5,6 +5,38 @@ The firm will use open-source software for all of its operations.  The
 trading system used will be OpenCEX which is an open-source system
 based on Python and Django.
 
+\section{Electronic trading systems}
+\crossref{Questionaire: VA-2: Section 1 Attachment business profile}
+Our exchange will conduct electronic trading services according to the
+following diagram
+
+\begin{tikzpicture}
+  % Left boxes
+  \node[draw, rectangle] (topLeft) at (0,0) {Traders};
+  \node[draw, rectangle, below=2cm of topLeft] (bottomLeft)
+       {\shortstack{External\\arbitrage trader\\(human or Hummingbot)}};
+
+  % Right boxes
+  \node[draw, rectangle,  right=2cm of topLeft] (topRight) {Our
+    exchange\\trading engine};
+  \node[draw, rectangle, below=2 cm of topRight] (bottomRight) {\shortstack{Other centralized and\\decentralized exchanges}};
+
+  % Arrows
+  \draw[->] (topLeft) -- (topRight);
+  \draw[->] (bottomLeft) -- (topRight);
+  \draw[->] (bottomLeft) -- (bottomRight);
+\end{tikzpicture}
+
+The exchange itself will not forward or route orders from the trading
+engine, but will rely on external market makers or bots controlled by
+external market makers to insure that the exchange maintains in
+equilibrum with other markets.  These external market makers or bots
+will be trading with their own capital with their virtual assets
+subject to custody as client funds by the exchange.
+
+As with other virtual assets, acceptance, execution, clearing, and
+settlement are integrated in one process on the exchange.
+
 \section{Custody of Virtual Assets}
 \crossref{Appendix F1: Part C}
 
