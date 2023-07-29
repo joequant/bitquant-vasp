@@ -44,12 +44,17 @@ The software infrastructure consists of the open source trading system
 OpenCEX authored by Polygant.
 
 \section{Cybersecurity}
+\subsection{General principles}
+\crossref{VA-2: Question 2.5(b)}
+Access is to be granted to users on a need-to-know basis.
+
 \subsection{Outsourcing}
 \crossref{VA-1: Question 72}
 We do not outsource any infrastructure security management.
 
 \subsection{Network infrastructure}
 \crossref{VA-1: Question 60}
+\crossref{VA-2: Question 2.5(a)}
 \status{To be implemented immediately}
 Our OpenCEX application systems are currently operating behind a load balancer,
 which hides the location of the server from the internet.  We are in
@@ -284,11 +289,32 @@ issues.  Security related bugs will be addressed through standard
 
 \subsection{Backups}
 \crossref{VA-1: Question 68}
-\status{Fully implemented}
+\crossref{VA-1: Question 2.5(h)}
+\periodic{Daily - Technology - Business records, client and
+  transaction database backed up off-line}
+\status{Backups are with the cloud}
 We perform nightly backups of our trading system and business
 records.  Our trading systems are set up as virtual machines, and we can
 restore the backup on any virtual system.
 
+\subsection{Cybersecurity Training}
+\crossref{VA-2: Question 2.2(c)}
+\periodic{Annual - Technology - Cybersecurity awareness training provided to all staff}
+Cybersecurity awareness training will be provided to all staff at
+least once per year.
 
+\subsection{Periodic reviews}
+\crossref{VA-2: Question 2.7 (e)(f)}
+\crossref{VA-2: Question 2.8 (a)-(f)}
+\periodic{Monthly - Technology - Reliability review}
+\periodic{Quarterly - Technology - Capacity review}
+\periodic{Semiannually - Technology - Contingency review}
 
+The reliability of the system including down time and lag will be
+performed at least once a month by the technology department, and the
+capacity of the system including lag will be reviewed at least once a
+quarter by the technology department.
 
+The backup systems will be tested at semiannually.  This test will
+consist of a simulated business disruption to see how quickly the
+system can recover using backups and a backup server.

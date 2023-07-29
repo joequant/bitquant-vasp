@@ -9,6 +9,15 @@
   {\protect\numberline{\thesubsection}#1}\par
 }
 
+\newcommand{\listperiodicname}{List of Periodic Activities}
+\newlistof{periodic}{rev}{\listperiodicname}
+\newcommand{\periodic}[1]{%
+  \refstepcounter{periodic}
+  \par\noindent\textbf{Periodic. #1}
+  \addcontentsline{rev}{periodic}
+  {\protect\numberline{\thesubsection}#1}\par
+}
+
 \newcommand{\liststatusname}{List of Statuses}
 \newlistof{status}{stat}{\liststatusname}
 \newcommand{\status}[1]{%

@@ -546,6 +546,7 @@ devices.
 
 \subsection{Login and authentication}
 \crossref{VA-1: Questions 36, 36b}
+\crossref{VA-2: Question 2.5 (c)}
 \status{Mandatory two factor authentication not implemented}
 
 We authenticate the identities of the users using two-factor
@@ -559,6 +560,10 @@ not allow an attack to gain immediate access to an account.
 
 Withdrawals will require e-mail/SMS verification and must be vetted by
 internal staff.
+
+System users will be authenticated through a system of 2 factor
+authenication with minimum password length and complexity, session
+timeouts, and lockouts after invalid login attempts.
 
 \section{Anti-money laundering / counter-financing of terrorism /
   anti-fraud (AML/CFT)}
@@ -675,6 +680,14 @@ activities.
 
 \section{Trading and settlement}
 
+\subsection{Pre-trade risk management}
+\crossref{VA-2: Question 2.11(a)}
+\status{Fully implemented}
+The system shall be set up to prevent entry of any orders that exceeds
+trading and credit limits, alerts users to potentially erronise orders
+and prevents entry of erroneous orders, and prevents entry of orders
+that are not in compliance with regulatory requirements.
+
 \subsection{Order books arrangement}
 \crossref{VA-1: Question 37}
 \status{Fully implemented}
@@ -737,6 +750,7 @@ these orders are logged via text.
 
 \section{Market surveillance}
 \crossref{Appendix F1: Part F (i)-(iv)}
+\crossref{VA-2: Question 2.11(b)}
 
 Our policies on market surveillance rely primarily on prevention, In
 our token admission process, we will evaluate all tokens on the basis
@@ -759,6 +773,11 @@ such tokens, we will develop specific policies to prevent abusive or
 manipulative market trading, and communicate those policies with the
 Securities and Futures Commission as these policies are under
 development.
+
+We will monitor the system for trades to identify any orders which are
+intended to crash the system to attempt to exploit bugs or weaknesses
+in the system such as DDoS attacks or which otherwise could be considered an
+attack on the integrity of the trading system.
 
 \section{Trading rules}
 
@@ -870,6 +889,7 @@ or (d) material issues identified by outside experts or consultants.
 
 \subsection{Cybersecurity incident reporting}
 \crossref{VA-1: Question 52}
+\crossref{VA-2: Section 2: Internal controls 2.2}
 
 We have not encountered any specific cybersecurity incident, although
 our monitoring of firewalls has noted the hostile environment that
@@ -1016,7 +1036,16 @@ create a conflict of interest to senior management.
 
 \section{Data storage}
 \subsection{Record keeping policy}
-
+\crossref{VA-2: Question 2.10}
+The following records are to be kept for a period of no less than two
+years:
+\begin{itemize}
+  \item design and development documents including  any testing,
+    reviews, modifications, upgrades or rectifications of the system
+  \item risk management controls of the system
+    \item audit logs for the system
+    \item incident reports for all material system delays and failures
+\end{itemize}
 
 \subsection{Electronic Records Data Storage}
 \crossref{VA1: Question 101}
