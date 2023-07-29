@@ -1,0 +1,28 @@
+\usepackage{tocloft}
+ 
+\newcommand{\listcrossrefname}{List of Cross References}
+\newlistof{crossref}{crf}{\listcrossrefname}
+\newcommand{\crossref}[1]{%
+  \refstepcounter{crossref}
+  \par\noindent\textbf{Cross-reference \thecrossref. #1}
+  \addcontentsline{crf}{crossref}
+  {\protect\numberline{\thechapter.\thecrossref}#1}\par
+}
+
+\newcommand{\liststatusname}{List of Statuses}
+\newlistof{status}{stat}{\liststatusname}
+\newcommand{\status}[1]{%
+  \refstepcounter{status}
+  \par\noindent\textbf{Status \thestatus. #1}
+  \addcontentsline{stat}{status}
+  {\protect\numberline{\thechapter.\thestatus}#1}\par
+}
+
+\newcommand{\listtodoname}{List of Todos}
+\newlistof{todo}{tod}{\listtodoname}
+\newcommand{\todo}[1]{%
+  \refstepcounter{todo}
+  \par\noindent\textbf{Todo \thetodo. #1}
+  \addcontentsline{tod}{todo}
+  {\protect\numberline{\thechapter.\thetodo}#1}\par
+}
