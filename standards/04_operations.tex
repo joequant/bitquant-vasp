@@ -28,14 +28,14 @@ following diagram
   \draw[->] (bottomLeft) -- (bottomRight);
 \end{tikzpicture}
 \end{adjustbox}
-\caption{Schematic of electronic trading system.}
+\caption{Schematic of the electronic trading system.}
 \end{figure}
 
 The exchange itself will not forward or route orders from the trading
 engine, but will rely on external market makers or bots controlled by
-external market makers to insure that the exchange maintains in
-equilibrum with other markets.  These external market makers or bots
-will be trading with their own capital with their virtual assets
+external market makers to ensure that the exchange maintains in
+equilibrium with other markets.  These external market makers or bots
+will be trading with their capital, with their virtual assets
 subject to custody as client funds by the exchange.
 
 As with other virtual assets, acceptance, execution, clearing, and
@@ -561,8 +561,8 @@ not allow an attack to gain immediate access to an account.
 Withdrawals will require e-mail/SMS verification and must be vetted by
 internal staff.
 
-System users will be authenticated through a system of 2 factor
-authenication with minimum password length and complexity, session
+System users will be authenticated through a system of two-factor
+authentication with minimum password length and complexity, session
 timeouts, and lockouts after invalid login attempts.
 
 \section{Anti-money laundering / counter-financing of terrorism /
@@ -683,8 +683,8 @@ activities.
 \subsection{Pre-trade risk management}
 \crossref{VA-2: Question 2.11(a)}
 \status{Fully implemented}
-The system shall be set up to prevent entry of any orders that exceeds
-trading and credit limits, alerts users to potentially erronise orders
+The system shall be set up to prevent entry of any orders that exceed
+trading and credit limits, alerts users to potentially erroneous orders
 and prevents entry of erroneous orders, and prevents entry of orders
 that are not in compliance with regulatory requirements.
 
@@ -776,7 +776,7 @@ development.
 
 We will monitor the system for trades to identify any orders which are
 intended to crash the system to attempt to exploit bugs or weaknesses
-in the system such as DDoS attacks or which otherwise could be considered an
+in the system, such as DDoS attacks or which otherwise could be considered an
 attack on the integrity of the trading system.
 
 \section{Trading rules}
@@ -915,7 +915,7 @@ all necessary forensic information and contact the Hong Kong Police as
 necessary.
 
 
-\section{Client fund segreation}
+\section{Client fund segregation}
 \crossref{VA-1: Question 95}
 \status{Fully implemented}
 All client funds will be segregated into separate wallets, which are to
@@ -1041,7 +1041,7 @@ The following records are to be kept for a period of no less than two
 years:
 \begin{itemize}
   \item design and development documents including  any testing,
-    reviews, modifications, upgrades or rectifications of the system
+    reviews, modifications, upgrades, or rectifications of the system
   \item risk management controls of the system
     \item audit logs for the system
     \item incident reports for all material system delays and failures
