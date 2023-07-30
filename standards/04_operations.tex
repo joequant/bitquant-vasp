@@ -574,6 +574,7 @@ devices.
 \subsection{Login and authentication}
 \crossref{VA-1: Questions 36, 36b}
 \crossref{VA-2: Question 2.5 (c)}
+\crossref{Appendix F1: Part H(x)}
 \status{Mandatory two factor authentication not implemented}
 
 We authenticate the identities of the users using two-factor
@@ -596,7 +597,7 @@ timeouts, and lockouts after invalid login attempts.
   anti-fraud (AML/CFT)}
 \crossref{Appendix F1: Part E}
 
-\section{General principles}
+\subsection{General principles}
 \crossref{VA-1: Questions 43, 44}
 \status{To be implemented upon funding}
 
@@ -624,7 +625,7 @@ report, or contacting the appropriate authorities.
 
 \crossref{VA-1: Question 45}
 
-\section{Red flags}
+\subsection{Red flags}
 \crossref{VA-1: Question 46}
 \status{Fully implemented}
 
@@ -706,7 +707,6 @@ Republic of China, in such cases, we will allow and encourage these
 activities.
 
 \section{Trading and settlement}
-
 \subsection{Pre-trade risk management}
 \crossref{VA-2: Question 2.11(a)}
 \status{Fully implemented}
@@ -917,6 +917,7 @@ or (d) material issues identified by outside experts or consultants.
 \subsection{Cybersecurity incident reporting}
 \crossref{VA-1: Question 52}
 \crossref{VA-2: Section 2: Internal controls 2.2}
+\crossref{Appendix F1: Part H (ix)}
 
 We have not encountered any specific cybersecurity incident, although
 our monitoring of firewalls has noted the hostile environment that
@@ -966,29 +967,45 @@ The company will maintain an inventory of all locations which firm
 cash is being kept and will insure that adequate security standards.
 See physical infrastructure.
 }{
-  \section{Fiat deposit and withdrawal}
+  \subsection{Fiat deposit and withdrawal}
   \crossref{VA-1: Question 73}
 Our trading platform does not handle fiat/virtual asset trades, so a
 fiat deposit will be made through an OTC transaction by which a client
 deposits or withdrawals fiat currency to the firm at which point the
 firm will perform an OTC transaction sell or purchase virtual assets
 with the client and then deliver the assets onto the exchange
-platform.
+platform if requested by the client.
 
-\section{Deposit and withdrawal channels}
+Any fiat that is held on behalf of a client will be held in a separate
+bank account opened under the name of the associated entity.  However,
+due to bank requirements, we will not be able to undertake fiat
+custody until we have received clearance to do so from our bank and
+until we have added fiat trading into the exchange.  Until this occurs
+we will perform an OTC transaction with fiat currency to convert to
+virtual assets for trading on the exchange.
+
+\subsection{Deposit and withdrawal channels}
   \crossref{VA-1: Question 74}
-We will accept bank transfers to our bank account or paper cash
-deposits made directly to our place of business.  Any deposits and
-withdrawals will be converted immediately to virtual assets for
-trading on the exchange.
 
-We will perform the standard AML/KYC checks on all deposits, including
-but not limited to ID verification.
- 
-\section{Fiat management}
+We will accept bank transfers to our bank account or paper cash
+deposits made directly to our place of business.  Any fiat deposits
+and withdrawals will be converted immediately to virtual assets in an
+OTC trade and sent to the address requested by the client.
+
+In the event that the fiat cash is intended for exchange trading we
+will require that the account on the exchange match the identity of
+the client, and we will in case the OTC transaction is intended to
+onboard funds into the exchange, we will perform AML/KYC required by
+SFC guidelines, including but not limited to ID verification.
+
+\subsection{Fiat management}
 \crossref{VA-1: Question 96}
 It is our intention that client assets be held in a separate bank
-account which is legally owned by the associated entity.
+account which is legally owned by the associated entity.  Until we are
+able to acquire such an account, we will not hold fiat on behalf of
+clients but instead use P2P and OTC transactions to immediately
+convert client fiat into virtual assets to be managed under the
+custody wallets.
 }
 
 \section{Staff policies}
@@ -1047,19 +1064,6 @@ We encourage staff to have side businesses and other crypto related
 businesses.  However, staff must report any side businesses which may
 create a conflict of interest to senior management.
 
-\section{Security breach protocol}
-
-\begin{itemize}
-\item Shut down all services,
-  \item make an assessment whether wallets have been breached.  If
-    there is any possibility of a wallet breach.  The client funds should be
-    moved from cold storage to back up wallets.
-\item If the machine has been breached, it is to be archived for
-  forensic analysis.
-\item The last known good backups should be used to
-  move to a clean machine
-  
-\end{itemize}    
 
 \section{Data storage}
 \subsection{Record keeping policy}

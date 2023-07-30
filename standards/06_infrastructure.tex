@@ -44,6 +44,11 @@ The software infrastructure consists of the open-source trading system
 OpenCEX authored by Polygant.
 
 \section{Cybersecurity}
+\crossref{Appendix F1 - Part H (i)}
+Cybersecurity should be focused with a risk management process which
+should be integrated into the risk management meeting described in the
+chapter on risk management.
+
 \subsection{General principles}
 \crossref{VA-2: Question 2.5(b)}
 Access is to be granted to users on a need-to-know basis.
@@ -65,6 +70,7 @@ be run independently.
 
 \subsection{User access and identity management}
 \crossref{VA-1: Question 64}
+\crossref{Appendix F1: Part H(x)}
 \status{Fully implemented}
 
 There are three sets of user access management and identity
@@ -229,8 +235,11 @@ available via the GitHub repository for the company.
 The technology department should maintain a log of incidents and
 events.
 
-\subsection{New version deployment}
+\subsection{System upgrades and maintainence}
+\subsubsection{New version deployment}
 \crossref{VA-1: Question 65a}
+\crossref{Appendix F1: Part H(iv)}
+\crossref{Appendix F1: Part H(viii)}
 The production server will only use known tagged versions of OpenCEX.
 
 The process for deploying a new version of OpenCEX:
@@ -249,15 +258,16 @@ The process for deploying a new version of OpenCEX:
     production server
 \end{itemize}
 
-\subsection{Major system changes}
+\subsubsection{Major system changes}
 \crossref{VA-1: Question 69}
 
 Our OpenCEX system is based on Django python, and we will perform test
 upgrades on our test system before pushing any major changes into
 production.
 
-\subsection{Scheduled outages}
+\subsubsection{Scheduled outages}
 \crossref{VA-1: Question 66a}
+\crossref{Appendix F1: Part H (ix)}
 \status{Fully implemented}
 We will have scheduled an outage once every day for thirty minutes
 between midnight and 00:30 Hong Kong time.  We also schedule a weekly
@@ -267,27 +277,27 @@ upon system reload.
 
 We will make the schedule known months ahead of time.
 
-\subsection{Unscheduled outages}
+\subsubsection{Unscheduled outages}
 \crossref{VA-1: Question 66c, 67}
 In the case of an unscheduled outage, we will assess the likely duration of
 such an outage and communicate this information immediately through
 our user telegram channel.
 
 
-\subsection{Vendor patches}
+\subsubsection{Vendor patches}
 The servers are operating under Linux Ubuntu.  Vendor upgrades should
 be made as soon as possible, but in no event more than one week after
 the vendor upgrade is released.
 
-\subsection{Server reboot}
+\subsubsection{Server reboot}
 The server should be rebooted from a cold start at least once a week.
 
-\subsection{Security issues}
+\subsubsection{Security issues}
 The firm will work closely with vendors to identify and close security
 issues.  Security related bugs will be addressed through standard
 ``responsible'' disclosure mechanism.
 
-\subsection{Backups}
+\subsubsection{Backups}
 \crossref{VA-1: Question 68}
 \crossref{VA-1: Question 2.5(h)}
 \periodic{Daily - Technology - Business records, client and
@@ -297,15 +307,30 @@ We perform nightly backups of our trading system and business
 records.  Our trading systems are set up as virtual machines, and we can
 restore the backup on any virtual system.
 
-\subsection{Cybersecurity Training}
+\subsubsection{Contingency protocol}
+\crossref{Appendix F1: Part H (xiii)}
+\begin{itemize}
+\item Shut down all services
+  \item make an assessment whether wallets have been breached.  If
+    there is any possibility of a wallet breach.  The client funds should be
+    moved from cold storage to back up wallets.
+\item If the machine has been breached, it is to be archived for
+  forensic analysis
+\item The last known good backups should be used to
+  move to a clean machine
+\item activate cybersecurity incident procedure
+\end{itemize}
+
+\subsubsection{Cybersecurity Training}
 \crossref{VA-2: Question 2.2(c)}
 \periodic{Annual - Technology - Cybersecurity awareness training provided to all staff}
 Cybersecurity awareness training will be provided to all staff at
 least once per year.
 
-\subsection{Periodic reviews}
+\subsubsection{Periodic reviews}
 \crossref{VA-2: Question 2.7 (e)(f)}
 \crossref{VA-2: Question 2.8 (a)-(f)}
+\crossref{Appendix F1: Part H (xii)-(xiv)}
 \periodic{Monthly - Technology - Reliability review}
 \periodic{Quarterly - Technology - Capacity review}
 \periodic{Semiannually - Technology - Contingency review}
@@ -318,3 +343,4 @@ quarter by the technology department.
 The backup systems will be tested at semiannually.  This test will
 consist of a simulated business disruption to see how quickly the
 system can recover using backups and a backup server.
+
