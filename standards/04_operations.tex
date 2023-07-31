@@ -41,7 +41,7 @@ subject to custody as client funds by the exchange.
 As with other virtual assets, acceptance, execution, clearing, and
 settlement are integrated in one process on the exchange.
 
-\section{Custody of Virtual Assets}
+\section{Custody of Virtual Assets and Fiat Assets}
 \crossref{Appendix F1: Part C}
 \crossref{VA-1: Question 82}
 
@@ -61,10 +61,19 @@ The keys for all wallets are generated via hardware devices without
 manual intervention using hardware random sources.
 
 
-\subsection{General principles}
+\subsection{Client fund segregation}
+\crossref{VA-1: Question 95}
 \begin{itemize}
 \item REMEMBER, IT IS NOT YOUR MONEY.  IT IS NOT THE FIRM'S MONEY.  IT IS THE CLIENT'S MONEY.
 \end{itemize}
+
+All client funds will be segregated into separate wallets and bank
+accounts, which are to be under the legal ownership by the associated
+entity, and will not be subject to claims against the parent entity.
+The associated entity will have a one way liability guarantees by
+which losses in the associated entity will be guaranteed by the parent
+entity, but any liabilities of the parent entity will not be assumable
+against the associate entity.
 
 \begin{itemize}
   \item All client assets are to be stored in separate wallets from
@@ -393,6 +402,77 @@ Deposit and withdrawal limits are set by the chief operations officer,
 and are set based on the ability of the company to handle a given
 quantity of deposits and withdrawals.
 
+\subsection{Fraudulent client transaction requests}
+\crossref{VA-1: Questions 93 and 94}
+Currently, all withdrawals are manually vetted and require the approval
+of three staff members.  One to fund the hot wallet.  One to approve
+the request and one to approve the withdrawal.
+
+In the case of possible fraud, we will contact the account holder or the
+designated representative of the account holder.  We will also collect
+all necessary forensic information and contact the Hong Kong Police as
+necessary.
+
+
+\ifthenelse{\boolean{bankless}}{
+\section{Cash and token management for bank-less exchanges}
+
+\subsection{No cash deposits by clients}
+The exchange will not hold any cash by clients or accept any cash
+deposits.  All paper fiat held by the company are intended for
+internal business purposes only.
+
+\subsection{Paper cash must be physically separated}
+All paper cash held by the firm must be held in a secure location and
+kept strictly separate from other cash, particularly any person cash
+held by staff.  All deposits and withdrawals of cash from the firm
+must be records in the ledger.
+
+The company will maintain an inventory of all locations which firm
+cash is being kept and will insure that adequate security standards.
+See physical infrastructure.
+}{
+  \subsection{Fiat deposit and withdrawal}
+  \crossref{VA-1: Question 73}
+Our trading platform does not handle fiat/virtual asset trades, so a
+fiat deposit will be made through an OTC transaction by which a client
+deposits or withdrawals fiat currency to the firm at which point the
+firm will perform an OTC transaction sell or purchase virtual assets
+with the client and then deliver the assets onto the exchange
+platform if requested by the client.
+
+Any fiat that is held on behalf of a client will be held in a separate
+bank account opened under the name of the associated entity.  However,
+due to bank requirements, we will not be able to undertake fiat
+custody until we have received clearance to do so from our bank and
+until we have added fiat trading into the exchange.  Until this occurs
+we will perform an OTC transaction with fiat currency to convert to
+virtual assets for trading on the exchange.
+
+\subsection{Deposit and withdrawal channels}
+  \crossref{VA-1: Question 74}
+
+We will accept bank transfers to our bank account or paper cash
+deposits made directly to our place of business.  Any fiat deposits
+and withdrawals will be converted immediately to virtual assets in an
+OTC trade and sent to the address requested by the client.
+
+In the event that the fiat cash is intended for exchange trading we
+will require that the account on the exchange match the identity of
+the client, and we will in case the OTC transaction is intended to
+onboard funds into the exchange, we will perform AML/KYC required by
+SFC guidelines, including but not limited to ID verification.
+
+\subsection{Fiat management}
+\crossref{VA-1: Question 96}
+It is our intention that client assets be held in a separate bank
+account which is legally owned by the associated entity.  Until we are
+able to acquire such an account, we will not hold fiat on behalf of
+clients but instead use P2P and OTC transactions to immediately
+convert client fiat into virtual assets to be managed under the
+custody wallets.
+}
+
 \section{Know your clients (KYC)}
 \crossref{Appendix F1: Part D}
 
@@ -601,7 +681,8 @@ Where a client is a fund manager, an account may be either opened in the name of
 the fund manager or in the name of the funds, as determined by the
 fund manager,
 
-\section{Basic usage / Demo account}
+\section{Basic usage}
+\subsection{Demonstration account}
 \crossref{VA-1: Question 29}
 Please refer to appendix for demonstration account.
 
@@ -1008,82 +1089,6 @@ take steps to mitigate the attack.  Reports will be given to
 compliance, who will notify the regulators as necessary.
 
 
-\section{Fraudulent client transaction requests}
-\crossref{VA-1: Questions 93 and 94}
-Currently, all withdrawals are manually vetted and require the approval
-of three staff members.  One to fund the hot wallet.  One to approve
-the request and one to approve the withdrawal.
-
-In the case of possible fraud, we will contact the account holder or the
-designated representative of the account holder.  We will also collect
-all necessary forensic information and contact the Hong Kong Police as
-necessary.
-
-
-\section{Client fund segregation}
-\crossref{VA-1: Question 95}
-\status{Fully implemented}
-All client funds will be segregated into separate wallets, which are to
-be owned by the associated entity.
-
-\ifthenelse{\boolean{bankless}}{
-\section{Cash and token management for bank-less exchanges}
-
-\subsection{No cash deposits by clients}
-The exchange will not hold any cash by clients or accept any cash
-deposits.  All paper fiat held by the company are intended for
-internal business purposes only.
-
-\subsection{Paper cash must be physically separated}
-All paper cash held by the firm must be held in a secure location and
-kept strictly separate from other cash, particularly any person cash
-held by staff.  All deposits and withdrawals of cash from the firm
-must be records in the ledger.
-
-The company will maintain an inventory of all locations which firm
-cash is being kept and will insure that adequate security standards.
-See physical infrastructure.
-}{
-  \subsection{Fiat deposit and withdrawal}
-  \crossref{VA-1: Question 73}
-Our trading platform does not handle fiat/virtual asset trades, so a
-fiat deposit will be made through an OTC transaction by which a client
-deposits or withdrawals fiat currency to the firm at which point the
-firm will perform an OTC transaction sell or purchase virtual assets
-with the client and then deliver the assets onto the exchange
-platform if requested by the client.
-
-Any fiat that is held on behalf of a client will be held in a separate
-bank account opened under the name of the associated entity.  However,
-due to bank requirements, we will not be able to undertake fiat
-custody until we have received clearance to do so from our bank and
-until we have added fiat trading into the exchange.  Until this occurs
-we will perform an OTC transaction with fiat currency to convert to
-virtual assets for trading on the exchange.
-
-\subsection{Deposit and withdrawal channels}
-  \crossref{VA-1: Question 74}
-
-We will accept bank transfers to our bank account or paper cash
-deposits made directly to our place of business.  Any fiat deposits
-and withdrawals will be converted immediately to virtual assets in an
-OTC trade and sent to the address requested by the client.
-
-In the event that the fiat cash is intended for exchange trading we
-will require that the account on the exchange match the identity of
-the client, and we will in case the OTC transaction is intended to
-onboard funds into the exchange, we will perform AML/KYC required by
-SFC guidelines, including but not limited to ID verification.
-
-\subsection{Fiat management}
-\crossref{VA-1: Question 96}
-It is our intention that client assets be held in a separate bank
-account which is legally owned by the associated entity.  Until we are
-able to acquire such an account, we will not hold fiat on behalf of
-clients but instead use P2P and OTC transactions to immediately
-convert client fiat into virtual assets to be managed under the
-custody wallets.
-}
 
 \section{Staff policies}
 
@@ -1099,7 +1104,11 @@ tolerance policy toward harassment of any form.
 The firm maintains a strict no-retaliation policy regarding bringing up
 compliance issues.
 
-\subsection{Staff vetting}
+\subsection{Staff screening}
+\crossref{VA-2: Question 84}
+We will perform standard due diligence checks against all persons with
+access to client funds including standard checks for criminal
+background and behaviours involving breach of trust.
 
 \subsection{Staff onboarding}
 
@@ -1144,7 +1153,12 @@ create a conflict of interest to senior management.
 
 \section{Data storage}
 \subsection{Record keeping policy}
+\crossref{VA-1: Question 100}
 \crossref{VA-2: Question 2.10}
+The location of business records will be kept at the exchanges principal
+place of business and will be kept in locked files with access
+provided to the management and staff on a need to know basis.
+
 The following records are to be kept for a period of no less than two
 years:
 \begin{itemize}
