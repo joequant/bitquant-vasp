@@ -7,7 +7,36 @@
   hire staff to fill all of the roles}
 
 The governance of \firmshortname is governed by the principle of
-separation of roles.
+separation of roles.  Specifically we are separating the technology,
+operations, custody, and administrative functions into separate
+functions.  Each function will be responsible for a specific aspect of
+the virtual asset custody cycle.
+
+\begin{itemize}
+  \item Finance will be responsible for virtual assets and management
+    of funds which are used for business operations and are
+    unconnected with client funds
+  \item Custody will be responsible for safeguarding client cold
+    wallets
+  \item Operations will be responsible for operating the trading
+    system and executing transactions involving client funds on the
+    trading system
+  \item Technology will be responsible for general upkeep and
+    maintainence of the trading system, but will not have access to
+    client funds
+\end{itemize}
+
+We believe that these separation of roles is critical to implement at
+the early stages as it will influence the development and operations
+of the firm as it grows.  We envision that the firm will begin by
+assigning one person to each function, but as the volume of trades
+increases that each function head will have a staff that will manage
+the day to day work and the functional head will move into a more
+managerial role.
+
+Once the firm grows to a sufficient size, we plan to split the roles
+of account opening and operations and to include a customer relations
+function.
 
 \begin{figure}
 \begin{forest}
@@ -19,19 +48,18 @@ separation of roles.
   [Shareholders
   [Board
     [Managing Director
-      [CTO
-        [Technology staff]
+      [\shortstack{Chief\\Administrative\\Officer}
+        [Finance]
+        [Compliance and legal]
       ]
       [Chief Custodian
         [Custodian staff]
       ]
       [\shortstack{Chief\\Operations\\Officer}
         [Operations staff]
-        [Account management]
       ]
-      [\shortstack{Chief\\Administrative\\Officer}
-        [Finance]
-        [Compliance and legal]
+      [CTO
+        [Technology staff]
       ]
     ]
   ]
@@ -40,9 +68,13 @@ separation of roles.
 \end{figure}
 
 \section{Remote work policy}
-We will allow operations staff, technology, and persons involves in
-compliance and legal staff to work from locations outside of Hong
-Kong.  We will not allow remote work for any persons involved in asset
+We will allow operations staff, technology, and persons involved in
+compliance and legal staff to work from locations outside of Hong Kong
+provided that there is a senior role who is physically present in Hong
+Kong.  Routine operations, technology, and administration work may be
+performed remotely from Hong Kong.
+
+We will not allow remote work for any persons involved in asset
 custody, and people in the custody department must be physically
 present in Hong Kong and must conduct their activities in our office
 location.
@@ -54,7 +86,8 @@ with the business of the firm.
 
 In the case of wallet management, we will prefer a situation in which we
 hire part-time additional resources to countersign wallet transaction
-rather than allow one person to deal have transaction access.
+rather than allow one person to have transaction access across
+multiple roles.
 
 \section{Cybersecurity risk management}
 \crossref{VA-1: Question 51}
