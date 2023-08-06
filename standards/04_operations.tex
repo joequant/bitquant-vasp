@@ -41,6 +41,26 @@ subject to custody as client funds by the exchange.
 As with other virtual assets, acceptance, execution, clearing, and
 settlement are integrated in one process on the exchange.
 
+\subsection{Access to trading platform}
+\crossref{VA-1: Question 35(a)-(b)}
+The firm allows access to our OpenCEX trading platform view internet
+browsers and an token-based application programming interface which
+allows for trading only through an API key. We intend to make the
+OpenCEX platform tradable through the Hummingbot bot trading platform.
+
+The trading platform uses a thick client browser model by which the
+internet browser runs a VueJS application which can send commands to
+the trading backend through a websockets API although the browser
+based API is subject to change and is intended for only server-client
+communications through our frontend.  The protocol between the browser
+and the client is documented for testing purposes, but we do not
+guarantee the stability of calls not officially documented as part of
+our API.
+
+Overseas investors can access our trading platform.  Client onboarding
+is based on our AML/KYC policies and there are no specific
+restrictions on overseas clients.
+
 \section{Custody of Virtual Assets and Fiat Assets}
 \crossref{Appendix F1: Part C}
 \crossref{VA-1: Question 82}
@@ -478,6 +498,7 @@ custody wallets.
 }
 
 \section{Know your clients (KYC)}
+\crossref{VA-1: Question 36(b)}
 \crossref{Appendix F1: Part D}
 
 The types of accounts that we expect to open can be classified as:
@@ -486,7 +507,7 @@ The types of accounts that we expect to open can be classified as:
 \item Retail accounts
 \item Professional investors who are not financial intermediaries
 \item Financial intermediaries
-\item Staff accounts
+\item Staff trading accounts
   \end{itemize}
 
 \subsection{Professional investors}
@@ -740,19 +761,21 @@ by the company.  Staff are not to put wallets information on personal
 devices.
 
 \subsection{Login and authentication}
-\crossref{VA-1: Questions 36, 36b}
+\crossref{VA-1: Questions 36, 36(a), 36(b)}
 \crossref{VA-2: Question 2.5 (c)}
 \crossref{Appendix F1: Part H(x)}
-\status{Mandatory two factor authentication not implemented}
+\status{Two factor authentication is optional but will be made mandatory}
 
 We authenticate the identities of the users using two-factor
-authentication or SMS verification.
+authentication using Google Authenticator or SMS verification.  In
+order to prevent spamming and bot logins we use Google ReCaptCHA.
 
 Our staff does not have access to password information, and password
 information uses standard hashing protocols to ensure that a leak in
 the database is resistant to direct attack.  The use of two-factor
 authentication or SMS verification insures that a password leak does
-not allow an attack to gain immediate access to an account.
+not allow an attacker either external or internal to gain immediate
+access to an account.
 
 Withdrawals will require e-mail/SMS verification and must be vetted by
 internal staff.
