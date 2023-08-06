@@ -491,7 +491,9 @@ The types of accounts that we expect to open can be classified as:
 
 \subsection{Professional investors}
 \crossref{VA-1: Question 17}
+\crossref{VATP Guidelines: Schedule 1}
 \status{Fully implemented}
+
 We expect that many of our clients will be licensed intermediaries.
 In cases where we have confirmed that a client is a licensed
 intermediary from a recognized jurisdiction, we will ask for
@@ -651,10 +653,12 @@ We have not completed a draft of our account opening documentation, and
 we expect to have those documents completed end of Quarter three, 2023.
 
 \subsection{Financial intermediaries}
+\crossref{AML Guidelines: Section 4.8}
+
 We consider licensed financial intermediaries including money services
-operators, family offices, and licence brokers to be low risk,
-provided that they are licensed in a reputable jurisdiction such as
-Hong Kong, Singapore, and Dubai.  It is our expectation that a
+operators, family offices, and licence brokers to be low risk and
+hence subject to simplified due dilegence according to the criteria in
+section 4.8 of the AML guidelines.  It is our expectation that a
 licensed financial intermediary would maintain adequate AML/KYC
 protections to satisfy their regulators, and hence it would be
 unnecessary for us to add another level of AML/KYC.
@@ -719,9 +723,11 @@ suspension issue.
 
 \subsection{Product information}
 \crossref{VA-1: Question 32}
+\crossref{VATP Guidelines: Schedule 2}
 \status{To be implemented by October 2023}
 Our website will contain a disclosure document on each virtual asset
-available for trading.
+available for trading, and will contain the general risk disclosure
+as indicated by Schedule 2 of the VATP Guidelines.
 
 \subsection{Statements}
 \crossref{VA-1: Question 33}
@@ -1085,7 +1091,10 @@ through letters of no consent and Mareva injunctions.
 
 \subsection{Technical incident reporting}
 \crossref{VA-1: Question 4(c) and 4(d)}
+\crossref{VATP Guidelines: Schedule 3}
+\label{label:techincident}
 \status{Compliance training materials to be developed}
+\status{Migrate technical reporting from GitHub to other platform}
 
 For routine reporting, the reports are to be made to the department
 head, who will deliver reports to the responsible officer, who will
@@ -1093,6 +1102,22 @@ then serve as a single point of contact with the SFC.  This procedure
 will be used in situations where there are (c) material failures or
 interruptions of trading, accounting, clearing, or settlement systems
 or (d) material issues identified by outside experts or consultants.
+
+A technical incident report should be filed when the system
+experiences a material delay or failure that renders it unusable by
+clients.
+
+\begin{itemize}
+\item a clear explanation of the problem, including the root cause analysis;
+\item the time of outage or delay;
+\item the duration of outage or delay;
+\item the platforms or systems affected during outage or delay and subsequently;
+\item whether this problem or a related problem has occurred before;
+\item the number of clients affected at the time and the impact on these clients;
+\item the steps taken to rectify the problem; and
+\item steps taken to ensure that the problem does not occur again
+\end{itemize}
+
 
 \subsection{Cybersecurity incident reporting}
 \crossref{VA-1: Question 52}
@@ -1110,7 +1135,17 @@ be noticed of any incidents.  The technology division will immediately
 take steps to mitigate the attack.  Reports will be given to
 compliance, who will notify the regulators as necessary.
 
+\subsection{Regulatory request process}
+\label{label:regrequest}
+In the event any staff receives a request for data purporting or
+activity to come from a regualtory body, the staff member shall
+immediately report the request to the compliance, and the actual
+request should be made by the administrative officer.
 
+Staff should be alert to the possibility of spoofing an social
+engineering, and shall hand off any regulatory requests to senior
+management so that the senior management will verify the authenticity
+of the request and take appropriate action to comply with the request.
 
 \section{Staff policies}
 
@@ -1177,19 +1212,29 @@ create a conflict of interest to senior management.
 \subsection{Record keeping policy}
 \crossref{VA-1: Question 100}
 \crossref{VA-2: Question 2.10}
+\crossref{Guidelines: Section XIV}
+The firm shall keep the records required by the company under Section
+XIV of the VASP guidelines.  This include but are not limited:
+\label{label:reckeep}
+
+\begin{itemize}
+  \item for a period of no less than seven years the financial data
+    stated under Section XIV of the VASP Guideliens
+  \item for not less than two years, order, transaction, and execution
+    data stated under Section XIV of the VASP Guidelines, audit logs, and incident reports for all material system delays and failures
+  \item for not less than two years or until the system ceases to be
+    used, documentation on the design, development, development, and
+    operation of the systems and documentation of the risk management
+    controls of the trading system
+\end{itemize}
+
 The location of business records will be kept at the exchange's principal
 place of business and will be kept in locked files with access
-provided to the management and staff on a need to know basis.
-
-The following records are to be kept for a period of no less than two
-years:
-\begin{itemize}
-  \item design and development documents including  any testing,
-    reviews, modifications, upgrades, or rectifications of the system
-  \item risk management controls of the system
-    \item audit logs for the system
-    \item incident reports for all material system delays and failures
-\end{itemize}
+provided to the management and staff on a need to know basis.  These
+records will be made available to the SFC upon request.  In case of a
+request by the SFC or any other regulatory body, staff shall comply
+with the request according to the regulatory request process in
+section \ref{label:regrequest}
 
 \subsection{Electronic Records Data Storage}
 \crossref{VA1: Question 101}
