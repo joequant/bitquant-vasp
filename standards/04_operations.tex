@@ -61,6 +61,15 @@ Overseas investors can access our trading platform.  Client onboarding
 is based on our AML/KYC policies and there are no specific
 restrictions on overseas clients.
 
+\subsection{Market making / liquidity provision}
+\crossref{VA-1: Question 37(d)}
+All market makers and liquidity provision will be made by clients
+placing orders directly on the trading placing order into the trading
+engine.  Any market makers will be vetted with the same onboarding
+requirements as other clients.  The market makers and liquidity
+providers will trade on the same conditions as other clients, but may
+receive fee discounts and rebates on the same terms as other clients.
+
 \section{Custody of Virtual Assets and Fiat Assets}
 \crossref{Appendix F1: Part C}
 \crossref{VA-1: Question 82}
@@ -547,7 +556,7 @@ Hong Kong entity so that we can work with the entity rather than the
 individual and the necessary KYC/AML work to pushed off to the entity.
 
 \subsection{Client knowledge}
-\crossref{VA-1: Question 18 a, b, c}
+\crossref{VA-1: Question 18 a, b, c, d}
 \status{Fully implemented}
 
 The firm wishes to focus on sophisticated investors (such as financial
@@ -918,7 +927,7 @@ and prevents entry of erroneous orders, and prevents entry of orders
 that are not in compliance with regulatory requirements.
 
 \subsection{Order books arrangement}
-\crossref{VA-1: Question 37}
+\crossref{VA-1: Question 37(a)-(c), 37(e)}
 \status{Fully implemented}
 
 Our exchange operations consist of continuous trading through a dual
@@ -926,15 +935,17 @@ auction arrangement.  Any off-platform trading will consist of
 fiat/OTC transactions that are independent of the trading platform.
 The exchange engine will do no order routing, and any interaction with
 other exchanges will be done by off-platform trading by clients acting
-on their account.
+on their account.  The exchange will not access order books of other
+exchanges.
 
 As a courtesy, we will provide information about the market prices of
 the assets on an informational basis.  These quotes will not be used
-for trading.
+for trading.  The quotes we will prove initially will be virtual asset
+to virtual asset quotes.
 
 We will offer only limit orders and stop-limit orders.  The stop-limit
 order will be processed in the order executed by the system.  We do
-not support hidden orders or iceberg orders.
+not support hidden orders or iceberg orders or any other types of orders.
 
 Any market-making or liquidity provision will be done by clients
 placing orders on the exchange.  We will not access order books of
@@ -946,6 +957,9 @@ trades are distributed to clients via an API.  The audit trail is
 maintained in the records of the trading system, and we will make
 provision to periodically dump the records of the trading system for
 archival purposes.
+
+Our trading order is a simple matching mechanism which does not have a
+price/time priority algorithms.
 
 
 \subsection{Trade confirmation and post-trade settlement}
