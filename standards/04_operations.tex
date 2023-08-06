@@ -43,28 +43,28 @@ settlement are integrated in one process on the exchange.
 
 \subsection{Access to trading platform}
 \crossref{VA-1: Question 35(a)-(b)}
-The firm allows access to our OpenCEX trading platform view internet
-browsers and an token-based application programming interface which
+The firm allows access to our OpenCEX trading platform through internet
+browsers and a token-based application programming interface which
 allows for trading only through an API key. We intend to make the
 OpenCEX platform tradable through the Hummingbot bot trading platform.
 
 The trading platform uses a thick client browser model by which the
-internet browser runs a VueJS application which can send commands to
-the trading backend through a websockets API although the browser
+internet browser runs a Vue.js application which can send commands to
+the trading backend through a web sockets API, although the browser
 based API is subject to change and is intended for only server-client
-communications through our frontend.  The protocol between the browser
-and the client is documented for testing purposes, but we do not
+communications through our frontend.  The protocols between the browser
+and the client are documented for testing purposes, but we do not
 guarantee the stability of calls not officially documented as part of
 our API.
 
 Overseas investors can access our trading platform.  Client onboarding
-is based on our AML/KYC policies and there are no specific
+is based on our AML/KYC policies, and there are no specific
 restrictions on overseas clients.
 
 \subsection{Market making / liquidity provision}
 \crossref{VA-1: Question 37(d)}
 All market makers and liquidity provision will be made by clients
-placing orders directly on the trading placing order into the trading
+placing orders directly on the trading system, placing orders into the trading
 engine.  Any market makers will be vetted with the same onboarding
 requirements as other clients.  The market makers and liquidity
 providers will trade on the same conditions as other clients, but may
@@ -687,7 +687,7 @@ we expect to have those documents completed end of Quarter three, 2023.
 
 We consider licensed financial intermediaries including money services
 operators, family offices, and licence brokers to be low risk and
-hence subject to simplified due dilegence according to the criteria in
+hence subject to simplified due diligence according to the criteria in
 section 4.8 of the AML guidelines.  It is our expectation that a
 licensed financial intermediary would maintain adequate AML/KYC
 protections to satisfy their regulators, and hence it would be
@@ -777,7 +777,7 @@ devices.
 
 We authenticate the identities of the users using two-factor
 authentication using Google Authenticator or SMS verification.  In
-order to prevent spamming and bot logins we use Google ReCaptCHA.
+order to prevent spamming and bot logins, we use Google reCAPTCHA.
 
 Our staff does not have access to password information, and password
 information uses standard hashing protocols to ensure that a leak in
@@ -870,13 +870,13 @@ interests of Hong Kong and the People's Republic of China to increase
 business with.
 
 Furthermore, there are legitimate uses for proxies.  For example, the
-United States government has blocked certain web sites such as labour
+United States government has blocked certain websites such as labour
 and census statistics from use by Hong Kong users, and a trading bot
 that accesses this data must use a proxy.  Most companies require
 internal users to route their internet usage through proxies for
-compliance reasons and may randomize or hide IP addresses for security
+compliance reasons, and may randomize or hide IP addresses for security
 purposes.  Where we have identified a legitimate use or explanation
-for the activity we will allow that activity to continue, and will
+for the activity, we will allow that activity to continue, and will
 work with regulators and industry groups to distinguish between
 legitimate and illegitimate uses of these tools.
 
@@ -1024,7 +1024,7 @@ in the system, such as DDoS attacks or which otherwise could be considered an
 attack on the integrity of the trading system.
 
 Our trading engine will monitor the balances and transaction volumes
-for each client.  In the event that we detect behavior that would
+for each client.  If we detect behaviour that would
 threaten the stability of the system, we would contact the client to
 find the rationale for the trade and suspend trading if necessary to
 protect the stability of the system.
@@ -1148,7 +1148,7 @@ clients.
 \item a clear explanation of the problem, including the root cause analysis;
 \item the time of outage or delay;
 \item the duration of outage or delay;
-\item the platforms or systems affected during outage or delay and subsequently;
+\item the platforms or systems affected during the outage or delay and subsequently;
 \item whether this problem or a related problem has occurred before;
 \item the number of clients affected at the time and the impact on these clients;
 \item the steps taken to rectify the problem; and
@@ -1175,11 +1175,11 @@ compliance, who will notify the regulators as necessary.
 \subsection{Regulatory request process}
 \label{label:regrequest}
 In the event any staff receives a request for data purporting or
-activity to come from a regualtory body, the staff member shall
+activity to come from a regulatory body, the staff member shall
 immediately report the request to the compliance, and the actual
 request should be made by the administrative officer.
 
-Staff should be alert to the possibility of spoofing an social
+Staff should be alert to the possibility of spoofing and social
 engineering, and shall hand off any regulatory requests to senior
 management so that the senior management will verify the authenticity
 of the request and take appropriate action to comply with the request.
@@ -1251,12 +1251,12 @@ create a conflict of interest to senior management.
 \crossref{VA-2: Question 2.10}
 \crossref{Guidelines: Section XIV}
 The firm shall keep the records required by the company under Section
-XIV of the VASP guidelines.  This include but are not limited:
+XIV of the VASP guidelines.  This includes but is not limited:
 \label{label:reckeep}
 
 \begin{itemize}
   \item for a period of no less than seven years the financial data
-    stated under Section XIV of the VASP Guideliens
+    stated under Section XIV of the VASP Guidelines
   \item for not less than two years, order, transaction, and execution
     data stated under Section XIV of the VASP Guidelines, audit logs, and incident reports for all material system delays and failures
   \item for not less than two years or until the system ceases to be
