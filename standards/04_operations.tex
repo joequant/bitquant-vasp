@@ -44,6 +44,7 @@ settlement are integrated in one process on the exchange.
 \section{Custody of Virtual Assets and Fiat Assets}
 \crossref{Appendix F1: Part C}
 \crossref{VA-1: Question 82}
+\crossref{VA-1: Question 92}
 
 There are three types of wallets:
 \begin{itemize}
@@ -185,6 +186,7 @@ chapter on governance and staffing.
 \subsection{Access to wallets and keys}
 \crossref{VA-1: Question 85}
 \crossref{VA-1: Question 86}
+
 All custody wallets are physical hardware devices which are in the
 possession of a single user and which require authentication and
 physical access by the user to use the device.  The hot wallets
@@ -947,6 +949,7 @@ We may conduct OTC business over electronic chat (such as telegram) where
 these orders are logged via text.
 
 \section{Market surveillance}
+\crossref{VA-1: Question 47, 48, 49}
 \crossref{Appendix F1: Part F (i)-(iv)}
 \crossref{VA-2: Question 2.11(b)}
 
@@ -976,6 +979,12 @@ We will monitor the system for trades to identify any orders which are
 intended to crash the system to attempt to exploit bugs or weaknesses
 in the system, such as DDoS attacks or which otherwise could be considered an
 attack on the integrity of the trading system.
+
+Our trading engine will monitor the balances and transaction volumes
+for each client.  In the event that we detect behavior that would
+threaten the stability of the system, we would contact the client to
+find the rationale for the trade and suspend trading if necessary to
+protect the stability of the system.
 
 \section{Trading rules}
 
