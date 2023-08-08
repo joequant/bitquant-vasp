@@ -1,7 +1,7 @@
 Phase 1 Report for Virtual Asset Trading Platform
 
 Introduction:
-This Phase 1 Report covers the design effectiveness of the Virtual Asset Trading Platform's proposed structure, governance, operations, systems and controls, with a focus on key areas such as governance and staffing, token admission, custody of virtual assets, KYC, AML/CFT, market surveillance, risk management, and cybersecurity. The assessor reviews and assesses whether the platform operator's policies and procedures are clearly written and in compliance with the applicable legal and regulatory requirements, particularly the VATP Guidelines and AML Guideline for LCs and SFC-licensed VASPs.
+This Phase 1 Report covers the design effectiveness of the Virtual Asset Trading Platform's proposed structure, governance, operations, systems, and controls, with a focus on key areas such as governance and staffing, token admission, custody of virtual assets, KYC, AML/CFT, market surveillance, risk management, and cybersecurity. The assessor reviews and assesses whether the platform operator's policies and procedures are clearly written and in compliance with the applicable legal and regulatory requirements, particularly the VATP Guidelines and AML Guideline for LCs and SFC-licensed VASPs.
 
 Governance and Staffing:
 1. The platform operator proposes to establish a Board of Directors to oversee the management team and ensure compliance with regulatory requirements.
@@ -11,7 +11,7 @@ Governance and Staffing:
 
 Token Admission:
 1. The platform operator proposes to establish clear criteria for admitting virtual assets to the platform, including a review of the virtual asset's technology, market demand, and regulatory compliance.
-2. The platform operator proposes to establish a clear process for onboarding new virtual assets, including due diligence checks on the virtual asset issuer andany associated risks.
+2. The platform operator proposes to establish a clear process for onboarding new virtual assets, including due diligence checks on the virtual asset issuer and any associated risks.
 
 Custody of Virtual Assets:
 1. The platform operator proposes to establish a robust custody framework that will include a combination of hot and cold storage to ensure the security of virtual assets.
@@ -20,7 +20,7 @@ Custody of Virtual Assets:
 
 KYC/AML/CFT:
 1. The platform operator proposes to conduct thorough KYC checks on all clients to verify their identity and assess the risk of money laundering and terrorist financing.
-2. The platform operator proposes to perform ongoing due diligence on clients to monitor for suspicious activity.
+2. The platform operator proposes to perform ongoing due diligence on clients to monitor any suspicious activity.
 3. The platform operator proposes to maintain a risk-based approach to AML/CFT compliance, taking into account the risk level of clients and the virtual assets being traded.
 4. The platform operator proposes to maintain records of all client transactions and report suspicious activity to the relevant authorities.
 
@@ -30,7 +30,7 @@ Market Surveillance:
 3. The platform operator proposes to report any suspicious trading activity to the relevant authorities.
 
 Risk Management:
-1. The platform operator proposes to maintain a risk management framework that will identify and assess risks, implement controls to mitigate those risks, and monitor the effectivenessof those controls.
+1. The platform operator proposes to maintain a risk management framework that will identify and assess risks, implement controls to mitigate those risks and monitor the effectiveness of those controls.
 2. The platform operator proposes to regularly review its risk management framework to ensure it remains effective in a rapidly evolving regulatory and technological environment.
 
 Cybersecurity:
