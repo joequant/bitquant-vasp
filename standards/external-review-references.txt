@@ -1,0 +1,61 @@
+Part A – Governance and staffing:
+(i) Organizational chart: See section 2.1.
+(ii) Adequacy of governance: See section 2.2.
+(iii) Personnel competency: See section 2.3.
+(iv) Qualified professionals: See section 2.4.
+(v) Key personnel and key-man risk: See section 2.5.
+(vi) Management understanding: See section 2.6.
+
+Part B – Token admission:
+(i) Token admission committee: See section 4.1.
+(ii) Admission policies and procedures: See section 4.2.
+
+Part C – Custody of VA:
+(i) Wallet structure and systems: See section 5.3.0.
+(ii) Protection of client assets: See section 5.3.0.
+(iii) Private key management: See section 5.3.5.
+(iv) Storage assessment and testing: See section 5.3.0.
+(v) Deposit and withdrawal handling: See section 5.3.14/15.
+(vi) Reconciliations: See section 5.3.7.
+
+Part D – Know-your-clients (KYC):
+(i) KYC policies and procedures: See section 5.6.
+(ii) Acceptable account opening approaches: See section 5.6.
+(iii) Pre-implementation assessment: See section 5.6.
+(iv) Effective KYC process: See section 5.6.
+(v) Assessment of client knowledge: See section 5.6.
+(vi) Risk tolerance assessment: See section 5.6.
+(vii) Setting exposure limits: See section 5.6.
+
+Part E – AML/CFT:
+(i) AML/CFT policies and controls: See section 5.7.
+(ii) Compliance with requirements: See section 5.7.
+(iii) Risk-based approach: See section 5.7.
+(iv) Identification of suspicious activities: See section 5.7.
+
+Part F – Market surveillance:
+(i) Market surveillance policies: See section 5.8.
+(ii) Types of monitored activities: See section 5.8.
+(iii) External surveillance system: See section 5.8.
+(iv) Testing of surveillance system: See section 5.8.
+
+Part G – Risk management:
+(i) Risk policies and procedures: See section 5.9.
+(ii) Independent risk management: See section 5.9.
+(iii) Risk management controls: See section 5.9.
+
+Part H – Cybersecurity:
+(i) Cybersecurity risks: See section 5.10.
+(ii) IT budget and inventory list: See section 5.10.
+(iii) Compliance and security of IT infrastructure: See section 5.10.
+(iv) System management policies: See section 5.10.
+(v) Allocation of qualified staff: See section 5.10.
+(vi) Third-party service provider due diligence: See section 5.10.
+(vii) System upgrades and maintenance SOP: See section 5.10.
+(viii) Testing and audit trail for system modifications: See section 5.10.
+(ix) Client notification of system outages: See section 5.10.
+(x) Cybersecurity controls for platform security: See section 5.10.
+(xi) Escalation of cybersecurity incidents: See section 5.10.
+(xii) Capacity planning and contingency management: See section 5.10.
+(xiii) Contingency planning for emergencies: See section 5.10.
+(xiv) Backup facility and contingency plan review: See section 5.10.
