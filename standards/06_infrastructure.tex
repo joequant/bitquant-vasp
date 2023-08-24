@@ -156,14 +156,20 @@ FIPS-140-2 level 3 certified hardware wallets and require
 multi-signature.
 
 
-\subsection{Application testing}
+\subsection{Application testing and audit trails}
 \crossref{VA-1: Question 55}
+\crossref{Appendix F1: Part H(viii)}
 \status{Upon receipt of funding}
 We are using the open-source software OpenCEX and before the software is
 placed into operations we will run the application regression tests
 which will ensure that there are no system leaks in the system.  We
 are working with the vendor to ensure a complete regression test
 coverage.
+
+All system modifications are checked into a GitHub repository and are
+matched against the repository provided by the vendor.  The trading
+and internal systems are generated from source code on servers running
+Ubuntu Linux with a known configuration and latest software patches.
 
 In addition, we are in the process of maintaining the services of
 "white-hat hackers" to perform penetration testing.
