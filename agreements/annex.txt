@@ -1,0 +1,49 @@
+ANNEX TO MASTER LOAN AGREEMENT
+
+ID: AN0000001
+UUID: 018f9342-f03c-729c-9ab7-11aaa58d4783
+
+MASTER AGREEMENT: MA0000001 / 018f9342-2c72-7356-b7ab-ddc014179bd3
+
+BORROWER - ****** a private corporation organized under the laws of
+Hong Kong
+
+LENDER - Joseph Chen-Yu WANG d/b/a Bitquant Digital Services
+
+AMOUNT TO BE LENT
+
+10000 tokens of USDT
+20000 tokens of TRUF
+
+Fair market value to be determined at time tokens are transmitted
+transmitted via ethereum mainnet
+
+AMOUNT TO BE REPAID
+
+The US dollar amount of the fair market value of the tokens at the
+time the tokens were transmitted to the borrower to be paid one (1)
+year after the date on which the tokens were transmitted
+
+INTEREST RATE
+
+12 percent per annum simple interest against the outstanding balance
+of the loan calculated under 30/360 day count convention
+
+MINIMUM PAYMENT
+
+100 USD due on the first of each month.
+
+GRACE PERIOD
+
+until the business day in Hong Kong on or immmediate after 30 days
+after the due date
+
+OPTIONAL CLAUSES
+
+The following optional clauses shall be incorporated into the agreement
+
+* A1) payments to satisify claims resulting from extraordinary
+losses
+* B1) debt seniority
+
+
