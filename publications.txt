@@ -1,0 +1,54 @@
+see https://inspirehep.net/authors/1911835
+
+MEDIA APPEARANCES
+
+Bloomberg - http://www.bloomberg.com/news/videos/2016-08-10/the-lessons-learned-from-the-bitcoin-exchange-hacks
+
+HK Cable Finance Interview (Mandarin / Cantonese) - https://www.facebook.com/cablefinance/videos/bitcoin%E6%9C%9F%E8%B2%A8%E6%AD%A3%E5%BC%8F%E7%99%BB%E5%A0%B4-%E6%90%B5%E5%9F%8B%E5%B0%88%E5%AE%B6%E4%B8%80%E9%BD%8A%E5%82%BE/1743492929035104
+
+PUBLICATIONS IN HIGH ENERGY PHYSICS
+
+Building HEP Software with Spack: Experiences from Pilot Builds for Key4hep and Outlook for LCG Releases
+Valentin  Volkl, Thomas  Madlener, Tao  Lin, Joseph  Wang, Dmitri  Konstantinov, Ivan  Razumov, Andre  Sailer, Gerardo  Ganis
+EPJ Web Conf. 251 03056 (2021) DOI: 10.1051/epjconf/202125103056
+
+The Key4hep turnkey software stack. 234. 10.22323/1.414.0234. Volkl, Valentin, Ganis, Gerardo, Hegner, Benedikt et al
+41st International Conference on High Energy physics DOI:10.22323/1.414.0234 (2022)
+
+CEPC Technical Design Report: Accelerator CEPC Study Group, Waleed Abdallah et al.
+(2023) Radiat.Detect.Technol.Methods 8 (2024) 1, 1-1105  2312.14363 [physics.acc-ph]
+
+EDM4hep and podio - The event data model of the Key4hep project and its implementation Key4hep, Frank Gaede (DESY) et al.
+(2021), EPJ Web Conf. 251 (2021) 03026, vCHEP2021
+
+CEPC-SPPC Preliminary Conceptual Design Report. 1. Physics and Detector, Muhammd Ahmad et al. Mar 2015
+
+PUBLIC CONSULTATION RESPONSES
+
+
+Response to public consultation on stablecoin issuers in Hong Kong by Hong Kong Monetary Authority
+https://github.com/joequant/bitquant-vasp/blob/main/filings/fstb-stablecoin-20240226.pdf
+
+Response to Public Consultation on Virtual Asset OTC by Financial Services and Treasury Bureau
+https://github.com/joequant/bitquant-vasp/blob/main/filings/fstb-vaotc-20240411.pdf
+
+Response to Public Consultation on Cryptoasset Regulation by the International Organization of Securities Commissions
+https://github.com/joequant/bitquant-vasp/blob/main/filings/iosco-20231014.docx
+
+Response to request for comment by Chief Executive for Policy Speech
+https://github.com/joequant/bitquant-vasp/blob/main/filings/CE-202308.txt
+
+Response to Discussion Paper on Crypto-Assets and Stablecoins
+https://github.com/joequant/bitquant-vasp/blob/main/filings/hkma-20220331.pdf
+
+Response to Anti-Money Laundering and Counter-Terrorist Financial(Amendment) Bill
+https://github.com/joequant/bitquant-vasp/blob/main/filings/legco-20220722.pdf
+https://github.com/joequant/bitquant-vasp/blob/main/filings/legco-20220722a.pdf
+https://github.com/joequant/bitquant-vasp/blob/main/filings/legco-20221017.pdf
+
+Case Briefing 
+https://github.com/joequant/bitquant-vasp/blob/main/filings/mll-trial-23march2016.pdf
+
+Submission to the Securities Futures Commission for Virtual Asset Service Provider license
+https://github.com/joequant/bitquant-vasp/blob/main/filings/sfc-bitquant-vasp-20230328.pdf
+https://github.com/joequant/bitquant-vasp/blob/main/filings/twofish-sfc-submission-20230618.pdf
