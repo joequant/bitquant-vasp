@@ -1,0 +1,783 @@
+﻿﻿\documentclass{letter}
+\usepackage[a4paper,left=2.5cm, right=2.5cm, top=2.5cm, bottom=2.5cm]{geometry}
+\usepackage{graphicx}
+\usepackage{epigraph}
+\usepackage{hyperref}
+\date{1 October 2024}
+\address{Bitquant Digital Services \\ 22/F Room 2202 \\
+  Kaiser Centre \\ 18 Centre Street \\ Sai Ying Pun, Hong Kong \\
+joequant@bitquant.com.hk}
+
+\begin{document}
+\begin{letter}{
+    Honourable Dr. Johnny NG Kit-chong, MH, JP\\
+    Election Committee Constituency \\
+Room 1317, 13/F, CITIC Tower, 1 Tim Mei Avenue, Central, Hong Kong \\
+info@ngjohnny.com
+
+Honourable Duncan CHIU\\
+Functional Constituency - Technology and Innovation \\
+Room 1541, 15/F, CITIC Tower, 1 Tim Mei Avenue, Central, Hong Kong \\
+info@duncan.hk
+
+Charles NG \\
+Executive Director \\
+Office for Attracting Strategic Enterprises \\
+24/F, Fairmont House, 8 Cotton Tree Drive, Central, Hong Kong \\
+charlesng@oases.gov.hk
+
+Elizabeth Wong \\
+Director of Licensing and Head of Fintech Unit, Intermediaries\\
+Securities and Futures Commission \\
+54/F, One Island East \\
+18 Westlands Road, Quarry Bay, Hong Kong \\
+enquiry@sfc.hk
+}
+
+\opening{Greetings:}
+
+On this National Day, I would like to express my appreciation for your
+efforts to develop the virtual asset industry in Hong Kong and look
+forward the presentations and announcements that you may make in the
+upcoming Hong Kong Fintech Week from 28 October 2024 to 1 November
+2024 and at Consensus 2025 between 18 and 20 February 2025.
+
+As patriots, we deeply love Hong Kong and China, and we all understand
+the importance of promoting trade and development in the virtual asset
+industry for the common prosperity and national security of the
+Chinese nation. The Central Government has given Hong Kong its full
+backing and support to develop Hong Kong and the Greater Bay Area as a
+center for the development of virtual assets and other new productive
+forces, and I look forward with optimism to see how patriotic forces
+in Hong Kong can carry out our sacred duties to the Chinese nation to
+perfect and improve the capitalist system within Hong Kong and advance
+Hong Kong's role as an international financial center for the common
+good of all humanity.
+
+I am pleased to have heard Legislator NG's Keynote Address at the
+Bitcoin Asia conference on 12 April 2024 \footnote{\url{https://www.youtube.com/watch?v=PmxuaumGuCE}}, which preceded my appearance
+on the panel concerning Bitcoin Financialization in Hong Kong \footnote{\url{https://www.youtube.com/watch?v=iXbseaj7t4I}}. Legislator NG's remarks
+to the Bitcoin Asia conference was significant in that it expressed
+the full support of the Hong Kong government and the Central
+Government in promoting the virtual asset industry in Hong Kong, and
+during the subsequent panel, I attempted to build on the message of
+Legislator NG by encouraging blockchain, web3, and crypto companies to
+do business with Hong Kong.
+
+Furthermore, I found the discussion led by Legislature CHIU at the
+Cyberport Web3 event about Hong Kong and the World on 7 September 2024 was helpful in understanding Web3 policy in Hong Kong. During the event, Legislator CHIU asked the panelists how the issuers of regulated stablecoins see their relationship with unregulated stablecoins,
+including those issued outside of Hong Kong. This is an important question and one which requires careful thought.
+
+Finally, I am concerned about recent press reports of people being
+defrauded by persons through virtual assets.
+\footnote{\href{https://www.scmp.com/news/hong-kong/law-and-crime/article/3280031/hong-kong-scammers-use-fraudulent-crypto-shops-rob-13-investors-hk148-million}{Hong Kong scammers use fraudulent crypto shops to rob 13 investors of HK\$14.8 million}}
+I am concerned about fraud and abuse in the virtual asset industry and
+wish to find ways of eliminating fraud and dishonest businesses in
+Hong Kong, while creating a positive environment for honest
+innovation.
+
+To achieve this, the proper regulation of virtual assets in
+Hong Kong is best done by reference to the fundamental principles of
+the Hong Kong Special Administrative Region of "one country, two
+systems" and the development of the capitalist system within Hong
+Kong. As such, virtual asset regulation should begin from the
+constitutional principles within the Basic Law.
+
+{\bf As the fintech sandbox for the People's Republic of China, Hong
+Kong must develop policies to promote both virtual assets in
+traditional finance (tradfi) and decentralized finance (defi)
+sectors }
+
+In discussions concerning virtual assets, there are frequent
+references to a fintech sandbox by which new and innovative ideas can
+be experimented with. As patriots, we should recognize that the Hong
+Kong Special Administrative Region is the fintech sandbox for the
+People's Republic of China.
+
+Exercising the sovereign powers that have been entrusted to it by the
+Chinese nation through the Constitution of the People's Republic of
+China, the National People's Congress instituted the ``one country,
+two systems.'' policy and adopted the Basic Law of Hong Kong, by
+which the Hong Kong Special Administrative Region has special
+constitutional rights and powers. These powers are intended to create
+new and innovative legal systems in finance and international trade
+for the benefit of the Chinese nation.
+
+In contrast, to the socialist system as practised in Mainland China,
+where the Communist Party of China exercises a leadership role in the
+functioning of the national economy, the Hong Kong Special
+Administrative Region of the People's Republic of China practises the
+capitalist system in which economic leadership lies in the hands of
+the private sector in which the role of the state is limited. The
+provisions of the Basic Law are intended to allow patriotic forces in
+Hong Kong's maximum freedom and discretion in financial and capital
+transactions and this is intended so that the private sector in Hong
+Kong can exercise leadership in developing economic policies in Hong
+Kong for the good of the Chinese nation.
+
+As an international financial center, Hong Kong is the location where
+different financial markets meet and interact within the Hong Kong virtual asset market. We can broadly divide the system into a formal traditional finance (tradfi) market, which is centered in the investment banks of Central and the hedge funds of Sheung Wan, and an
+informal decentralized finance (defi) market, which includes the money
+services operators and crypto traders in Tsimsatsui and Mong Kok and
+also extends to include crypto-innovators in Cyberport and throughout
+the world.
+
+We note that the interaction in Hong Kong between the tradfi market and the defi market has geopolitical and national security implications. The formal tradfi market remains centered on the G7 nations, and the United States has used and will likely continue to use its dominance over the regulated
+market to maintain global hegemony and to impose sanctions against
+the People's Republic of China. We note that given the importance of the
+US Dollar, the institutions regulated by the SFC and HKMA are required to
+follow directives of the United States, such as sanctions against the Chief
+Executive and members of the Executive Council or limits to trade with
+other nations, even when those directives are not in the interest of the Chinese nation.
+
+As the world moves from unipolarity to multipolarity, we believe that
+the defi market will form the foundation of a new financial system
+that will allow trade between the BRICS nations, and that the role of
+Hong Kong, as well as our friendly rivals in Singapore and Dubai, will
+involve connecting the G7 financial ecosystem with the new BRICS
+financial
+ecosystem. 
+However, such a radical shift in the global center of power will require
+new and innovative thinking within the Hong Kong Special Administrative Region,
+and we are concerned that the traditional regulatory philosophy of agencies, such as the SFC and HKMA, may not lead to the optimal set of regulations. The
+SFC and HKMA are regulators of traditional financial intermediaries we are
+concerned that such regulations will result in the overregulation of SMEs in the defi space. Given that Hong Kong is the financial sandbox of the People's Republic of China, such efforts may conflict with the provisions of the Basic Law.
+
+{\bf Applying a tradfi regulatory philosophy to defi may result in inappropriate regulation and conflict
+with the Basic Law}
+
+Therefore, it is with much concern that we have read press reports that
+the Securities and Futures Commission is considering joint licensing
+of virtual asset OTC with Customs and Excise. \footnote{\href{https://www.scmp.com/tech/blockchain/article/3278116/new-hong-kong-crypto-scheme-could-see-changes-sfc-involvement-otc-rules}{SCMP
+  New Hong Kong crypto scheme could see changes with SFC involvement in OTC rules}}
+
+
+Given that we believe that a solid defi sector is necessary for Hong
+Kong to maintain its position as an international financial center, we
+are concerned about the regulatory philosophy of tradfi regulators
+such as the SFC and HKMA. We are worried that these tradfi
+regulators consider the defi market to be irregular and abnormal and
+believe that it would be in Hong Kong's interest to eliminate the
+unregulated defi market and create a market by which the only allowed
+transactions are performed through the tradfi market. Finally, we are
+concerned that the SFC's regulatory philosophy of using the best
+practices from other jurisdictions may result in regulations that are
+unsuitable for Hong Kong.
+
+Many of our concerns have been amplified by the recent report by the report by Mario
+Draghi to the European Commission on EU
+Competitiveness \footnote{\href{https://commission.europa.eu/topics/strengthening-european-competitiveness/eu-competitiveness-looking-ahead\_en}{The
+  future of European competitiveness – A competitiveness strategy for
+  Europe Pages 4 and 65}}
+In this report, Draghi cited overregulation and administrative burdens on SMEs as leading reasons for the lack of competitiveness in developing new European industries. These concerns should be especially relevant to Hong Kong, as much
+of the regulatory philosophy of tradfi regulators has been to take regulatory
+practices from other jurisdictions and implement them in Hong Kong. While standardization
+improves the ease of business, there is concern in both the United Kingdom
+and the European Union that overregulation and bureaucracy can lead to a lack
+of dynamism.
+
+As the financial sandbox for the People's Republic of China, concerns about overregulation are particularly relevant for Hong Kong. Because Hong Kong has not only the freedom but also the patriotic duty to advance and innovate in the area of finance, we must preserve the ability of the private sector to lead and to
+innovate in Hong Kong within the capitalist system. Fortunately, these
+concerns were in the minds of the drafters of the Basic Law of Hong Kong,
+and they intentionally included provisions in the Basic Law to constitutionally prevent
+overregulation and bureaucratic interference in the capitalist economy, and
+these provisions should be of particular note to the Legislative Council.
+
+{\bf Basic Law Articles 5, 112, and 115 must be considered in any fintech regulation}
+
+We have noted that the tradfi regulators have attempted to regulate
+virtual asset products by extending the reach of existing laws, such as
+the Securities Futures Ordinance, as well as applying the regulatory
+practices of other jurisdictions, such as the United Kingdom and the
+European Union to Hong Kong, in addition to adopting the regulatory
+guidelines of FATF, FSB, IOSCO, and BIS. We also note that much of the
+tradfi regulatory system was established during the period of British
+administration in Hong Kong, and hence administrative practices within
+these agencies may not have taken note of constitutional developments
+in Hong Kong that have taken place after the resumption of the
+exercise of Chinese sovereignty.
+
+To preserve the capitalist system and Hong Kong's role as the
+finance sandbox of the People's Republic of China, the laws of Hong
+Kong contains constitutional protections that do not exist in the
+United Kingdom, or indeed any other jurisdiction, as Basic Law
+elevates the right to the free flow of capital and the free movement
+of goods, intangible assets, and capital to a fundamental
+constitutional right.
+
+\begin{quote}
+{\bf Article 5} The socialist system and policies shall not be
+practised in the Hong Kong Special Administrative Region and the
+previous capitalist system and way of life shall remain unchanged
+for 50 years.
+
+{\bf Article 112} No foreign exchange control policies shall be
+applied in the Hong Kong Special Administrative Region. The Hong Kong
+dollar shall be freely convertible. Markets for foreign exchange,
+gold, securities, futures, and the like shall continue.
+
+The Government of the Hong Kong Special Administrative Region shall
+safeguard the free flow of capital within, into and out of the Region.
+
+{\bf Article 115} The Hong Kong Special Administrative Region shall
+pursue the policy of free trade and safeguard the free movement of
+goods, intangible assets, and capital.
+\end{quote}
+
+These constitutional provisions create limits on the types of regulation that can be applied to virtual assets in Hong Kong that do not exist in other jurisdictions and did not exist in Hong Kong before the transfer of the exercise of sovereignty to the People's Republic of China and make it impossible to copy virtual asset regulations from other jurisdictions for use in Hong Kong.
+
+In other common law jurisdictions such as the United Kingdom today or Hong Kong under British administration, the government
+may regulate virtual assets by merely demonstrate ``Wednesbury reasonableness'' \footnote{\href{https://www.bailii.org/ew/cases/EWCA/Civ/1947/1.html}{Associated
+Provincial Picture Houses Ltd v Wednesbury Corporation (1948) 1 KB
+223}} which in which a measure that serves the public interest can be
+disallowed only if it is so unreasonable that no reasonable person
+acting reasonably could have made it. Our reading of the response to the
+SFC, HKMA, and FSTB toward public consultations suggest that these agencies
+are using this legal standard to justify regulatory measures toward virtual assets.
+
+However, when a fundamental constitutional right such as the free
+movement of capital is at issue, the legal standard in Hong Kong is not Wednesbury reasonableness, but the proportionality principle by which the government must demonstrate that the limits on constitutional rights are proportional to the public good of the provisions proposed
+\footnote{\href{https://www.doj.gov.hk/en/publications/pdf/basiclaw/basic15\_2.pdf}{The principle of proportionality and
+the concept of margin of appreciation
+in human rights law}}
+
+In the case of Hong Kong, the requirements for proportionality are set
+up through the Hysan test \footnote{\href{https://www.hkcfa.hk/data.json?src=pdf_printedcase_pdf&lang=E&case_court_sys=FA&case_type=CV&case_ser_no=22&case_yr=2015&i_doc_int_no=3}{Hysan Development Co Ltd and Others v Town Planning
+Board (FACV 21/2015)}}. To be constitutionally valid, the following
+must be true:
+
+\begin{itemize}
+\item the restriction or limitation must pursue a legitimate aim;
+
+\item the restriction or limitation must also be rationally connected
+to that legitimate aim;
+
+\item the restriction or limitation must also be no more than was
+necessary to accomplish that legitimate aim and
+
+\item Where an encroaching measure had passed the three-step test, the
+analysis should incorporate a fourth step, asking whether a
+reasonable balance had been struck between the societal benefits of
+the encroachment and the inroads made into the constitutionally
+protected rights of the individual, asking in particular whether
+pursuit of the societal interest resulted in an unacceptably harsh
+burden on the individual.
+\end{itemize}
+
+These determinations would not necessarily be made by courts. Under
+the principle of ``measure of difference'' the courts will rely on the
+judgment of the executive and legislature to decide what is the best
+option unless the measures or decisions are ``manifestly without
+reasonable justification''\footnote{\href{https://www.hkcfa.hk/data.json?src=pdf_printedcase_pdf&lang=C&case_court_sys=FA&case_type=CV&case_ser_no=1&case_yr=2018&i_doc_int_no=2}{Fok Chun Wa v Hospital Authority
+[2012] 15 HKCFAR 409}}.
+
+In addition to the preceding four-step process, the Hysan decision
+implicitly includes a ``step zero'' of determining that a constitutional
+right has been involved. Although one might consider the argument
+that Articles 5, 112, and 115 do not create judicially enforceable
+constitutional rights, the negative impact of such an argument toward
+confidence in Hong Kong as an international financial center would be
+so severe that we consider that position to be untenable.
+
+{\bf The peer-to-peer nature of the defi market introduces
+constitutional issues under Articles 112 and 115}
+
+We would note that all existing limitations on the free movement of
+capital, such as the Securities Futures Ordinance or the regulation of
+or VASP and money services operators under the Anti-Money Laundering
+and Counter-Terrorist Financing Ordinance involves licensing of
+financial intermediaries. These can be constitutionally justified as
+licensing of intermediaries does not limit the ability of parties to
+perform an exchange.
+
+To protect the investing community, the Hong Kong government can and
+does limit the types of securities which can be traded through a
+financial intermediary, but restrictions merely limit the manner in
+which a virtual asset can be traded but does not limit the right of a
+willing buyer and seller to trade the asset.
+
+As with the current restrictions on what intermediaries are allowed to trade
+securities, there are no constitutional issues with existing legislation
+on money services. Although there are restrictions on how money
+services operators can conduct business neither the Customs and Excise Department
+nor any other agency of the Hong Kong government places restrictions on what
+currencies can be traded, and indeed, any such restriction would be
+an unconstitutional foreign exchange or capital control.
+
+However, these restrictions, which may be constitutionally valid in a tradfi world where they merely affect how transactions can take place, become constitutionally problematic in a defi world where the restriction prevents
+the transaction from taking place at all. Instead of merely restricting
+the ability of intermediaries to undertake virtual asset transactions
+or restricting imposing standards on how a transaction can take place,
+restrictions similar to those placed on financial intermediaries when applied
+to OTC trading would restrict the ability of a willing buyer and willing
+seller to engage in a market transaction.
+
+This would be an extraordinary limitation, which is
+previously unknown in Hong Kong, and these types of restrictions would be
+permissible only if there is some extraordinary public benefit, and this
+requires that the Hong Kong government provide extraordinary justifications
+for these restrictions after careful deliberation. The Legislative Council is the most appropriate forum for this deliberation.
+
+{\bf Articles 112 and 115 places a duty on the Legislative Council to
+ensure that limits on the personal freedoms are proportionate to
+the public good}
+
+In contrast to other jurisdictions where conflicts between individual
+rights and the public good are mediated by the judiciary, the Hong
+Kong judiciary has generally chosen not to address these issues
+directly but instead to impose standards and processes by which other
+parts of the Hong Kong government, in consultation with the general
+public may make these decisions. While the courts will defer to the
+conclusions of the legislature or executive under the doctrine of
+``margin of appreciation'', the concept requires that some decision-maker
+has given serious consideration to these issues.
+
+Therefore, the ``margin of appreciation'' places a duty on the
+legislature and the administration to justify its decisions. If the
+legislature and the administration ignore the importance of individual
+rights, then the courts will find it necessary to intervene. We believe that this would only lead to inefficiency and confusion, and
+therefore, we believe that it is best for all concerned that disputes
+involving constitutional rights are resolved by consensus *before*
+legislation is enacted.
+
+We believe that tradfi regulators such as the SFC, HKMA, and FSTB are
+not appropriate forums for balancing the limits on the rights of
+individuals with the public good. In developing policy, tradfi
+regulators seek input primarily from existing industry participants.
+This becomes problematic when constitutional rights are involved in
+that the views of other stakeholders, such as existing OTC traders,
+users of virtual assets, persons who have been defrauded or are in
+fear of being defrauded must be represented.
+
+We are concerned that many of the stakeholders involved in this have
+motivations that are not constitutionally justified. In particular, we
+are strongly concerned that licensing will be used to create a virtual
+asset monopoly in Hong Kong, by which persons with licenses can create
+artificial barriers to entry to prevent companies from entering the
+Hong Kong market. While there is no shame in maximizing profit in a capitalist system, we are concerned that the goals of investor
+protection and economic development will be used merely as a pretext
+for creating a monopoly system by which licensing holders can exclude
+new entrants from participating in the virtual asset market. We are
+concerned that policies and regulations developed solely by the tradfi
+regulators will place undue weight on the interests of existing large
+financial intermediaries, and insufficient weight on small OTC vendors
+or persons with businesses that have not yet been created.
+
+Furthermore, we are concerned that the tradfi regulators may have
+regulatory efficiency and international standardization as
+goals. While these may be valid goals and may be valid means to
+achieve public policy ends, these goals, in themselves, do not justify
+the limitation of constitutional rights.
+
+If the tradfi regulators are inappropriate forums for balancing
+limitations on individual rights and the public good, this function
+must be performed by some other body. While the courts will do as a
+last resort, doing so through the courts will only add expense and
+uncertainty. However, we are pleased to see the proceedings of the
+Legislative Council and believe that its Subcommittee on Issues
+Relating to the Development of Web3 and Virtual Assets, which is
+chaired by Legislator NG, is the most appropriate forum for balancing
+limitations on constitutional rights with the public good.
+
+We are pleased that the Web3 subcommittee has taken its responsibility
+seriously. We believe that the Basic Law mandates that to fulfill its
+constitutional responsibility that the Legislative Council should not
+confine its activities to merely polishing legislation by the
+administration but instead seriously examine and document the answers
+to the questions that are constitutionally required by the Hysan test.
+
+Different persons may have different views as to the answer to these
+questions, and we would like to present our view that a potential
+licensing scheme on VA OTC, which is similar to that of the VASP
+licensing system, which came into force on 1 June 2024, would not
+rationally be expected to provide investor protection and develop Hong Kong as an international financial center, and is therefore unconstitutional under the Hysan test.
+
+{\bf Based on the negative experience of recent VASP Licensing
+  legislation, we believe that applying similar heavyweight licensing
+  to VA OTC would not achieve legitimate aims of investor protection
+  and economic development and would therefore be unconstitutional
+  under the Hysan test}
+
+Under the Hysan test, a proposed measure must have a legitimate
+aim. The aims of investor protection and economic development are
+undoubtedly legitimate. However, we note that the SFC has attempted to
+justify its regulatory measures by invoking consistency with
+international standards and to achieve regulatory consistency. While
+these may be means to achieve legitimate aims, they themselves are
+legitimate aims that would warrant limiting constitutional rights.
+
+Furthermore, much of the motivation of the SFC is to create a consistent set of rules between the tradfi market and the defi market
+and to prevent regulatory arbitrage between the tradfi market and the
+defi market. While these may be legitimate means to achieve other
+goals, these are not legitimate aims that would warrant limits on
+constitutionally protected activities.
+
+As far as whether the restriction and limitation are rationally
+connected to the legitimate aim, we note that the legal standard is
+whether the measure is rationally connected to the legitimate aim and
+in determining whether a measure is rationally connected to a
+legitimate aim, we must not look at mere hypotheticals but look at the
+act consequences of previous legislation.
+
+Because the restrictions on virtual asset service providers only affect custodial intermediaries, there are no constitutional issues
+with existing VASP legislation. Because current VASP legislation
+places restrictions only on custodial exchanges, persons who wish the
+trade virtual assets can do so in forums other than through custodial
+exchanges. In addition, in a custodial exchange, unlike a defi or OTC
+transaction, there is the risk that the custodian may misappropriate
+investor assets, and ensuring that an investor's assets are properly
+safeguarding provides additional constitutional justification for the
+VASP licensing scheme.
+
+However, extending these restrictions to all OTC trading would make
+trading impossible within Hong Kong, raising
+constitutional issues. Furthermore, because VA OTC is generally done
+on a ``cash and carry'' basis, there are generally no custody issues. Therefore, while VASP licensing is constitutional because
+they are restricted to custodial financial intermediaries, applying similar license restrictions to VA OTC may be unconstitutional.
+Specifically, adopting limits on VA OTC trading similar to the VASP
+licensing system for investor protection and economic
+development would be unconstitutional if it is established that the
+VASP licensing system, while constitutional, has not achieved those
+goals.
+
+We fully support the new provisions in the Anti-Money Laundering and Counter-Terrorist Financing Ordinance that create criminal and civil sanctions for virtual asset fraud. Furthermore, we supported the ``opt-in'' licensing system by which VASP providers that service regulated financial intermediaries should be held to specific standards
+determined by the SFC. However, we believe that the legislation
+requiring VASP licensing for all custodial virtual asset exchanges in
+Hong Kong has proven harmful to investor protection and economic development.
+
+The purpose of the VASP law was to protect investors against
+fraudulent activity and to encourage the economic development of the
+virtual asset industry. We believe that licensing has not accomplished
+either goal. We note that Hong Kong was spared some of the worst
+results of the FTX debacle as Sam Bankman-Fried closed his offices in
+Hong Kong and moved to Barbados while Singapore licensees remained in
+operation in Singapore. We further note that the JPEX Exchange scandal occurred
+after the licensing system was instituted and that the existence of a
+licensing system may have given investors a false sense of
+security. We note that a licensing system can *increase* risks to the
+investing public by making the investing public believe they have
+higher protections than they do.
+
+We also note that the SFC view of licensing assumes that Hong Kong
+retail investors will exclusively trade with regulated local
+exchanges. This has yet to happen and will be unlikely as
+local regulated exchanges do not have the ease of use, trading
+standards, or liquidity of offshore exchanges. We also have extreme
+concerns about the commercial viability of the regulated
+exchanges. None of the regulated VASP providers have reported a
+profit, and it has not been demonstrated that there is a commercially
+viable business model given the high cost of VASP regulation. A situation in which licensing merely causes investors to seek overseas
+exchanges or results in such onerous conditions that regulated
+exchanges are not commercially viable would not achieve legitimate
+public aims and, therefore, would be an unconstitutional limit when
+applied to direct peer-to-peer transactions.
+
+We further note that the VASP licensing model, in conjunction with the
+prohibition on capital controls in Article 112 has created an unusual
+market structure in Hong Kong, which has been highly damaging to the
+development of virtual assets in Hong Kong. Because Article 112
+prevents the imposition of capital controls, the HK government cannot
+prevent exchanges headquartered in Hong Kong from serving clients
+outside of Hong Kong. Likewise, the Hong Kong government cannot
+prevent Hong Kong persons from using exchanges outside of Hong
+Kong. This has created an unusual market structure in which three sets
+of exchanges:
+
+\begin{itemize}
+\item regulated exchanges based in Hong Kong which serve Hong Kong
+residents
+\item unregulated exchanges based in Hong Kong which do not service
+Hong Kong residents
+\item unregulated exchanges based outside of Hong Kong which service
+Hong Kong residents
+\end{itemize}
+
+These three exchanges cannot trade with each other, which has the
+effect of fragmenting liquidity and limiting Hong Kong's ability
+to serve as a virtual asset connector. Furthermore, an exchange that
+wishes to do business with Hong Kong persons and take advantage of
+Hong Kong's role as a connector is perversely incentivized not to set
+up its headquarters in Hong Kong. This results in exchanges setting up businesses in other jurisdictions, which negatively affects Hong Kong's development as an international financial center.
+
+We do not doubt the sincerity and good intentions of the persons
+involved in the VASP licensing system. However, when limits on
+constitutional rights are being considered, sincerity and good
+intentions are not enough. If the Legislative Council were to agree
+with our position that the current VASP licensing scheme has failed to
+either provide investor protection and encourage economic development,
+then it would have the constitutional duty to block a similar
+licensing scheme regarding virtual asset OTC, and consider alternative
+regulatory mechanisms.
+
+{\bf Other common law jurisdictions have limited the scope of virtual
+asset restrictions in ways that are constitutionally relevant to
+Hong Kong}
+
+We note that in the public consultations, the SFC and HKMA have tended
+to refer to standards issued by international organizations such as
+IOSCO, FSB, BIS, and FATF. We believe that developing regulations in
+reference to these organizations, one would take the EU-style
+regulatory approach, which has been criticized in the Draghi report and
+which is biased toward increasing regulation in ways that may be
+counterproductive to innovation.
+
+To counteract this bias, we wish to bring to the attention of the
+Legislative Council, judicial decisions from other common law
+jurisdictions that reduce the scope of regulation in ways that are
+constitutionally relevant to Hong Kong.
+
+Under Article 84 of the Basic Law, courts in Hong Kong may refer to
+precedents of other common law jurisdictions when making decisions
+about Hong Kong law. We would refer to a decision by the courts of the
+Republic of Singapore and the courts of the Republic of India, which
+limit the scope of virtual asset regulation, as well as decisions from
+Australian law, which may serve as a guide for how constitutional
+restrictions can influence economic policy.
+
+First, as Hong Kong has a friendly and healthy rivalry with the Republic of Singapore, we can look at the restrictions the Singaporean courts have placed on the scope of virtual asset regulation. Specifically, the High Court of Singapore used the legal
+criterion in the first payments case \footnote{\href{https://www.elitigation.sg/gd/gd/2023_SGHC_66/pdf}{Public Prosecutor v Lange
+Vivian [2021] SGMC 11 (``Lange Vivia'')}} to significantly narrow the
+scope of licensing requirements in Singapore. \footnote{\href{https://www.elitigation.sg/gd/s/2023_SGHC_66}{Rio Christofle v
+Tan Chun Chuen Malcolm [2023] SGHC 66}} Specifically, the High Court
+ruled that the mere trading of cryptocurrency did not constitute
+engaging in the ``business of providing a payment service'' under the
+Payment Services Act unless three criteria were satisfied
+
+\begin{itemize}
+\item that a profit had been made
+\item the number of transactions in question was significant
+\item and the role that the party played in the transaction as that of an
+intermediary
+\end{itemize}
+
+Specifically, the High Court ruled that a party was not in the business
+of providing a payment service if they were trading their assets.
+This case was significant because it was a civil case
+involving the validity of a civil contract. Since it is obviously
+against public policy to have the courts enforce a contract to perform
+an illegal act, the Singapore courts recognized that the Payment
+Services Act could create legal chaos by calling into
+question any contract involving virtual assets. Any person who wished
+to challenge a contract involving virtual assets could argue that the
+counterparty was operating illegally by trading cryptocurrencies
+without a license.
+
+To prevent this sort of legal chaos, the courts in Singapore have
+narrowly construed the scope of the Payments Services Act. Although it
+is impossible to dispute that the parties involved were not ``dealing
+in payment tokens'' the courts have adopted a very narrow view of
+``engaging in the business of'' to exclude from licensing situations
+in which the parties are trading their assets and not acting as an
+intermediary.
+
+This case is relevant to Hong Kong law. First, the experience of
+Singapore has illustrated some possible unintended consequences of
+legislation, as restrictive legislation would call into question the
+validity of civil contracts. Second, because Hong Kong is in
+commercial competition with Singapore, we believe it would be unwise
+from a competitiveness perspective for Hong Kong to have more
+restrictive laws on virtual assets than Singapore. Finally, although
+Singapore does not elevate the role of free capital flow to a
+constitutional right, the fact that Singapore does not require
+licensing in a specific situation would call into question the
+necessity and, hence, the constitutionality of analogous restrictions
+in Hong Kong.
+
+Another case which we believe would be relevant to Hong Kong
+is a case in which a three-judge panel of the
+Supreme Court of India quashed a circular by the Reserve Bank of India
+which banned cryptocurrencies. The Supreme Court of India has issued
+subsequent rulings on the role of cryptocurrencies in India and Hong
+Kong should look at these rulings in developing the law of virtual assets in Hong Kong.\footnote{\href{http://student.manupatra.com/Academic/Studentmodules/Judgments/MANU-SC-0264-2020-JUD.pdf}{Internet and Mobile Association of India v. Reserve Bank
+of India (MANU/SC/0264/2020)}}
+
+In these cases, the Supreme Court of India applied the proportionality
+principle to Article 19(1)(g) of the Indian Constitution which states
+
+\begin{quote}
+All citizens shall have the right-
+(g) to practise any profession or to carry on any occupation, trade,
+or business
+\end{quote}
+
+and struck down the restrictions by the Reserve Bank of India on
+limiting the use of cryptocurrencies in India.
+
+Although the Hong Kong courts have adopted a limited interpretation of
+the analogous provisions of the Basic Law, namely Article 34 \footnote{\href{https://www.refworld.org/jurisprudence/caselaw/hkcfa/2014/en/99099}{GA and
+Ors v Direction OF Immigration, FACV No. 7, 8, 9, 10 of 2013}} we
+believe that the principles in the Supreme Court of India are relevant
+to the development of virtual asset law through Articles 112 and 115
+of the Basic Law.
+
+Finally, examining how to develop virtual asset legislation in Hong
+Kong, we believe that the legislature should not only look narrowly at
+laws regarding virtual assets, but look at the principles courts in
+other jurisdictions interpret constitutional principles enforcing
+economic rights. For example, the High Court of Australia, in its role
+as the highest court in Australia has extensive jurisprudence on
+Section 92 of the Australian Constitution, which states
+
+\begin{quote}
+{\bf Section 92} On the imposition of uniform duties of customs,
+trade, commerce, and intercourse among the States, whether by means
+of internal carriage or ocean navigation shall be absolutely free.
+\end{quote}
+
+There has been extensive jurisprudence on the meaning of Section 92
+\footnote{\href{https://www8.austlii.edu.au/cgi-bin/viewdoc/au/cases/cth/HCA/1988/18.html}{Cole v. Whitfield [1988] HCA 18}, \href{http://www8.austlii.edu.au/cgi-bin/viewdoc/au/cases/cth/HCA/1992/46.html}{Nationwide News Pty Ltd v Wills
+1992] HCA 46}, \href{https://www8.austlii.edu.au/cgi-bin/viewdoc/au/cases/cth/HCA/2008/11.html}{Betfair Pty Limited v Western Australia [2008] HCA
+11}}. In these cases, the High Court of Australia has introduced legal
+principles such as reasonable necessity and proportionality in
+economic activity, which we believe would be helpful for the
+administration and legislature in determining virtual asset policy
+in Hong Kong.
+
+We note that several of the non-permanent judges in the Court of Final
+Appeals from Australia and believe that their expertise in
+interpreting Section 92 of the Australian Constitution would lead them
+to favourably consider our interpretation of Basic Law Articles 5,
+112, and 115 as applied to virtual assets in Hong Kong.
+
+{\bf Any positive benefits of licensing can be achieved through less
+intrusive measures}
+
+We believe that a proposed licensing scheme for VA OTC, which is
+similar to the VASP licensing system put in place for tradfi
+institutions would fail the third and fourth tests of the Hysan
+test. Whatever benefits may come from this form of intrusive and
+heavy-handed licensing can be undertaken with other less intrusive
+methods.
+
+We believe that the regulated tradfi sector of the virtual asset
+industry would benefit from clear regulations and support the efforts
+of the tradfi regulators to introduce standards for financial
+intermediaries. However, we note introducing standards for financial
+intermediaries did not require new legislation and this public need
+could have been satisfied with pre-existing ``opt-in'' licensing.
+
+We do believe that the issue of VAOTC conducting marketing activities
+on behalf of fraudulent scams is an issue that should be addressed,
+but we believe that this would be better achieved through better user
+education, increased enforcement of anti-fraud provisions, and the
+development of self-regulation organizations. Furthermore, as these
+are fundamentally criminal activities, we believe that the lead
+agencies for this form of investor protection should be the Hong Kong
+Police Force and Customs and Excise, which are under the Secretary of
+Security.
+
+Additionally, we have the following recommendations:
+
+\begin{itemize}
+
+\item We urge that the Department of Justice and the Constitutional
+  and Mainland Affairs Bureau be actively involved in the drafting of
+  VA OTC legislation so that any constitutional issues are resolved
+  before the legislation is enacted to avoid legal challenges
+  post-enactment,
+
+\item To avoid constitutional problems, the Legislative Council should
+  avoid "blank cheque" grants of authority to the
+  administration. Should any limits on constitutional rights such as
+  licensing be required, it should be made clear in the terms of the
+  legislation what the purpose of these limits are is and the
+  legislation should be focused toward addressing specific issues,
+  
+\item We believe in strong enforcement of anti-fraud and anti-scam
+  provisions through both the Hong Kong Police Force and Securities
+  Futures Commission. Our objections to the VASP licensing system do
+  not extend to the anti-fraud measures that were introduced by the
+  amendments to the Anti-Money Laundering Ordinance,
+
+\item We believe that the SFC and HKMA can and should regulate the
+defi activities of existing financial intermediaries through
+``opt-in'' standards and regulatory guidance,
+
+\item We believe that existing holders of money lending, precious
+stones and metals, and money services licenses should be allowed to
+conduct virtual asset business under those licenses,
+
+\item We believe that there is no reason for the Legislative Council
+to introduce licensing of VA OTC. Should the Legislative Council
+disagree and enact licensing, then it would be constitutionally
+required to consider the Hysan test and must make particular efforts
+to explain the necessity for such limitations on individual rights
+to prevent possible future court challenges to the legislation,
+
+\item If measures restricting constitutional rights are deemed
+necessary by the Legislative Council, then the Legislative Council
+must adopt restrictions with the minimum possible impact. For
+example, Legco should consider a system of registration rather than
+licensing. Alternatively, the current licensing system by Custom and
+Excise toward money services and precious metals should be
+considered for use as a basis for any licensing and registration
+requirements,
+
+\item Any licensing conditions must comply with the Basic Law Article
+112, which forbids the HKSAR from instituting capital or foreign
+exchange controls and these provisions prevent the HKSAR from
+limiting what forms of money can be used in Hong Kong for VA OTC or
+any other purposes. Therefore, while we support the proposed
+legislation for regulating the issuance of stablecoin in Hong Kong,
+we believe that it would be an unconstitutional foreign exchange and
+capital control for the HK government to limit which stablecoins can
+be traded OTC in Hong Kong.
+
+\end{itemize}
+
+
+{\bf We believe that a civil and rational discussion of the regulation
+of virtual assets will be a demonstration of democracy and the rule of
+law in Hong Kong and attract talent to Hong Kong }
+
+Hong Kong has been subject to extreme changes as the world
+changes. Among patriotic forces, there will be
+contradictions. However, these are all of a non-antagonistic
+nature. Furthermore, as patriots, we should be open to constructive
+criticism and opinions from outside.
+
+Our views on the negative impact of existing licensing schemes are
+subject to debate; others may have alternative views. After hearing
+the views of all those involved, the Legislative Council may decide
+that our objections are invalid and proceed with legislation that we
+believe to be unwise.
+
+However, our main point is that although the Legislative Council may
+come up with conclusions that are different from ours, a debate must occur for new legislation that limits constitutional rights to be valid in Hong Kong. This debate must happen in the Legislative Council
+before the legislation is enacted or in the courts after it is
+enacted, and we believe that it is more efficient and better for all
+concerned that this debate occurs within the Legislative Council.
+
+As part of the People's Republic of China and with the full support
+and confidence of the Central Government, Hong Kong has developed a
+robust constitutional framework for the free and democratic
+development of public policy under the capitalist system, and I
+believe that open, civil, rational discussion of virtual asset
+regulation within the framework of the Basic Law that considers the
+views and interests of all stakeholders will attract talent to Hong
+Kong.
+
+There is great dissatisfaction with the global financial system, and
+the capitalist system of Hong Kong allows anyone willing to bear
+allegiance to the laws of the Hong Kong Special Administrative Region
+of the People's Republic of China to develop those laws for the
+benefit not just of Hong Kong or China but to contribute to the common
+prosperity of humanity.
+
+I have included a CV describing my background and contact information
+and look forward to further dialogue and discussion on these issues
+during the upcoming Hong Kong Fintech Week and over the coming months
+and wish you a happy National Day.
+
+The contents of this letter are public and intended to generate
+discussion, as such I grant permission to publish and circulate this
+letter to any interested persons.
+
+\closing{Faithfully yours,\\
+\fromsig{\includegraphics[scale=0.6]{josephwang.png}} \\
+\fromname{Dr. Joseph Chen-yu WANG \\
+Bitquant Digital Services}
+}
+\encl{CV of letter author}
+\end{letter}
+\end{document}
