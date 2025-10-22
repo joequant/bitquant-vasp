@@ -29,12 +29,23 @@
        assets or have proprietary position in virtual assets? If so,
        please advise on the purpose(s) of your proprietary position.
 
-        
+        "Yes, as an investment and means of payment."
 
     2. Please provide a detailed organization chart categorized by each
        business function.
-
-        
+       
+    ```mermaid
+        graph TD
+            CEO[CEO] --> CTO(Chief Technology Officer)
+            CEO[CEO] --> CCO(Chief Compliance Officer)
+            CEO[CEO] --> CFO(Chief Finance Officer)
+            CEO[CEO] --> COO(Chief Operations Officer)
+            CEO[CEO] --> CMO(Chief Marketing Officer)
+            CTO(Chief Technology Officer) --> HOE(Head of Engineering)
+            CCO(Chief Compliance Officer) --> GHC(General Head Counsel)
+            CMO[Chief Marketing Officer] --> HOB(Head of Brand)
+            CMO[Chief Marketing Officer] --> HOC(Head of Marketing)
+    ```
 
     3. Please specify the functions (if any) that are delegated to another
        entity (including your group company or affiliate) and will not be
@@ -48,7 +59,17 @@
        etc. of the external third parties, experts or consultants to
        ensure appropriateness.
 
-        
+        a. Marketing and Advertising:
+            Outsourcing marketing strategies, advertising campaigns, and community management to promote the exchange and attract new users.
+        b. Accounting and Finance: 
+            Outsourcing accounting services, financial reporting, tax compliance, and auditing to professional firms.
+        c. Server Hosting and Infrastructure: 
+            Outsourcing server hosting, cloud services, and infrastructure management to ensure reliable and scalable operations.
+        d. Compliance Audits: 
+            Engaging external firms to conduct compliance audits and assessments to ensure adherence to regulatory requirements.
+        e. User Interface Design: 
+            Collaborating with external design agencies or freelancers to create an intuitive and visually appealing user interface.
+
 
     4. Please describe your policies on reporting incidents to the SFC,
        including (a) any non-compliance with your licensing conditions or
@@ -58,7 +79,30 @@
        trading, accounting, clearing and settlement systems; and (d) any
        material issues as identified by experts or consultants.
 
-        
+        As a cryptocurrency exchange operator, it is important to have clear policies in place for reporting incidents to the regulator.
+        Here are some key policies that should be implemented:
+
+        1. Incident Identification and Classification: Establish a process to identify and classify incidents based on their severity and impact on the exchange and its users. This can include categories such as security breaches, system failures, data breaches, or any other significant events.
+
+        2. Incident Response Team: Designate a dedicated incident response team responsible for handling and reporting incidents to the regulator. This team should consist of individuals with expertise in security, compliance, legal, and technical aspects.
+
+        3. Incident Reporting Timeline: Define a specific timeline for reporting incidents to the regulator. This timeline should be aligned with regulatory requirements and ensure prompt reporting to the appropriate authorities.
+
+        4. Reporting Channels: Establish clear communication channels and contact information for reporting incidents to the regulator. This can include designated email addresses, phone numbers, or online reporting portals provided by the regulatory body.
+
+        5. Incident Reporting Documentation: Develop a standardized incident reporting template or format that includes all necessary information required by the regulator. This can include details such as incident description, impact assessment, timeline of events, mitigation measures taken, and any other relevant information.
+
+        6. Regulatory Notifications: Determine the threshold for reporting incidents to the regulator. Some incidents may require immediate reporting, while others may have specific thresholds based on severity or impact. Ensure compliance with regulatory guidelines regarding incident reporting.
+
+        7. Internal Incident Reporting: Implement an internal incident reporting system to capture and document all incidents that occur within the exchange. This will help in maintaining a comprehensive incident log and provide accurate information for reporting to the regulator.
+
+        8. Incident Investigation and Remediation: Conduct thorough investigations into incidents to identify the root cause, assess the impact, and implement appropriate remediation measures. Document these investigations and their outcomes for reporting purposes.
+
+        9. Regular Reporting Updates: Establish a process for providing regular updates to the regulator on the status of ongoing incident investigations, mitigation measures, and any other relevant information. This ensures transparency and demonstrates proactive management of incidents.
+
+        10. Compliance with Data Protection Laws: Ensure compliance with data protection laws and regulations when reporting incidents involving personal data breaches. Follow the appropriate procedures for notifying affected individuals and regulatory bodies, as required by applicable laws.
+
+        Remember, it is essential to stay updated with the specific reporting requirements and guidelines provided by the regulatory body governing your jurisdiction. Regularly review and update your incident reporting policies to align with any changes in regulations or industry best practices.
 
     5. When there is recommendation or solicitation, how would the
        platform operator:
@@ -69,7 +113,29 @@
        through the exercise of due diligence (see paragraph 9.20 of the
        VATP Guidelines);
 
-        
+        As a cryptocurrency exchange operator, ensuring the suitability of recommendations or solicitations for clients is crucial. Here's how the platform operator can ensure the suitability of such recommendations or solicitations, taking into account client information through due diligence:
+
+        1. Know Your Customer (KYC) Process: Implement a robust KYC process to gather relevant information about clients, including their financial situation, investment objectives, risk tolerance, and any other pertinent details. This information forms the basis for assessing the suitability of recommendations.
+
+        2. Risk Profiling: Conduct a risk profiling exercise to determine the client's risk appetite and tolerance. This helps in understanding the level of risk the client is willing and able to take on, which should be considered when making recommendations.
+
+        3. Investment Objectives: Understand the client's investment objectives, whether they are seeking capital appreciation, income generation, or a combination of both. Recommendations should align with these objectives.
+
+        4. Product Knowledge and Due Diligence: Ensure that the platform operator and its staff have a deep understanding of the products and services being offered. Conduct thorough due diligence on the recommended products to assess their suitability for different client profiles.
+
+        5. Regular Client Communication: Maintain open lines of communication with clients to stay informed about any changes in their financial situation, investment goals, or risk tolerance. Regularly update client profiles to reflect any new information.
+
+        6. Suitability Assessment: Before making any recommendations or solicitations, conduct a thorough suitability assessment based on the client's profile and the specific product or service being recommended. Consider factors such as risk level, investment horizon, liquidity needs, and any other relevant criteria.
+
+        7. Documentation and Record-Keeping: Maintain detailed records of client information, suitability assessments, and the rationale behind recommendations or solicitations. This documentation helps demonstrate that recommendations were made based on the client's specific circumstances and needs.
+
+        8. Ongoing Monitoring: Continuously monitor client accounts and investments to ensure that the recommendations remain suitable over time. If there are any changes in the client's circumstances, reassess the suitability of existing recommendations and make adjustments as necessary.
+
+        9. Compliance with Regulatory Guidelines: Adhere to regulatory guidelines and requirements related to suitability assessments and recommendations. Stay updated with any changes in regulations and ensure compliance with industry best practices.
+
+        10. Training and Education: Provide regular training and education to platform operators and staff to enhance their knowledge of suitability requirements, investment products, and client profiling techniques. This helps ensure that recommendations are made with a high level of expertise and professionalism.
+
+        By following these practices, the platform operator can ensure that recommendations or solicitations are reasonable and suitable for clients, taking into account the client information obtained through due diligence.
 
     b. ensure that a transaction in a complex product is suitable for the
        client in all the circumstances (see paragraph 9.22 of the VATP
